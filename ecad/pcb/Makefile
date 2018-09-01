@@ -11,6 +11,7 @@ notarget:
 	@echo "${MAKE} gerber         Creates Gerber files"
 	@echo "${MAKE} eyecandy       Creates eyecandy files"
 	@echo "${MAKE} ps             Creates ps plotfiles"
+	@echo "${MAKE} test           Creates IPC-D-356 testfiles"
 	@echo "${MAKE} all            Creates all of the above"
 
 bom: $(LAYOUTS)
@@ -24,29 +25,49 @@ bom: $(LAYOUTS)
 gerber: $(LAYOUTS)
 	for S in $(LAYOUTS); \
 	do \
-	pcb -x gerber $$S; \
+	pcb -x gerber --name-style oshpark $$S; \
 	done;
-	mv -u *.gbr fab/
-	mv -u *.cnc fab/
+	mv -u *.fab fab/
+#	mv -u *.GBO fab/
+	mv -u *.GBL fab/
+	mv -u *.GBS fab/
+#	mv -u *.gbp fab/
+	mv -u *.GKO fab/
+	mv -u *.GTO fab/
+	mv -u *.GTL fab/
+#	mv -u *.gtp fab/
+	mv -u *.GTS fab/
+	mv -u *.TXT fab/
+	mv -u *.XLN fab/
+	mv -u *.G?L fab/
 
 eyecandy: $(LAYOUTS)
 	for S in $(LAYOUTS); \
 	do \
-	pcb -x png --photo-mode --as-shown --only-visible --dpi 600 --outfile $$S.top.png $$S; \
-	pcb -x png --photo-mode --as-shown --photo-flip-x --only-visible --dpi 600 --outfile $$S.bottom.png $$S; \
+	pcb -x png --photo-mode --photo-mask-colour purple --photo-plating gold --only-visible --dpi 600 --outfile $$S.top.png $$S; \
+	pcb -x png --photo-mode --photo-mask-colour purple --photo-plating gold --only-visible --dpi 600 --photo-flip-x --outfile $$S.bottom.png $$S; \
 	done;
 	mv -u *.png eyecandy/
 
-ps: $(LAYOUTS)
+pdf: $(LAYOUTS)
 	for S in $(LAYOUTS); \
 	do \
 	pcb -x ps --media A4 --align-marks --outline --drill-copper --drill-helper --show-legend --psfile $$S.ps $$S; \
+	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a4 $$S.ps $$S.pdf; \
 	done;
-	mv -u *.ps plotfiles/
+	rm -f *.ps
+	mv -u *.pdf plotfiles/
 
-.DEFAULT_GOAL := gerber
+test: $(LAYOUTS)
+	for S in $(LAYOUTS); \
+	do \
+	pcb -x IPC-D-356 --netlistfile $$S.ipc-d-356 $$S; \
+	done;
+	mv -u *.ipc-d-356 test/
 
-all: bom gerber eyecandy ps
+.DEFAULT_GOAL := notarget
+
+all: bom gerber eyecandy pdf test
 
 # EOF #
 
