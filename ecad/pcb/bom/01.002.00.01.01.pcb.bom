@@ -1,7 +1,7 @@
 # PcbBOM Version 1.0
-# Date: Sat 01 Sep 2018 09:45:24 AM GMT UTC
+# Date: Sat 01 Sep 2018 10:17:40 AM GMT UTC
 # Author: Bert Timmerman
-# Title: 31_front_pcb.pcb - PCB BOM
+# Title: 01.002.00.01.01.pcb - PCB BOM
 # Quantity, Description, Value, RefDes
 # --------------------------------------------
 2,"RES1016-635X229____0.6W.fp","1500",R206 R205 
