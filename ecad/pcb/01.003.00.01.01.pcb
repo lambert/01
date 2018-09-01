@@ -2086,7 +2086,7 @@ Layer(3 "outline" "outline")
 Layer(4 "keepout" "keepout")
 (
 )
-Layer(5 "invisble" "copper")
+Layer(5 "invisible" "notes")
 (
 	Line[39.37mil 54.9999mm 157.49mil 54.9999mm 8.00mil 20.00mil "clearline"]
 	Line[157.49mil 196.85mil 59.06mil 196.85mil 8.00mil 20.00mil "clearline"]
