@@ -1,0 +1,49 @@
+# PcbXY Version 1.0
+# Date: Sat 01 Sep 2018 10:17:40 AM GMT UTC
+# Author: Bert Timmerman
+# Title: 01.003.00.01.01.pcb - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mm.  rotation in degrees.
+# --------------------------------------------
+B,"MTG370____.fp","unknown",9.50,97.50,0,top
+p2,"PIN165X102____.fp","unknown",30.00,100.00,0,top
+C,"MTG370____.fp","unknown",9.50,12.50,0,top
+GND,"MTG370-700____.fp","unknown",85.00,12.50,0,top
+J302,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,90.31,0,top
+TP301,"CON-TP_Keystone_5000_compact_red","unknown",72.00,12.50,0,top
+J304,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,85.23,0,top
+J306,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,80.16,0,top
+J308,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,75.08,0,top
+J310,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,70.00,0,top
+J312,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,64.92,0,top
+J314,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,59.84,0,top
+J316,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,54.76,0,top
+J318,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,49.67,0,top
+J320,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,44.59,0,top
+J322,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,39.52,0,top
+J324,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,34.44,0,top
+J326,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,29.36,0,top
+F327,"FUS_ESKA_508.000__.fp","200 mA",76.14,27.50,180,top
+J330,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,19.83,0,top
+J301,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,92.86,0,top
+J303,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,87.78,0,top
+J305,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,82.69,0,top
+J307,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,77.61,0,top
+J309,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,72.53,0,top
+J311,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,67.45,0,top
+J313,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,62.38,0,top
+J315,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,57.30,0,top
+J317,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,52.22,0,top
+J319,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,47.13,0,top
+J321,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,42.05,0,top
+J323,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,36.98,0,top
+J325,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,31.89,0,top
+J329,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,22.37,0,top
+J331,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,17.29,0,top
+F328,"FUS_ESKA_508.000__.fp","200 mA",127.00,24.91,180,top
+A,"MTG370____.fp","unknown",85.50,97.50,0,top
+p3,"PIN165X102____.fp","unknown",30.00,10.00,0,top
+p4,"PIN165X102____.fp","unknown",50.00,10.00,0,top
+p1,"PIN165X102____.fp","unknown",50.00,100.00,0,top
+J300,"CON-SIL-254P-31N____.fp","unknown",16.50,55.00,0,top
+P301,"CON-DIN41617-31N_Assmann_A-31-S1_DIN41617_male.fp","unknown",157.21,55.00,0,top
