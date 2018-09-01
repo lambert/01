@@ -1956,6 +1956,7 @@ Element["" "CON-DIN41617-31N_Assmann_A-31-S1_DIN41617_male.fp" "P301" "unknown" 
 	)
 Layer(1 "top" "copper")
 (
+	Attribute("finish" "ENIG")
 	Polygon("clearpoly")
 	(
 		[196.85mil 196.85mil] [6496.10mil 196.85mil] [6496.10mil 4133.90mil] [196.85mil 4133.90mil] 
@@ -1963,6 +1964,7 @@ Layer(1 "top" "copper")
 )
 Layer(2 "bottom" "copper")
 (
+	Attribute("finish" "ENIG")
 	Line[101.9548mm 688.97mil 4000.00mil 675.00mil 25.00mil 20.00mil "clearline"]
 	Line[101.9147mm 787.39mil 4000.00mil 775.00mil 25.00mil 20.00mil "clearline"]
 	Line[101.8748mm 885.82mil 4000.00mil 875.00mil 25.00mil 20.00mil "clearline"]

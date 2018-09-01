@@ -1,0 +1,14 @@
+# PcbBOM Version 1.0
+# Date: Fri Aug 18 17:46:13 2017 UTC
+# Author: Bert Timmerman
+# Title: 01.003.00.01.01_main_pcb_layout.pcb - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+3,"MTG370____.fp","unknown",B C A 
+4,"PIN165X102____.fp","unknown",p2 p3 p4 p1 
+1,"MTG370-700____.fp","unknown",GND 
+29,"CON-HDR-254P-2C-1R-2N____.fp","unknown",J302 J304 J306 J308 J310 J312 J314 J316 J318 J320 J322 J324 J326 J330 J301 J303 J305 J307 J309 J311 J313 J315 J317 J319 J321 J323 J325 J329 J331 
+1,"CON-TP_Keystone_5000_compact_red","unknown",TP301 
+2,"FUS_ESKA_508.000__.fp","200 mA",F327 F328 
+1,"CON-SIL-254P-31N____.fp","unknown",J300 
+1,"CON-DIN41617-31N_Assmann_A-31-S1_DIN41617_male.fp","unknown",P301 
