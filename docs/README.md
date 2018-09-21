@@ -133,7 +133,9 @@ friends" (geda-gaf).
 Attributes for symbols are managed either from within gschem, or with
 gattrib, the attribute editing application from the same suite of tools.
 
-#### Design Rule Check.
+Schematic files can be found here: ![link to schematic files](../ecad/gschem)
+
+#### Design Rule Check (DRC).
 
 After schematic entry a check is done by running gnetlist with the
 "geda" backend as to visually check for missing reference designators,
@@ -141,6 +143,14 @@ missing device values, shorted nets and not connected pins on symbols.
 
 The gnetlist backend "geda" will list components, renamed nets, and
 resulting connectivity of nets in a structured list.
+
+DRC files can be found here: ![link to DRC files](../ecad/gschem/DRC)
+
+#### Bill Of materials (BOM).
+
+Preliminary BOMs are generated from schematics by running gnetlist with the "bom"backend.
+
+BOM files can be found here: ![link to BOM files](../ecad/gschem/BOM)
 
 ### Calculations.
 
