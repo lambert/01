@@ -44,15 +44,15 @@ J201 | DIN 41617 31-pin connector (female). | front pcb. |
 
 ### Indicators.
 
-ID    | Description                          | Location   |
-------|--------------------------------------|------------|
-D201  | LED indicates the "-15 V DC" status. | front pcb. |
-D202  | LED indicates the "+15 V DC" status. | front pcb. |
-D203  | LED indicates the "-U" status.       | front pcb. |
-D204  | LED indicates the "+U" status.       | front pcb. |
-D205  | LED indicates the "-Uvar" status.    | front pcb. |
-D206  | LED indicates the "+Uvar" status.    | front pcb. |
-LB201 | LED indicates the "230 V AC" status. | front pcb. |
+ID    | Description                                 | Location   |
+------|---------------------------------------------|------------|
+D201  | LED indicates the "-15 V DC" status.        | front pcb. |
+D202  | LED indicates the "+15 V DC" status.        | front pcb. |
+D203  | LED indicates the "-U" status.              | front pcb. |
+D204  | LED indicates the "+U" status.              | front pcb. |
+D205  | LED indicates the "-Uvar" status.           | front pcb. |
+D206  | LED indicates the "+Uvar" status.           | front pcb. |
+LB201 | Light bulb indicates the "230 V AC" status. | front pcb. |
 
 ### Power supply.
 
