@@ -159,7 +159,7 @@ C 500 500 0 0 0 A1-sheet.sym
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20180901
+revision=20190306
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -759,7 +759,7 @@ C 18600 6300 1 90 0 resistor-2.sym
 T 18250 6700 5 10 0 0 90 0 1
 device=RESISTOR
 T 18300 6500 5 10 1 1 90 0 1
-refdes=R205
+refdes=R207
 T 18800 6500 5 10 1 1 90 0 1
 value=270k/0.6W
 }

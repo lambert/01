@@ -1,10 +1,11 @@
 refdes	footprint	value	mfg	mfg_PN	vendor	vendor_PN	price	documentation	source	comment	
 R206	RES1016-635X229____0.6W.fp	1500	Beyschlag	MBB 0207-50 1k2	Conrad	418269	0.19	unknown	unknown	unknown	
+R205	RES1016-635X229____0.6W.fp	1500	Beyschlag	MBB 0207-50 1k2	Conrad	418269	0.19	unknown	unknown	unknown	
 D206	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	unknown	unknown	unknown	
 D205	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	unknown	unknown	unknown	
 F328	unknown	200 mA	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 F327	unknown	200 mA	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
-R205	unknown	270k/0.6W	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+R207	unknown	270k/0.6W	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 LB201	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 R204	unknown	1k	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 R203	unknown	1k	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	

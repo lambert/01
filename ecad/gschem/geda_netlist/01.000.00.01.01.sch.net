@@ -8,11 +8,12 @@ END header
 START components
 
 R206 device=RESISTOR
+R205 device=RESISTOR
 D206 device=LED
 D205 device=LED
 F328 device=FUSE
 F327 device=FUSE
-R205 device=RESISTOR
+R207 device=RESISTOR
 LB201 device=GLOW_LAMP
 R204 device=RESISTOR
 R203 device=RESISTOR
@@ -68,7 +69,7 @@ START nets
 
 unnamed_net7 : R206 2, D206 1 
 unnamed_net6 : R205 2, D205 2 
-unnamed_net5 : R205 2, LB201 1 
+unnamed_net5 : R207 2, LB201 1 
 unnamed_net4 : R204 2, D204 1 
 unnamed_net3 : R203 2, D203 2 
 unnamed_net2 : R202 2, D202 1 
@@ -76,7 +77,7 @@ unnamed_net1 : R201 2, D201 2
 BUS_28 : F328 1, P301 28 
 BUS_27 : F327 1, P301 27 
 230VAC_N : F328 2, LB201 2, J201 28 
-230VAC_F : F327 2, R205 1, J201 27 
+230VAC_F : F327 2, R207 1, J201 27 
 +15VDC : D202 2, J201 31, J331 1 
 BUS_31 : P301 31, J331 2 
 -15VDC : D201 1, J201 29, J329 1 
