@@ -148,7 +148,7 @@ DRC files can be found here: ![link to DRC files](../ecad/gschem/DRC)
 
 #### Bill Of materials (BOM).
 
-Preliminary BOMs are generated from schematics by running gnetlist with the "bom"backend.
+Preliminary BOMs are generated from schematics by running gnetlist with the "bom" backend.
 
 BOM files can be found here: ![link to BOM files](../ecad/gschem/BOM)
 
