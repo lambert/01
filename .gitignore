@@ -2,4 +2,7 @@
 *.bak
 *.log
 docs/*.html
+ecad/gschem/doc
+ecad/gschem/plotfiles
+ecad/gschem/sym
 
