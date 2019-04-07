@@ -1,6 +1,9 @@
 .gitignore
+MANIFEST
 Makefile
 README.md
+_config.yml
+docs/01_EXTENDER-schematics.pdf
 docs/Makefile
 docs/README.md
 docs/purchase/OSH_Park/FR408-High-Performance-Laminate-and-Prepreg-Data-Sheet.pdf
@@ -35,7 +38,6 @@ ecad/gschem/DRC/01.005.00.01.01.sch.txt
 ecad/gschem/Makefile
 ecad/gschem/README.md
 ecad/gschem/attribs
-ecad/gschem/doc
 ecad/gschem/gafrc
 ecad/gschem/geda_netlist/01.000.00.00.01.sch.net
 ecad/gschem/geda_netlist/01.000.00.01.01.sch.net
@@ -51,7 +53,6 @@ ecad/gschem/pcb_netlist/01.004.00.01.01.sch.net
 ecad/gschem/pcb_netlist/01.004.00.01.01.sch.pins
 ecad/gschem/pcb_netlist/01.005.00.01.01.sch.net
 ecad/gschem/pcb_netlist/01.005.00.01.01.sch.pins
-ecad/gschem/sym
 ecad/pcb/01.002.00.01.01.pcb
 ecad/pcb/01.003.00.01.01.pcb
 ecad/pcb/Makefile
@@ -119,7 +120,14 @@ mcad/partslist/01.000.00.01.01_assembly_partlist.csv
 mcad/partslist/01.002.00.01.01_front_pcb_assembly_partlist.csv
 mcad/partslist/01.003.00.01.01_main_pcb_assembly_partlist.csv
 mcad/partslist/README.md
+mcad/plotfiles/01.000.00.01.00_assembly_SW_ISO_view.pdf
 mcad/plotfiles/01.000.00.01.01_assembly_ISO_views.pdf
+mcad/plotfiles/01.000.00.01.02_assembly_top_view.pdf
+mcad/plotfiles/01.000.00.01.03_assembly_bottom_view.pdf
+mcad/plotfiles/01.000.00.01.04_assembly_front_view.pdf
+mcad/plotfiles/01.000.00.01.05_assembly_rear_view.pdf
+mcad/plotfiles/01.000.00.01.06_assembly_left_view.pdf
+mcad/plotfiles/01.000.00.01.07_assembly_right_view.pdf
 mcad/plotfiles/01.002.00.02.01_front_pcb_fabrication_notes.pdf
 mcad/plotfiles/01.003.00.01.01_main_pcb_assembly.pdf
 mcad/plotfiles/01.003.00.02.01_main_pcb_fabrication_notes.pdf
