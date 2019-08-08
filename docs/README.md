@@ -4,7 +4,7 @@ Author: Bert Timmerman
 
 Organisation: Me Organized ??
 
-Date: 20180901
+Date: 20190808
 
 ## Specification.
 
@@ -133,7 +133,7 @@ friends" (geda-gaf).
 Attributes for symbols are managed either from within gschem, or with
 gattrib, the attribute editing application from the same suite of tools.
 
-Schematic files can be found here: ![link to schematic files](../ecad/gschem)
+Schematic files can be found here: [link to schematic files](../ecad/gschem)
 
 #### Design Rule Check (DRC).
 
