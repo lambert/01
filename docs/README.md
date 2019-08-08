@@ -144,13 +144,13 @@ missing device values, shorted nets and not connected pins on symbols.
 The gnetlist backend "geda" will list components, renamed nets, and
 resulting connectivity of nets in a structured list.
 
-DRC files can be found here: ![link to DRC files](../ecad/gschem/DRC)
+DRC files can be found here: [link to DRC files](../ecad/gschem/DRC)
 
 #### Bill Of materials (BOM).
 
 Preliminary BOMs are generated from schematics by running gnetlist with the "bom" backend.
 
-BOM files can be found here: ![link to BOM files](../ecad/gschem/BOM)
+BOM files can be found here: [link to BOM files](../ecad/gschem/BOM)
 
 ### Calculations.
 
@@ -221,11 +221,11 @@ the schematics.
 
 #### Layout files.
 
-![link to layout files](../ecad/pcb/)
+[link to layout files](../ecad/pcb/)
 
 #### Visual Testing files.
 
-![link to eyecandy](../ecad/pcb/eyecandy/)
+[link to eyecandy](../ecad/pcb/eyecandy/)
 
 #### Design Rules Check.
 
@@ -253,11 +253,11 @@ the schematics.
 
 #### Quotations.
 
-![link to OSH Park fabrication services](purchase/OSH_Park/fabrication_services.md)
+[link to OSH Park fabrication services](purchase/OSH_Park/fabrication_services.md)
 
 #### OSH Park.
 
-![link to OSH Park directory](purchase/OSH_Park/)
+[link to OSH Park directory](purchase/OSH_Park/)
 
 #### QA/QC Testing.
 
