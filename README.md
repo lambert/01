@@ -1,3 +1,7 @@
 # 01 Extender
 
-[Specification](docs/README.md).
+[Documentation](docs/README.md).
+
+[Electrical CAD files](ecad/README.md)
+
+[Mechanical CAD files](mcad/README.md)
