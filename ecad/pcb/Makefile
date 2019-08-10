@@ -2,7 +2,9 @@ PROJNAME = EXTENDER
 
 LAYOUTS = \
 	01.002.00.01.01.pcb \
-	01.003.00.01.01.pcb
+	01.003.00.01.01.pcb \
+	01.004.00.01.01.pcb \
+	01.005.00.01.01.pcb
 
 notarget:
 	@echo "Please specify a target:"
