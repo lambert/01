@@ -9,8 +9,8 @@ Grid[0.5000mm 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[0.2500mm 0.2500mm 0.2500mm 0.2500mm 0.3800mm 0.2500mm]
-Flags("showdrc,rubberband,nameonpcb,snappin,showmask")
-Groups("1,c:2,s:3:4")
+Flags("showdrc,rubberband,nameonpcb,alldirection,snappin,showmask")
+Groups("1,c:2,s:3:4:5")
 Styles["Signal,10.00mil,40.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,8.00mil,36.00mil,20.00mil,10.00mil"]
 Symbol[' ' 12.00mil]
 (
@@ -1213,47 +1213,47 @@ Attribute("PCB::grid::unit" "mm")
 Attribute("PCB::grid::size" "0.5000mm")
 Attribute("import::src0" "/home/bert/workspace/git/projects/01_Extender/ecad/gschem/01.005.00.01.01.sch")
 
-Element["" "PIN165X102____.fp" "p3" "unknown" 6.5000mm 10.0000mm -4.4760mm -0.7700mm 0 100 ""]
+Element["lock" "PIN165X102____.fp" "p3" "unknown" 6.5000mm 10.0000mm -4.4760mm -0.7700mm 0 100 ""]
 (
 	Attribute("device" "PIN")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 65.00mil 20.00mil 71.00mil 40.00mil "1" "1" "thermal(0S,1S)"]
+	Pin[0.0000 0.0000 65.00mil 20.00mil 71.00mil 40.00mil "1" "1" "lock,thermal(0X,1X)"]
 
 	)
 
-Element["" "PIN165X102____.fp" "p4" "unknown" 6.5000mm 39.0000mm -4.4760mm -50.00mil 0 100 ""]
+Element["lock" "PIN165X102____.fp" "p4" "unknown" 6.5000mm 39.0000mm -4.4760mm -50.00mil 0 100 ""]
 (
 	Attribute("device" "PIN")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 65.00mil 20.00mil 71.00mil 40.00mil "1" "1" "thermal(0S,1S)"]
+	Pin[0.0000 0.0000 65.00mil 20.00mil 71.00mil 40.00mil "1" "1" "lock,thermal(0X,1X)"]
 
 	)
 
-Element["" "PIN165X102____.fp" "p1" "unknown" 13.0000mm 45.5000mm -0.4760mm 2.7300mm 0 100 ""]
+Element["lock" "PIN165X102____.fp" "p1" "unknown" 13.0000mm 45.5000mm -0.4760mm 2.7300mm 0 100 ""]
 (
 	Attribute("device" "PIN")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 65.00mil 20.00mil 71.00mil 40.00mil "1" "1" "thermal(0S,1S)"]
+	Pin[0.0000 0.0000 65.00mil 20.00mil 71.00mil 40.00mil "1" "1" "lock,thermal(0X,1X)"]
 
 	)
 
-Element["" "PIN165X102____.fp" "p2" "unknown" 42.0000mm 45.5000mm -0.4760mm 2.7300mm 0 100 ""]
+Element["lock" "PIN165X102____.fp" "p2" "unknown" 42.0000mm 45.5000mm -0.4760mm 2.7300mm 0 100 ""]
 (
 	Attribute("device" "PIN")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 65.00mil 20.00mil 71.00mil 40.00mil "1" "1" "thermal(0S,1S)"]
+	Pin[0.0000 0.0000 65.00mil 20.00mil 71.00mil 40.00mil "1" "1" "lock,thermal(0X,1X)"]
 
 	)
 Layer(1 "top" "copper")
@@ -1270,14 +1270,17 @@ Layer(2 "bottom" "copper")
 		[5.0000mm 5.0000mm] [47.0000mm 47.0000mm] [8.0000mm 47.0000mm] [5.0000mm 44.0000mm] 
 	)
 )
-Layer(3 "outline" "copper")
+Layer(3 "outline" "outline")
 (
 	Line[5.0000mm 5.0000mm 5.0000mm 44.0000mm 10.00mil 20.00mil "clearline"]
 	Line[8.0000mm 47.0000mm 5.0000mm 44.0000mm 10.00mil 20.00mil "clearline"]
 	Line[8.0000mm 47.0000mm 47.0000mm 47.0000mm 10.00mil 20.00mil "clearline"]
 	Line[47.0000mm 47.0000mm 5.0000mm 5.0000mm 10.00mil 20.00mil "clearline"]
 )
-Layer(4 "invisible" "notes")
+Layer(4 "keepout" "keepout")
+(
+)
+Layer(5 "invisible" "notes")
 (
 	Line[4.0000mm 5.0000mm 1.0000mm 5.0000mm 10.00mil 20.00mil "clearline"]
 	Line[5.0000mm 4.0000mm 5.0000mm 1.0000mm 10.00mil 20.00mil "clearline"]
@@ -1285,17 +1288,75 @@ Layer(4 "invisible" "notes")
 	Line[5.0000mm 48.0000mm 5.0000mm 51.0000mm 10.00mil 20.00mil "clearline"]
 	Line[48.0000mm 47.0000mm 51.0000mm 47.0000mm 10.00mil 20.00mil "clearline"]
 	Line[47.0000mm 48.0000mm 47.0000mm 51.0000mm 10.00mil 20.00mil "clearline"]
+	Line[4.0000mm 39.0000mm 1.0000mm 39.0000mm 10.00mil 20.00mil ""]
+	Line[1.5000mm 47.0000mm 1.5000mm 39.0000mm 10.00mil 20.00mil ""]
+	Line[2.0000mm 40.5000mm 1.0000mm 40.5000mm 10.00mil 20.00mil ""]
+	Line[1.5000mm 47.0000mm 2.0000mm 45.5000mm 10.00mil 20.00mil ""]
+	Line[2.0000mm 45.5000mm 1.0000mm 45.5000mm 10.00mil 20.00mil ""]
+	Line[1.0000mm 45.5000mm 1.5000mm 47.0000mm 10.00mil 20.00mil ""]
+	Line[13.0000mm 48.0000mm 13.0000mm 51.0000mm 10.00mil 20.00mil ""]
+	Line[5.0000mm 50.5000mm 6.5000mm 50.0000mm 10.00mil 20.00mil ""]
+	Line[6.5000mm 50.0000mm 6.5000mm 51.0000mm 10.00mil 20.00mil ""]
+	Line[6.5000mm 51.0000mm 5.0000mm 50.5000mm 10.00mil 20.00mil ""]
+	Line[13.0000mm 50.5000mm 11.5000mm 50.0000mm 10.00mil 20.00mil ""]
+	Line[11.5000mm 50.0000mm 11.5000mm 51.0000mm 10.00mil 20.00mil ""]
+	Line[11.5000mm 51.0000mm 13.0000mm 50.5000mm 10.00mil 20.00mil ""]
+	Line[42.0000mm 47.5000mm 42.0000mm 51.0000mm 10.00mil 20.00mil ""]
+	Line[40.5000mm 50.0000mm 40.5000mm 51.0000mm 10.00mil 20.00mil ""]
+	Line[5.0000mm 50.5000mm 47.0000mm 50.5000mm 10.00mil 20.00mil ""]
+	Line[47.0000mm 50.5000mm 45.5000mm 50.0000mm 10.00mil 20.00mil ""]
+	Line[45.5000mm 50.0000mm 45.5000mm 51.0000mm 10.00mil 20.00mil ""]
+	Line[45.5000mm 51.0000mm 47.0000mm 50.5000mm 10.00mil 20.00mil ""]
+	Line[40.5000mm 51.0000mm 43.5000mm 50.0000mm 10.00mil 20.00mil ""]
+	Line[43.5000mm 50.0000mm 43.5000mm 51.0000mm 10.00mil 20.00mil ""]
+	Line[40.5000mm 50.0000mm 43.5000mm 51.0000mm 10.00mil 20.00mil ""]
+	Line[4.0000mm 10.0000mm 1.0000mm 10.0000mm 10.00mil 20.00mil ""]
+	Line[1.0000mm 8.5000mm 2.0000mm 8.5000mm 10.00mil 20.00mil ""]
+	Line[1.5000mm 5.0000mm 1.0000mm 6.5000mm 10.00mil 20.00mil ""]
+	Line[1.0000mm 6.5000mm 2.0000mm 6.5000mm 10.00mil 20.00mil ""]
+	Line[2.0000mm 6.5000mm 1.5000mm 5.0000mm 10.00mil 20.00mil ""]
+	Line[47.0000mm 46.0000mm 47.0000mm 1.0000mm 10.00mil 20.00mil ""]
+	Line[47.0000mm 1.5000mm 5.0000mm 1.5000mm 10.00mil 20.00mil ""]
+	Line[5.0000mm 1.5000mm 6.5000mm 1.0000mm 10.00mil 20.00mil ""]
+	Line[6.5000mm 1.0000mm 6.5000mm 2.0000mm 10.00mil 20.00mil ""]
+	Line[6.5000mm 2.0000mm 5.0000mm 1.5000mm 10.00mil 20.00mil ""]
+	Line[47.0000mm 1.5000mm 45.5000mm 1.0000mm 10.00mil 20.00mil ""]
+	Line[45.5000mm 1.0000mm 45.5000mm 2.0000mm 10.00mil 20.00mil ""]
+	Line[45.5000mm 2.0000mm 47.0000mm 1.5000mm 10.00mil 20.00mil ""]
+	Line[1.5000mm 5.0000mm 1.5000mm 39.0000mm 10.00mil 20.00mil ""]
+	Line[1.0000mm 40.5000mm 2.0000mm 37.5000mm 10.00mil 20.00mil ""]
+	Line[2.0000mm 37.5000mm 1.0000mm 37.5000mm 10.00mil 20.00mil ""]
+	Line[2.0000mm 40.5000mm 1.0000mm 37.5000mm 10.00mil 20.00mil ""]
+	Line[2.0000mm 8.5000mm 1.0000mm 11.5000mm 10.00mil 20.00mil ""]
+	Line[1.0000mm 11.5000mm 2.0000mm 11.5000mm 10.00mil 20.00mil ""]
+	Line[1.0000mm 8.5000mm 2.0000mm 11.5000mm 10.00mil 20.00mil ""]
+	Line[50.5000mm 5.0000mm 50.0000mm 6.5000mm 10.00mil 20.00mil ""]
+	Line[50.0000mm 6.5000mm 51.0000mm 6.5000mm 10.00mil 20.00mil ""]
+	Line[51.0000mm 6.5000mm 50.5000mm 5.0000mm 10.00mil 20.00mil ""]
+	Line[50.5000mm 47.0000mm 51.0000mm 45.5000mm 10.00mil 20.00mil ""]
+	Line[51.0000mm 45.5000mm 50.0000mm 45.5000mm 10.00mil 20.00mil ""]
+	Line[50.0000mm 45.5000mm 50.5000mm 47.0000mm 10.00mil 20.00mil ""]
+	Line[50.5000mm 47.0000mm 50.5000mm 5.0000mm 10.00mil 20.00mil ""]
+	Line[6.0000mm 5.0000mm 51.0000mm 5.0000mm 10.00mil 20.00mil ""]
+	Text[2.0000mm 43.5000mm 1 100 "8" "clearline"]
+	Text[8.5000mm 48.5000mm 0 100 "8" "clearline"]
+	Text[24.0000mm 48.5000mm 0 100 "29" "clearline"]
+	Text[44.5000mm 48.5000mm 0 100 "5" "clearline"]
+	Text[2.5000mm 8.0000mm 1 100 "5" "clearline"]
+	Text[24.5000mm 2.0000mm 0 100 "42" "clearline"]
+	Text[2.0000mm 26.5000mm 1 100 "29" "clearline"]
+	Text[48.5000mm 26.5000mm 1 100 "42" "clearline"]
 )
-Layer(5 "bottom silk" "silk")
+Layer(6 "bottom silk" "silk")
 (
 )
-Layer(6 "top silk" "silk")
+Layer(7 "top silk" "silk")
 (
 	Text[7.4300mm 27.5600mm 0 100 "open source" "clearline"]
 	Text[8.7000mm 29.9730mm 0 100 "hardware" "clearline"]
-	Text[11.9870mm 35.7500mm 0 100 "Strut" "clearline"]
-	Text[11.9870mm 39.6870mm 0 100 "Copyright (C) 2019 Bert Timmerman" "clearline"]
-	Text[11.9870mm 37.7820mm 0 100 "01.005.00.01.01" "clearline"]
+	Text[8.9870mm 36.7500mm 0 100 "Strut" "clearline"]
+	Text[8.9870mm 40.6870mm 0 100 "Copyright (C) 2019 Bert Timmerman" "clearline"]
+	Text[8.9870mm 38.7820mm 0 100 "01.005.00.01.01" "clearline"]
 	Polygon("pin,via")
 	(
 		[11.6152mm 22.3748mm] [11.5941mm 22.3830mm] [11.5821mm 881.98mil] [455.50mil 22.4630mm] [455.13mil 22.5194mm] 
