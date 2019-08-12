@@ -1,28 +1,28 @@
 # PcbXY Version 1.0
-# Date: Wed 06 Mar 2019 10:04:08 PM GMT UTC
+# Date: Mon 12 Aug 2019 04:43:31 PM GMT UTC
 # Author: Bert Timmerman
 # Title: 01.002.00.01.01.pcb - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
 # X,Y in mm.  rotation in degrees.
 # --------------------------------------------
-R206,"RES1016-635X229____0.6W.fp","1500",43.00,80.00,90,top
-R205,"RES1016-635X229____0.6W.fp","1500",40.00,80.00,270,top
-D206,"LED254-500_Temic_TLLG5400__green.fp","green",34.00,85.00,180,top
-D205,"LED254-500_Temic_TLLG5400__green.fp","green",34.00,75.00,180,top
-p3,"PIN165X102____.fp","unknown",10.50,4.50,0,top
-p4,"PIN165X102____.fp","unknown",35.50,4.50,0,top
-p1,"PIN165X102____.fp","unknown",10.50,95.50,0,top
-p2,"PIN165X102____.fp","unknown",35.50,95.50,0,top
-J202,"CON-SIL-254P-31N____.fp","unknown",4.00,50.00,0,top
-R207,"RES1016-635X229____0.6W.fp","270k",43.00,45.00,90,top
-LB201,"CON-HDR-254P-2C-1R-2N____.fp","neon",34.00,45.00,180,top
-R204,"RES1016-635X229____0.6W.fp","1k",43.00,60.08,90,top
-R203,"RES1016-635X229____0.6W.fp","1k",40.00,60.00,270,top
-D204,"LED254-500_Temic_TLLG5400__green.fp","green",34.00,65.00,180,top
-D203,"LED254-500_Temic_TLLG5400__green.fp","green",34.00,55.00,180,top
-R202,"RES1016-635X229____0.6W.fp","680",43.00,30.00,270,top
-R201,"RES1016-635X229____0.6W.fp","680",40.00,30.00,90,top
-D202,"LED254-500_Temic_TLLG5400__green.fp","green",34.00,25.00,180,top
-D201,"LED254-500_Temic_TLLG5400__green.fp","green",34.00,35.00,180,top
-TP201,"CON-TP_Keystone_5000_compact_red.fp","red",38.00,13.00,0,top
-J201,"CON-DIN41617-31N_Assmann_A-31-L2_DIN41617_female.fp","unknown",25.42,50.00,0,top
+R206,"RES1016-635X229____0.6W.fp","1500",45.50,87.50,90,top
+R205,"RES1016-635X229____0.6W.fp","1500",42.50,87.50,270,top
+D206,"LED254-500_Temic_TLLG5400__green.fp","green",36.50,92.50,180,top
+D205,"LED254-500_Temic_TLLG5400__green.fp","green",36.50,82.50,180,top
+p3,"PIN165X102____.fp","unknown",13.00,12.50,0,top
+p4,"PIN165X102____.fp","unknown",42.00,12.50,0,top
+p1,"PIN165X102____.fp","unknown",13.00,102.50,0,top
+p2,"PIN165X102____.fp","unknown",42.00,102.50,0,top
+J202,"CON-SIL-254P-31N____.fp","unknown",6.50,57.50,0,top
+R207,"RES1016-635X229____0.6W.fp","270k",45.50,52.50,90,top
+LB201,"CON-HDR-254P-2C-1R-2N____.fp","neon",36.50,52.50,180,top
+R204,"RES1016-635X229____0.6W.fp","1k",45.50,67.58,90,top
+R203,"RES1016-635X229____0.6W.fp","1k",42.50,67.50,270,top
+D204,"LED254-500_Temic_TLLG5400__green.fp","green",36.50,72.50,180,top
+D203,"LED254-500_Temic_TLLG5400__green.fp","green",36.50,62.50,180,top
+R202,"RES1016-635X229____0.6W.fp","680",45.50,37.50,270,top
+R201,"RES1016-635X229____0.6W.fp","680",42.50,37.50,90,top
+D202,"LED254-500_Temic_TLLG5400__green.fp","green",36.50,32.50,180,top
+D201,"LED254-500_Temic_TLLG5400__green.fp","green",36.50,42.50,180,top
+TP201,"CON-TP_Keystone_5000_compact_red.fp","red",40.50,20.50,0,top
+J201,"CON-DIN41617-31N_Assmann_A-31-L2_DIN41617_female.fp","unknown",27.92,57.50,0,top
