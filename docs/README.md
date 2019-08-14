@@ -359,6 +359,6 @@ Pin | Netname        | Description                      |
 27  | MAINS_230VAC_F | Mains supply 230 V AC phase      |
 28  | MAINS_230VAC_N | Mains supply 230 V AC neutral    |
 29  | NEG_15VDC      | -15 V DC                         |
-30  | GND            | Floating ground                  |
+30  | FLOATING_GND   | Floating ground                  |
 31  | POS_15VDC      | +15 V DC                         |
 
