@@ -223,29 +223,36 @@ the schematics.
 
 [link to layout files](../ecad/pcb/)
 
+
 #### Visual Testing files.
 
 [link to eyecandy](../ecad/pcb/eyecandy/)
 
-#### Design Rules Check.
 
-...
+#### PDF plot files.
+
+[link to plot files](../ecad/pcb/plotfiles/)
+
 
 #### Gerber files.
 
-...
+[link to Gerber files](../ecad/pcb/fab/)
+
 
 #### Bill Of Materials.
 
-...
+[link to BOMs](../ecad/pcb/bom/)
+
 
 #### Pick-and-Place files.
 
-...
+[link to pick-and-place](../ecad/pcb/pnp/)
+
 
 #### IPC-D-356 netlist files.
 
-...
+[link to IPC-D-356 files](../ecad/pcb/test/)
+
 
 ## Manufacturing.
 
