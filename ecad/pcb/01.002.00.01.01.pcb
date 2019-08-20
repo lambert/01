@@ -1461,6 +1461,8 @@ Layer(5 "invisible" "copper")
 	Line[1.5000mm 96.5000mm 0.5000mm 93.5000mm 10.00mil 20.00mil ""]
 	Line[0.5000mm 93.5000mm 1.5000mm 93.5000mm 10.00mil 20.00mil ""]
 	Line[0.5000mm 96.5000mm 1.5000mm 93.5000mm 10.00mil 20.00mil ""]
+	Line[5.0000mm 6.6000mm 47.0000mm 6.6000mm 8.00mil 20.00mil ""]
+	Line[47.0000mm 98.6000mm 5.0000mm 98.6000mm 8.00mil 20.00mil ""]
 	Text[44.4999mm 102.4999mm 0 100 "5" "clearline"]
 	Text[1043.30mil 102.4999mm 0 100 "29" "clearline"]
 	Text[7.9999mm 102.4999mm 0 100 "8" "clearline"]

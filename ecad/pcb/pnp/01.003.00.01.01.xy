@@ -1,5 +1,5 @@
 # PcbXY Version 1.0
-# Date: Mon 12 Aug 2019 04:43:31 PM GMT UTC
+# Date: Tue 20 Aug 2019 09:09:09 PM GMT UTC
 # Author: Bert Timmerman
 # Title: 01.003.00.01.01.pcb - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
@@ -8,7 +8,7 @@
 B,"MTG370____.fp","unknown",9.50,107.50,0,top
 p2,"PIN165X102____.fp","unknown",27.60,110.00,0,top
 C,"MTG370____.fp","unknown",9.50,22.50,0,top
-GND,"MTG370-700____.fp","unknown",85.00,22.50,0,top
+D,"MTG370-700____.fp","unknown",85.00,22.50,0,top
 J302,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,100.31,0,top
 TP301,"CON-TP_Keystone_5000_compact_red","unknown",72.00,22.50,0,top
 J304,"CON-HDR-254P-2C-1R-2N____.fp","unknown",100.33,95.23,0,top
