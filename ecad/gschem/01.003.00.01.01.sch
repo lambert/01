@@ -73,6 +73,10 @@ N 18400 7400 15100 7400 4
 {
 T 19200 7400 5 10 1 1 0 0 1
 netname=FLOATING_GND
+T 17900 5800 5 10 1 0 0 0 1
+thermals=YES
+T 17900 6000 5 10 1 0 0 0 1
+style=power
 }
 N 16100 16600 18400 16600 4
 {
@@ -139,7 +143,7 @@ C 500 500 0 0 0 A1-sheet.sym
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20180828
+revision=20190820
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -172,6 +176,10 @@ N 12600 8800 11100 8800 4
 {
 T 9200 8800 5 10 1 1 0 6 1
 netname=BUS_30
+T 12000 7100 5 10 1 0 0 0 1
+thermals=NO
+T 12000 7300 5 10 1 0 0 0 1
+style=power
 }
 N 13500 8500 11100 8500 4
 {
@@ -996,14 +1004,12 @@ footprint=MTG370____.fp
 C 29200 2300 1 0 0 MTG_connect.sym
 {
 T 30000 2400 5 10 1 1 0 0 1
-refdes=GND
+refdes=D
 T 29510 2950 5 10 0 0 0 0 1
 device=MTG
 T 29500 3400 5 10 0 0 0 0 1
 footprint=MTG370-700____.fp
 }
-C 29300 2200 1 0 0 gnd-1.sym
-N 29500 2500 29400 2500 4
 C 27600 4700 1 0 0 PIN.sym
 {
 T 27910 5350 5 10 0 0 0 0 1
@@ -1050,12 +1056,72 @@ T 28000 3000 5 10 0 0 0 0 1
 symversion=20090220
 }
 N 27300 2500 28000 2500 4
-C 27400 4600 1 0 0 gnd-1.sym
-C 27400 2200 1 0 0 gnd-1.sym
 T 26000 5400 9 10 1 0 0 0 1
 Mounting holes:
-N 11500 8800 11500 8100 4
-C 11400 7800 1 0 0 gnd-1.sym
-T 12000 6900 9 10 1 0 0 0 2
+T 12300 7900 9 10 1 0 0 0 2
 NOTE:
 F327 and F328 in fuse holder
+L 17800 7400 17800 5700 3 0 0 0 -1 -1
+L 17800 5700 19800 5700 3 0 0 0 -1 -1
+L 11900 8800 11900 7000 3 0 0 0 -1 -1
+L 11900 7000 13100 7000 3 0 0 0 -1 -1
+N 29300 2500 29300 2700 4
+N 29300 2700 27700 2700 4
+{
+T 28300 2700 5 10 0 1 0 0 1
+netname=FLOATING_GND
+}
+N 27700 4900 27700 2500 4
+N 29300 2500 29500 2500 4
+C 24800 1600 1 0 0 EMBEDDEDCC-BY-SA.sym
+[
+B 24900 1700 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+T 25300 1800 9 8 1 0 0 4 1
+CC BY-SA
+T 24900 3800 5 10 0 0 0 0 1
+author=Bert Timmerman
+T 24900 3600 5 10 0 0 0 0 1
+description=Input label
+T 24900 3400 5 10 0 0 0 0 1
+dist-license=CC BY-SA
+T 24900 3200 5 10 0 0 0 0 1
+use-license=unlimited
+T 24900 2600 5 10 0 0 0 0 1
+symversion=20180915
+T 24900 3000 5 10 0 0 0 0 1
+graphical=1
+T 24900 2800 5 10 0 0 0 0 1
+footprint=CC-BY-SA.fp
+]
+{
+T 24900 2600 5 10 0 0 0 0 1
+symversion=20180915
+T 24900 2800 5 10 0 0 0 0 1
+footprint=CC-BY-SA.fp
+}
+C 24800 1300 1 0 0 EMBEDDEDMade_in_NL.sym
+[
+B 24900 1400 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+T 25300 1500 9 8 1 0 0 4 1
+Made in NL
+T 24900 3500 5 10 0 0 0 0 1
+author=Bert Timmerman
+T 24900 3300 5 10 0 0 0 0 1
+description=Made in NL
+T 24900 3100 5 10 0 0 0 0 1
+dist-license=GPL
+T 24900 2900 5 10 0 0 0 0 1
+use-license=unlimited
+T 24900 2300 5 10 0 0 0 0 1
+symversion=20180915
+T 24900 2700 5 10 0 0 0 0 1
+graphical=1
+T 24900 2500 5 10 0 0 0 0 1
+footprint=NL_contour_filled_150x188.fp
+]
+{
+T 24900 2300 5 10 0 0 0 0 1
+symversion=20180915
+T 24900 2500 5 10 0 0 0 0 1
+footprint=NL_contour_filled_150x188.fp
+}

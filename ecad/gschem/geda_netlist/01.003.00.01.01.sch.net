@@ -11,7 +11,7 @@ p3 device=PIN
 p4 device=PIN
 p1 device=PIN
 p2 device=PIN
-GND device=MTG
+D device=MTG
 C device=MTG
 B device=MTG
 A device=MTG
@@ -54,7 +54,6 @@ END components
 
 START renamed-nets
 
-BUS_30 -> GND
 
 END renamed-nets
 
@@ -66,7 +65,7 @@ BUS_28 : F328 1, P301 28
 BUS_27 : F327 1, P301 27 
 +15VDC : J300 31, J331 1 
 BUS_31 : P301 31, J331 2 
-GND : p3 1, p4 1, p1 1, p2 1, GND 1, P301 30, J330 2 
+BUS_30 : P301 30, J330 2 
 -15VDC : J300 29, J329 1 
 BUS_29 : P301 29, J329 2 
 -U : J300 26, J326 1 
@@ -119,7 +118,7 @@ DB_OUT : J300 3, J303 1
 BUS_03 : P301 3, J303 2 
 STORAGE_REGISTER_OUT : J300 2, J302 1 
 BUS_02 : P301 2, J302 2 
-FLOATING_GND : J330 1, J300 30, TP301 1 
+FLOATING_GND : p3 1, p4 1, p1 1, p2 1, D 1, J330 1, J300 30, TP301 1 
 MULTIPLEXER_OUT : J300 1, J301 1 
 BUS_01 : P301 1, J301 2 
 

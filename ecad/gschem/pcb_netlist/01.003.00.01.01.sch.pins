@@ -12,8 +12,8 @@ ChangePinName(p1, 1, 1)
 # Start of element p2
 ChangePinName(p2, 1, 1)
 
-# Start of element GND
-ChangePinName(GND, 1, 1)
+# Start of element D
+ChangePinName(D, 1, 1)
 
 # Start of element C
 
