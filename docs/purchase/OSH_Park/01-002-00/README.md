@@ -110,39 +110,39 @@ There should be no dimension or measurement ruler.
 
 ![Drills](01-002-00_drills.png)
 
-Rendered from "01.002.00.01.01.XLN"
+Rendered from "01.002.00.01.01.TXT" , "01.002.00.01.01.XLN"
 
-Drills should show up as white circles on a purple background.
+Drill files should be NC Drill or Excellon format files. Multiple files will be accepted, and merged into one for fabrication.
 
-We want a single merged drill file exported in Excellon or NC Drills format with 2:4 precision, absolute coordinates, and no zero suppression.
+Drill hits that pass through copper will be plated. All other drill hits will be non-plated.
 
-We will merge multiple drill files into one file and only plate the holes which pass through copper.
+Most drill formats are detected and displayed as you'd see on the board. If your drills look incorrect, try exporting with INCH units and either No Zero Suppression or Leading Zero Suppression.
 
-Drills smaller than our minimums will be increased to the minimum size, see the [design rules](https://docs.oshpark.com/submitting-orders/drill-specs/).
+Drill slots and "oval" drills included as part of the drill file are supported. Most design tools do this when using the tool's native slot commands. Supported slots will appear on this preview. 
+Note, it's possible to use this supported callout in an unsupported way. See our Cutouts and Slots page for details regarding unsupported applications of slot drill commands.
+
+Drills sizes below our minimums will be increased to the minimum size. See the design rules or our drills help page. for additional details on drill specs. 
+Additionally, the following are not supported.
 
 - No overlapping drill hits.
 
 - No blind or buried vias.
 
-- Small slots and plated slots are not supported. See our [slots page](http://docs.oshpark.com/troubleshooting/cutouts-and-slots/).
+## Board Outline
 
-- No oval or other non-circular drills.
+![Board Outline](01-002-00_board_outline.png)
 
-We have more info on our [drills help page](http://docs.oshpark.com/submitting-orders/drill-specs/).
+Rendered from "01.002.00.01.01.GKO"
 
-## Bottom Silk Screen
+The board outline should be a watertight (no gaps) purple outline showing at least the edge of the board with no gaps.
 
-![Bottom Silk Screen](01-002-00_bottom_silk_screen.png)
+We will cut non-rectangular board shapes, but you will be billed for the smallest rectangle that will encompass the design.
 
-Rendered from "01.002.00.01.01.GBO"
+As an example, a 2in diameter circle is billed the same as a 2in by 2in square.
 
-This layer should appear 'mirrored' as if you were looking down on it through the board from the top.
+Non-plated Board Cutouts can be represented on the board outline layer, with some limitations.
 
-We will ignore the portion of the silkscreen that extends beyond the board outline.
-
-We will automatically remove any silkscreen that crosses drilled holes or exposed copper.
-
-If a logo isn't showing up on this layer, try changing your design tool import settings to create that silk image with 400 DPI or less, or check out our [Eagle-specific import-bmp script](http://docs.oshpark.com/troubleshooting/import-bmp/) instructions.
+Slots are unsupported when indicated on the board outline layer, but usually work. To make slots with full support, use Drill Slots on the drill layer.
 
 ## Top Solder Mask
 
@@ -155,6 +155,32 @@ Soldermask layers show us where to remove the purple solder resist. The gold-col
 If you submitted an empty file, we won't remove any mask so this entire side of the board will be covered in purple soldermask.
 
 To expose the entire board, submit this file with a single polygon that covers the entire board. We will remove all mask everywhere and expose all the copper and board substrate.
+
+## Bottom Solder Mask
+
+![Bottom Solder Mask](01-002-00_bottom_solder_mask.png)
+
+Rendered from "01.002.00.01.01.GBS"
+
+This layer should appear 'mirrored' as if you were looking down on it through the board from the top.
+
+Soldermask layers show us where to remove the purple solder resist. The gold-colored areas will be exposed on the final board, and purple areas will be covered.
+
+If you submitted an empty file, we won't remove any mask so this entire side of the board will be covered in purple soldermask.
+
+To expose the entire board, submit this file with a single polygon that covers the entire board. We will remove all mask everywhere and expose all the copper and board substrate.
+
+## Top Silk Screen
+
+![Top Silk Screen](01-002-00_top_silk_screen.png)
+
+Rendered from "01.002.00.01.01.GTO"
+
+We will ignore the portion of the silkscreen that extends beyond the board outline.
+
+We will automatically remove any silkscreen that crosses drilled holes or exposed copper.
+
+If a logo isn't showing up on this layer, try changing your design tool import settings to create that silk image with 400 DPI or less, or check out our [Eagle-specific import-bmp script]((http://docs.oshpark.com/troubleshooting/import-bmp/)) instructions.
 
 ## Bottom Layer
 
@@ -171,46 +197,6 @@ If you are using Altium Designer or Altium CircuitMaker, carefully examine the b
 If you are using Eagle, be aware that airwires are not the same as routed traces. If there are no copper links between pads showing on this layer, please review your .brd file for airwires.
 
 See our [design tools pages](http://docs.oshpark.com/design-tools/) for more.
-
-## Bottom Solder Mask
-
-![Bottom Solder Mask](01-002-00_bottom_solder_mask.png)
-
-Rendered from "01.002.00.01.01.GBS"
-
-This layer should appear 'mirrored' as if you were looking down on it through the board from the top.
-
-Soldermask layers show us where to remove the purple solder resist. The gold-colored areas will be exposed on the final board, and purple areas will be covered.
-
-If you submitted an empty file, we won't remove any mask so this entire side of the board will be covered in purple soldermask.
-
-To expose the entire board, submit this file with a single polygon that covers the entire board. We will remove all mask everywhere and expose all the copper and board substrate.
- 
-## Board Outline
-
-![Board Outline](01-002-00_board_outline.png)
-
-Rendered from "01.002.00.01.01.GKO"
-
-The board outline should be a watertight (no gaps) purple outline showing at least the edge of the board with no gaps.
-
-The outline layer can also show large drill holes and cutouts. See the [outline instructions](http://docs.oshpark.com/submitting-orders/board-outline/) for more.
-
-We can cut non-rectangular board shapes, but you’ll be billed for the smallest rectangle to encompass the design. A circular board with a two-inch diameter would cost the same as a square of four square inches.
-
-We don’t offically support cutouts or plated slots, but they usually come out okay if you follow the [cutouts and slots instructions](http://docs.oshpark.com/troubleshooting/cutouts-and-slots/).
-
-## Top Silk Screen
-
-![Top Silk Screen](01-002-00_top_silk_screen.png)
-
-Rendered from "01.002.00.01.01.GTO"
-
-We will ignore the portion of the silkscreen that extends beyond the board outline.
-
-We will automatically remove any silkscreen that crosses drilled holes or exposed copper.
-
-If a logo isn't showing up on this layer, try changing your design tool import settings to create that silk image with 400 DPI or less, or check out our [Eagle-specific import-bmp script]((http://docs.oshpark.com/troubleshooting/import-bmp/)) instructions.
 
 ## Top Layer
 
