@@ -122,7 +122,8 @@ Drill slots and "oval" drills included as part of the drill file are supported. 
 Note, it's possible to use this supported callout in an unsupported way. See our Cutouts and Slots page for details regarding unsupported applications of slot drill commands.
 
 Drills sizes below our minimums will be increased to the minimum size. See the design rules or our drills help page. for additional details on drill specs. 
-Additionally, the following are not supported.
+
+Additionally, the following are not supported:
 
 - No overlapping drill hits.
 

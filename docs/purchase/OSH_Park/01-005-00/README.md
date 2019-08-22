@@ -32,11 +32,6 @@ Warning (non-critical)
 
 Your project doesn't contain a bottom silk screen.
 
-[top](01-005-00_top_large)
-
-[bottom](01-005-00_bottom_large.png)
-
-
 ## Verify your design
 
 ## Board Top
@@ -167,7 +162,7 @@ To expose the entire board, submit this file with a single polygon that covers t
 
 ## Top Silk Screen
 
-![Top Silk Screen](01-002-00_top_silk_screen.png)
+![Top Silk Screen](01-005-00_top_silkscreen.png)
 
 Rendered from "01.005.00.01.01.GTO"
 
