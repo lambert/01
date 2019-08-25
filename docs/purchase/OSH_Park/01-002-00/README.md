@@ -56,24 +56,14 @@ D205   | LED 6 mm Green    | Vishay    | TLLG5400               | Conrad | [1869
 D206   | LED 6 mm Green    | Vishay    | TLLG5400               | Conrad | [186929](https://www.conrad.com/ce/en/product/186929)   |         |
 J201   | 31pin DIN41617    | Assmann   | A-31-L2                | Conrad | [740608](https://www.conrad.com/ce/en/product/740608)   |         |
 J202   | 31pin SIL 2.54 mm | Fisher    | PFH 173638000          | Conrad | [735000](https://www.conrad.com/ce/en/product/735000)   |         |
-LB201  | neon              |           |                        |        | []()                                                    |         |
--------|-------------------|-----------|------------------------|--------|---------------------------------------------------------|---------|
+LB201  | neon              | Barthelme | 00082305               |        | [725200](https://www.conrad.com/ce/en/product/725200)   |         |
 R201   | 680               | Yageo     | MF0207FTE52-680R       | Conrad | [1417659](https://www.conrad.com/ce/en/product/1417659) |         |
 R202   | 680               | Yageo     | MF0207FTE52-680R       | Conrad | [1417659](https://www.conrad.com/ce/en/product/1417659) |         |
-R203   | 1k2               | Yageo     | MF0207FTE52-1K2        | Conrad | [1417624](https://www.conrad.com/ce/en/product/1417624) |         |
-R204   | 1k2               | Yageo     | MF0207FTE52-1K2        | Conrad | [1417624](https://www.conrad.com/ce/en/product/1417624) |         |
-R205   | 1k2               | Yageo     | MF0207FTE52-1K2        | Conrad | [1417624](https://www.conrad.com/ce/en/product/1417624) |         |
-R206   | 1k2               | Yageo     | MF0207FTE52-1K2        | Conrad | [1417624](https://www.conrad.com/ce/en/product/1417624) |         |
+R203   | 1k                | Yageo     | MF0207FTE52-1K         | Conrad | [1417606](https://www.conrad.com/ce/en/product/1417606) |         |
+R204   | 1k                | Yageo     | MF0207FTE52-1K         | Conrad | [1417606](https://www.conrad.com/ce/en/product/1417606) |         |
+R205   | 1k5               | Yageo     | MF0207FTE52-1K5        | Conrad | [1417587](https://www.conrad.com/ce/en/product/1417587) |         |
+R206   | 1k5               | Yageo     | MF0207FTE52-1K5        | Conrad | [1417587](https://www.conrad.com/ce/en/product/1417587) |         |
 R207   | 270k              | Yageo     | MF0207FTE52-270K       | Conrad | [1417592](https://www.conrad.com/ce/en/product/1417592) |         |
--------|-------------------|-----------|------------------------|--------|---------------------------------------------------------|---------|
-R201   | 680               | Beyschlag | MBB 0207-50 680        | Conrad | [418234](https://www.conrad.com/ce/en/product/418234)   |         |
-R202   | 680               | Beyschlag | MBB 0207-50 680        | Conrad | [418234](https://www.conrad.com/ce/en/product/418234)   |         |
-R203   | 1k                | Beyschlag | MBB 0207-50 1k         | Conrad | [418269](https://www.conrad.com/ce/en/product/418269)   |         |
-R204   | 1k                | Beyschlag | MBB 0207-50 1k         | Conrad | [418269](https://www.conrad.com/ce/en/product/418269)   |         |
-R205   | 1200              | Beyschlag | MBB 0207-50 1k2        | Conrad | [418269](https://www.conrad.com/ce/en/product/418269)   |         |
-R206   | 1200              | Beyschlag | MBB 0207-50 1k2        | Conrad | [418269](https://www.conrad.com/ce/en/product/418269)   |         |
-R207   | 270k              | Beyschlag | MBB 0207-50 270k       | Conrad | [418544](https://www.conrad.com/ce/en/product/418544)   |         |
--------|-------------------|-----------|------------------------|--------|---------------------------------------------------------|---------|
 TP201  | black             | Conrad    | TEST-1-BK              | Conrad | [407822](https://www.conrad.com/ce/en/product/407822)                                                        |         |
 
 # Verify your design
