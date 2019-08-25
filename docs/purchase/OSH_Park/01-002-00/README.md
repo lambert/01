@@ -56,7 +56,7 @@ D205   | LED 6 mm Green    | Vishay    | TLLG5400               | Conrad | [1869
 D206   | LED 6 mm Green    | Vishay    | TLLG5400               | Conrad | [186929](https://www.conrad.com/ce/en/product/186929)   |         |
 J201   | 31pin DIN41617    | Assmann   | A-31-L2                | Conrad | [740608](https://www.conrad.com/ce/en/product/740608)   |         |
 J202   | 31pin SIL 2.54 mm | Fisher    | PFH 173638000          | Conrad | [735000](https://www.conrad.com/ce/en/product/735000)   |         |
-LB201  | neon              | Barthelme | 00082305               |        | [725200](https://www.conrad.com/ce/en/product/725200)   |         |
+LB201  | neon              | Barthelme | 00082305               | Conrad | [725200](https://www.conrad.com/ce/en/product/725200)   |         |
 R201   | 680               | Yageo     | MF0207FTE52-680R       | Conrad | [1417659](https://www.conrad.com/ce/en/product/1417659) |         |
 R202   | 680               | Yageo     | MF0207FTE52-680R       | Conrad | [1417659](https://www.conrad.com/ce/en/product/1417659) |         |
 R203   | 1k                | Yageo     | MF0207FTE52-1K         | Conrad | [1417606](https://www.conrad.com/ce/en/product/1417606) |         |
