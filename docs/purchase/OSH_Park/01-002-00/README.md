@@ -74,7 +74,7 @@ R205   | 1200              | Beyschlag | MBB 0207-50 1k2        | Conrad | [4182
 R206   | 1200              | Beyschlag | MBB 0207-50 1k2        | Conrad | [418269](https://www.conrad.com/ce/en/product/418269)   |         |
 R207   | 270k              | Beyschlag | MBB 0207-50 270k       | Conrad | [418544](https://www.conrad.com/ce/en/product/418544)   |         |
 -------|-------------------|-----------|------------------------|--------|---------------------------------------------------------|---------|
-TP201  | red               | Keystone  | 5000                   |        |                                                         |         |
+TP201  | black             | Conrad    | TEST-1-BK              | Conrad | [407822](https://www.conrad.com/ce/en/product/407822)                                                        |         |
 
 # Verify your design
 
