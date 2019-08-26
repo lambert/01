@@ -36,13 +36,13 @@ Your project doesn't contain a bottom silk screen.
 
 Uploaded: 
 
-Total price: $ (3 pieces)
+Total price: $31.15 (3 pieces)
 
-Previous orders:
+Previous orders: 
 
-- ...
+- August 14th, 2019 (SHIPPED).
 
-# UNTESTED: 
+# UNTESTED
 
 ## Bill Of Materials
 
