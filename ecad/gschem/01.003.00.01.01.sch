@@ -143,7 +143,7 @@ C 500 500 0 0 0 A1-sheet.sym
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20190820
+revision=20190826
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -330,9 +330,13 @@ vendor=Conrad
 T 14600 18500 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 17400 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 17400 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 17400 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 17400 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 17100 5600 1 90 0 CON-TP.sym
 {
@@ -343,11 +347,19 @@ refdes=TP301
 T 16500 5910 5 10 0 0 90 0 1
 footprint=CON-TP_Keystone_5000_compact_red
 T 17100 5600 5 10 0 1 0 0 1
-mfg=Keystone
+mfg=Conrad
 T 17100 5600 5 10 0 1 0 0 1
-mfg_PN=5000
+mfg_PN=TEST-1-BK
 T 17400 6100 5 10 0 0 0 0 1
 symversion=20090501
+T 17100 5600 5 10 0 1 0 0 1
+vendor=Conrad
+T 17100 5600 5 10 0 1 0 0 1
+vendor_PN=407822
+T 17100 5600 5 10 0 1 0 0 1
+price=0.23
+T 17100 5600 5 10 0 1 0 0 1
+comment=black
 }
 C 13500 17100 1 90 0 CON-jumper.sym
 {
@@ -362,9 +374,13 @@ vendor=Conrad
 T 13600 18200 5 8 0 0 0 0 1
 symversion=20090227
 T 13500 17100 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13500 17100 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13500 17100 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13500 17100 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 16800 1 90 0 CON-jumper.sym
 {
@@ -379,9 +395,13 @@ vendor=Conrad
 T 14600 17900 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 16800 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 16800 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 16800 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 16800 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13500 16500 1 90 0 CON-jumper.sym
 {
@@ -396,9 +416,13 @@ vendor=Conrad
 T 13600 17600 5 8 0 0 0 0 1
 symversion=20090227
 T 13500 16500 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13500 16500 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13500 16500 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13500 16500 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 16200 1 90 0 CON-jumper.sym
 {
@@ -413,9 +437,13 @@ vendor=Conrad
 T 14600 17300 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 16200 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 16200 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 16200 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 16200 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13500 15900 1 90 0 CON-jumper.sym
 {
@@ -430,9 +458,13 @@ vendor=Conrad
 T 13600 17000 5 8 0 0 0 0 1
 symversion=20090227
 T 13500 15900 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13500 15900 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13500 15900 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13500 15900 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 15600 1 90 0 CON-jumper.sym
 {
@@ -447,9 +479,13 @@ vendor=Conrad
 T 14600 16700 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 15600 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 15600 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 15600 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 15600 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13500 15300 1 90 0 CON-jumper.sym
 {
@@ -464,9 +500,13 @@ vendor=Conrad
 T 13600 16400 5 8 0 0 0 0 1
 symversion=20090227
 T 13500 15300 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13500 15300 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13500 15300 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13500 15300 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 15000 1 90 0 CON-jumper.sym
 {
@@ -481,9 +521,13 @@ vendor=Conrad
 T 14600 16100 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 15000 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 15000 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 15000 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 15000 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 14700 1 90 0 CON-jumper.sym
 {
@@ -498,9 +542,13 @@ vendor=Conrad
 T 13700 15800 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 14700 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 14700 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 14700 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 14700 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 14400 1 90 0 CON-jumper.sym
 {
@@ -515,9 +563,13 @@ vendor=Conrad
 T 14600 15500 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 14400 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 14400 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 14400 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 14400 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 14100 1 90 0 CON-jumper.sym
 {
@@ -532,9 +584,13 @@ vendor=Conrad
 T 13700 15200 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 14100 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 14100 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 14100 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 14100 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 13800 1 90 0 CON-jumper.sym
 {
@@ -549,9 +605,13 @@ vendor=Conrad
 T 14600 14900 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 13800 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 13800 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 13800 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 13800 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 13500 1 90 0 CON-jumper.sym
 {
@@ -566,9 +626,13 @@ vendor=Conrad
 T 13700 14600 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 13500 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 13500 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 13500 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 13500 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 13200 1 90 0 CON-jumper.sym
 {
@@ -583,9 +647,13 @@ vendor=Conrad
 T 14600 14300 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 13200 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 13200 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 13200 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 13200 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 12900 1 90 0 CON-jumper.sym
 {
@@ -600,9 +668,13 @@ vendor=Conrad
 T 13700 14000 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 12900 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 12900 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 12900 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 12900 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 12600 1 90 0 CON-jumper.sym
 {
@@ -617,9 +689,13 @@ vendor=Conrad
 T 14600 13700 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 12600 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 12600 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 12600 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 12600 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 12300 1 90 0 CON-jumper.sym
 {
@@ -634,9 +710,13 @@ vendor=Conrad
 T 13700 13400 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 12300 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 12300 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 12300 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 12300 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 12000 1 90 0 CON-jumper.sym
 {
@@ -651,9 +731,13 @@ vendor=Conrad
 T 14600 13100 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 12000 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 12000 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 12000 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 12000 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 11700 1 90 0 CON-jumper.sym
 {
@@ -668,9 +752,13 @@ vendor=Conrad
 T 13700 12800 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 11700 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 11700 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 11700 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 11700 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 11400 1 90 0 CON-jumper.sym
 {
@@ -685,9 +773,13 @@ vendor=Conrad
 T 14600 12500 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 11400 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 11400 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 11400 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 11400 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 11100 1 90 0 CON-jumper.sym
 {
@@ -702,9 +794,13 @@ vendor=Conrad
 T 13700 12200 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 11100 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 11100 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 11100 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 11100 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 10800 1 90 0 CON-jumper.sym
 {
@@ -719,9 +815,13 @@ vendor=Conrad
 T 14600 11900 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 10800 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 10800 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 10800 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 10800 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 10500 1 90 0 CON-jumper.sym
 {
@@ -736,9 +836,13 @@ vendor=Conrad
 T 13700 11600 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 10500 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 10500 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 10500 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 10500 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 10200 1 90 0 CON-jumper.sym
 {
@@ -753,9 +857,13 @@ vendor=Conrad
 T 14600 11300 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 10200 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 10200 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 10200 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 10200 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 9900 1 90 0 CON-jumper.sym
 {
@@ -770,9 +878,13 @@ vendor=Conrad
 T 13700 11000 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 9900 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 9900 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 9900 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 9900 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 9000 1 90 0 CON-jumper.sym
 {
@@ -787,9 +899,13 @@ vendor=Conrad
 T 14600 10100 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 9000 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 9000 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 9000 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 9000 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 13600 8700 1 90 0 CON-jumper.sym
 {
@@ -804,9 +920,13 @@ vendor=Conrad
 T 13700 9800 5 8 0 0 0 0 1
 symversion=20090227
 T 13600 8700 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 13600 8700 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 13600 8700 5 10 0 1 0 0 1
+mfg=W & P Products
+T 13600 8700 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 14500 8400 1 90 0 CON-jumper.sym
 {
@@ -821,9 +941,13 @@ vendor=Conrad
 T 14600 9500 5 8 0 0 0 0 1
 symversion=20090227
 T 14500 8400 5 10 0 1 0 0 1
-price=0.07
+price=0.09
 T 14500 8400 5 10 0 1 0 0 1
-vendor_PN=744000
+vendor_PN=735932
+T 14500 8400 5 10 0 1 0 0 1
+mfg=W & P Products
+T 14500 8400 5 10 0 1 0 0 1
+mfg_PN=943-13-002-00
 }
 C 11200 8000 1 0 1 CON-DIN41617-31p-male.sym
 {
@@ -857,11 +981,17 @@ device=CONNECTOR
 T 18700 19500 5 10 1 1 0 0 1
 refdes=J300
 T 18300 6500 5 10 0 1 0 0 1
-price=0.82
+price=0.76
 T 18300 6500 5 10 0 1 0 0 1
 vendor=Conrad
 T 18300 6500 5 10 0 1 0 0 1
-vendor_PN=744018
+vendor_PN=737827
+T 18300 6500 5 10 0 1 0 0 1
+mfg=W & P Products
+T 18300 6500 5 10 0 1 0 0 1
+mfg_PN=946-13-034-00
+T 18300 6500 5 10 0 1 0 0 1
+comment=cut 31 pins off, use metallic parts only
 }
 N 14500 13300 17700 13300 4
 N 17700 13300 17700 13400 4
@@ -957,6 +1087,16 @@ T 13500 9600 5 10 0 1 0 0 1
 footprint=FUS_ESKA_508.000__.fp
 T 13500 9600 5 10 0 0 0 0 1
 vendor=Conrad
+T 13500 9600 5 10 0 1 0 0 1
+price=0.46
+T 13500 9600 5 10 0 1 0 0 1
+vendor_PN=1367476
+T 13500 9600 5 10 0 1 0 0 1
+mfg=ESKA
+T 13500 9600 5 10 0 1 0 0 1
+mfg_PN=508.000
+T 13500 9600 5 10 0 1 0 0 1
+comment=5x20 mm
 }
 C 12600 9300 1 0 0 fuse-2.sym
 {
@@ -972,6 +1112,16 @@ T 12600 9300 5 10 0 1 0 0 1
 footprint=FUS_ESKA_508.000__.fp
 T 12600 9300 5 10 0 1 0 0 1
 vendor=Conrad
+T 12600 9300 5 10 0 1 0 0 1
+price=0.46
+T 12600 9300 5 10 0 1 0 0 1
+vendor_PN=1367476
+T 12600 9300 5 10 0 1 0 0 1
+mfg=ESKA
+T 12600 9300 5 10 0 1 0 0 1
+mfg_PN=508.000
+T 12600 9300 5 10 0 1 0 0 1
+comment=5x20 mm
 }
 B 26000 2100 7300 3200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 C 29200 4700 1 0 0 MTG_hole.sym
