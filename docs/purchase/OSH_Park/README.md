@@ -2,31 +2,10 @@
 
 ----
 
-# 01.002.00 Front PCB for Extender rev. 00.
+[01.002.00 Front PCB for Extender rev. 00](01-002-00/README.md)
 
-Top view:
+[01.003.00 Main PCB for Extender rev. 00](01-003-00/README.md)
 
-![Top view](01-002-00/01-002-00_top_large.png)
+[01.004.00 Shielding for Extender rev. 00](01-004-00/README.md)
 
-Bottom view:
-
-![Bottom view](01-002-00/01-002-00_bottom_large.png)
-
-[Project description](01-002-00/README.md)
-
-----
-
-# 01.005.00 Front PCB for Extender rev. 00.
-
-Top view:
-
-![Top view](01-005-00/01-005-00_top_large.png)
-
-Bottom view:
-
-![Bottom view](01-005-00/01-005-00_bottom_large.png)
-
-[Project description](01-005-00/README.md)
-
-----
-
+[01.005.00 Strut for Extender rev. 00](01-005-00/README.md)
