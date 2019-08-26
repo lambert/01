@@ -56,7 +56,7 @@ D205   | LED 6 mm Green    | Vishay    | TLLG5400               | Conrad | [1869
 D206   | LED 6 mm Green    | Vishay    | TLLG5400               | Conrad | [186929](https://www.conrad.com/ce/en/product/186929)   |         |
 J201   | 31pin DIN41617    | Conec     | 102B10089X             | Conrad | [733109](https://www.conrad.com/ce/en/product/733109)   |         |
 J202   | 31pin SIL 2.54 mm | W & P Products | 946-13-034-00     | Conrad | [737827](https://www.conrad.com/ce/en/product/737827)   | cut off 31 RA pins, use metallic parts only |
-LB201  | neon              | Barthelme | 00082305               | Conrad | [725200](https://www.conrad.com/ce/en/product/725200)   |         |
+LB201  | neon bulb 230 V   | Barthelme | 00082305               | Conrad | [725200](https://www.conrad.com/ce/en/product/725200)   | insulate leads on top and bottom |
 R201   | 680               | Yageo     | MF0207FTE52-680R       | Conrad | [1417659](https://www.conrad.com/ce/en/product/1417659) |         |
 R202   | 680               | Yageo     | MF0207FTE52-680R       | Conrad | [1417659](https://www.conrad.com/ce/en/product/1417659) |         |
 R203   | 1k                | Yageo     | MF0207FTE52-1K         | Conrad | [1417606](https://www.conrad.com/ce/en/product/1417606) |         |
@@ -64,7 +64,7 @@ R204   | 1k                | Yageo     | MF0207FTE52-1K         | Conrad | [1417
 R205   | 1k5               | Yageo     | MF0207FTE52-1K5        | Conrad | [1417587](https://www.conrad.com/ce/en/product/1417587) |         |
 R206   | 1k5               | Yageo     | MF0207FTE52-1K5        | Conrad | [1417587](https://www.conrad.com/ce/en/product/1417587) |         |
 R207   | 270k              | Yageo     | MF0207FTE52-270K       | Conrad | [1417592](https://www.conrad.com/ce/en/product/1417592) |         |
-TP201  | black             | Conrad    | TEST-1-BK              | Conrad | [407822](https://www.conrad.com/ce/en/product/407822)                                                        |         |
+TP201  | black             | Conrad    | TEST-1-BK              | Conrad | [407822](https://www.conrad.com/ce/en/product/407822)   |         |
 
 # Verify your design
 
