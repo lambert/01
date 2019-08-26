@@ -192,13 +192,11 @@ We will automatically remove any silkscreen that crosses drilled holes or expose
 
 If a logo isn't showing up on this layer, try changing your design tool import settings to create that silk image with 400 DPI or less, or check out our [Eagle-specific import-bmp script]((http://docs.oshpark.com/troubleshooting/import-bmp/)) instructions.
 
-## Bottom Layer
+## Top Layer
 
-![Bottom Layer](01-003-00_bottom_copper.png)
+![Top Layer](01-003-00_top_copper.png)
 
-Rendered from "01.003.00.01.01.GBL"
-
-This layer should appear 'mirrored' as if you were looking down on it through the board from the top.
+Rendered from "01.003.00.01.01.GTL"
 
 We will place copper everywhere we see gold color on this layer.
 
@@ -208,11 +206,13 @@ If you are using Eagle, be aware that airwires are not the same as routed traces
 
 See our [design tools pages](http://docs.oshpark.com/design-tools/) for more.
 
-## Top Layer
+## Bottom Layer
 
-![Top Layer](01-003-00_top_copper.png)
+![Bottom Layer](01-003-00_bottom_copper.png)
 
-Rendered from "01.003.00.01.01.GTL"
+Rendered from "01.003.00.01.01.GBL"
+
+This layer should appear 'mirrored' as if you were looking down on it through the board from the top.
 
 We will place copper everywhere we see gold color on this layer.
 
