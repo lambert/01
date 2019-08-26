@@ -44,25 +44,46 @@ Previous orders:
 
 # UNTESTED
 
+# WARNING: INSULATE ALL 230 V AC CARRYING PARTS AND LEADS !
+
 ## Bill Of Materials
 
-refdes | value             | mfg       | mfg_PN                 | vendor | vendor_PN                                               | remarks |
--------|-------------------|-----------|------------------------|--------|---------------------------------------------------------|---------|
-F327   | fuseholder 5x20mm | Eska      | 508.000                | Conrad | [1367476](https://www.conrad.com/ce/en/product/1367476) |         |
-F328   | fuseholder 5x20mm | Eska      | 508.000                | Conrad | [1367476](https://www.conrad.com/ce/en/product/1367476) |         |
+refdes | value             | mfg            | mfg_PN            | vendor | vendor_PN                                               | remarks |
+-------|-------------------|----------------|-------------------|--------|---------------------------------------------------------|---------|
+F327   | fuseholder 5x20mm | Eska           | 508.000           | Conrad | [1367476](https://www.conrad.com/ce/en/product/1367476) |         |
+F328   | fuseholder 5x20mm | Eska           | 508.000           | Conrad | [1367476](https://www.conrad.com/ce/en/product/1367476) |         |
 J300   | 31pin SIL 2.54 mm | W & P Products | 946-13-034-00     | Conrad | [737827](https://www.conrad.com/ce/en/product/737827)   | cut of 31 pins, use metallic parts only |
-J301   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-J302   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-J303   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-J304   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-J305   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-J306   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-J307   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-J308   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-J309   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-J310   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735962](https://www.conrad.com/ce/en/product/735952)   |         |
-P301   | 31pin DIN41617    | Assmann   | A-31-S1                | Conrad | [740560](https://www.conrad.com/ce/en/product/740560)   |         |
-TP301  | black             | Conrad    | TEST-1-BK              | Conrad | [407822](https://www.conrad.com/ce/en/product/407822)                                                        |         |
+J301   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J302   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J303   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J304   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J305   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J306   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J307   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J308   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J309   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J310   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J311   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J312   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J313   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J314   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J315   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J316   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J317   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J318   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J319   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J320   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J321   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J322   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J323   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J324   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J325   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J326   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J329   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J330   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+J331   | 2pin SIL 2.54 mm  | W & P Products | 943-13-002-00     | Conrad | [735932](https://www.conrad.com/ce/en/product/735952)   |         |
+P301   | 31pin DIN41617    | Assmann        | A-31-S1           | Conrad | [740560](https://www.conrad.com/ce/en/product/740560)   |         |
+TP301  | black             | Conrad         | TEST-1-BK         | Conrad | [407822](https://www.conrad.com/ce/en/product/407822)                                                        |         |
 
 # Verify your design
 
