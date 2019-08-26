@@ -88,6 +88,60 @@ Additionally, the following are not supported:
 
 - No blind or buried vias.
 
+## Board Outline
+
+![Board Outline](01-005-00_board_outline.png)
+
+Rendered from "01.005.00.01.01.GKO"
+
+The board outline should be a watertight purple outline showing at least the edge of the board with no gaps.
+
+We will cut non-rectangular board shapes, but you will be billed for the smallest rectangle that will encompass the design.
+
+As an example, a 2in diameter circle is billed the same as a 2in by 2in square.
+
+Non-plated Board Cutouts can be represented on the board outline layer, with some limitations.
+
+Slots are unsupported when indicated on the board outline layer, but usually work. To make slots with full support, use Drill Slots on the drill layer.
+
+## Top Solder Mask
+
+![Top Solder Mask](01-005-00_top_solder_mask.png)
+
+Rendered from "01.005.00.01.01.GTS"
+
+Soldermask layers show us where to remove the purple solder resist. The gold-colored areas will be exposed on the final board, and purple areas will be covered.
+
+If you submitted an empty file, we won't remove any mask so this entire side of the board will be covered in purple soldermask
+
+To expose the entire board, submit this file with a single polygon that covers the entire board. We will remove all mask everywhere and expose all the copper and board substrate.
+
+## Bottom Solder Mask
+
+![Bottom Solder Mask](01-005-00_bottom_solder_mask.png)
+
+Rendered from "01.005.00.01.01.GBS"
+
+This layer should appear 'mirrored' as if you were looking down on it through the board from the top.
+
+Soldermask layers show us where to remove the purple solder resist. The gold-colored areas will be exposed on the final board, and purple areas will be covered.
+
+If you submitted an empty file, we won't remove any mask so this entire side of the board will be covered in purple soldermask
+
+To expose the entire board, submit this file with a single polygon that covers the entire board. We will remove all mask everywhere and expose all the copper and board substrate.
+
+## Top Silk Screen
+
+![Top Silk Screen](01-005-00_top_silkscreen.png)
+
+Rendered from "01.005.00.01.01.GTO"
+
+We will ignore the portion of the silkscreen that extends beyond the board outline.
+
+We will automatically remove any silkscreen that crosses drilled holes or exposed copper.
+
+If a logo isn't showing up on this layer, try changing your design tool import settings to create that silk image with 400 DPI or less, or check out our [Eagle-specific import-bmp script]((http://docs.oshpark.com/troubleshooting/import-bmp/)) instructions.
+
 ## Top Layer
 
 ![Top Layer](01-005-00_top_copper.png)
@@ -117,58 +171,4 @@ If you are using Altium Designer or Altium CircuitMaker, carefully examine the b
 If you are using Eagle, be aware that airwires are not the same as routed traces. If there are no copper links between pads showing on this layer, please review your .brd file for airwires.
 
 See our design tools pages for more.
-
-## Bottom Solder Mask
-
-![Bottom Solder Mask](01-005-00_bottom_solder_mask.png)
-
-Rendered from "01.005.00.01.01.GBS"
-
-This layer should appear 'mirrored' as if you were looking down on it through the board from the top.
-
-Soldermask layers show us where to remove the purple solder resist. The gold-colored areas will be exposed on the final board, and purple areas will be covered.
-
-If you submitted an empty file, we won't remove any mask so this entire side of the board will be covered in purple soldermask
-
-To expose the entire board, submit this file with a single polygon that covers the entire board. We will remove all mask everywhere and expose all the copper and board substrate.
-
-## Board Outline
-
-![Board Outline](01-005-00_board_outline.png)
-
-Rendered from "01.005.00.01.01.GKO"
-
-The board outline should be a watertight purple outline showing at least the edge of the board with no gaps.
-
-We will cut non-rectangular board shapes, but you will be billed for the smallest rectangle that will encompass the design.
-
-As an example, a 2in diameter circle is billed the same as a 2in by 2in square.
-
-Non-plated Board Cutouts can be represented on the board outline layer, with some limitations.
-
-Slots are unsupported when indicated on the board outline layer, but usually work. To make slots with full support, use Drill Slots on the drill layer.
-
-## Top Solder Mask
-
-![Top Solder Mask](01-005-00_top_solder_mask.png)
-
-Rendered from "01.005.00.01.01.GTS"
-
-Soldermask layers show us where to remove the purple solder resist. The gold-colored areas will be exposed on the final board, and purple areas will be covered.
-
-If you submitted an empty file, we won't remove any mask so this entire side of the board will be covered in purple soldermask
-
-To expose the entire board, submit this file with a single polygon that covers the entire board. We will remove all mask everywhere and expose all the copper and board substrate.
-
-## Top Silk Screen
-
-![Top Silk Screen](01-005-00_top_silkscreen.png)
-
-Rendered from "01.005.00.01.01.GTO"
-
-We will ignore the portion of the silkscreen that extends beyond the board outline.
-
-We will automatically remove any silkscreen that crosses drilled holes or exposed copper.
-
-If a logo isn't showing up on this layer, try changing your design tool import settings to create that silk image with 400 DPI or less, or check out our [Eagle-specific import-bmp script]((http://docs.oshpark.com/troubleshooting/import-bmp/)) instructions.
 
