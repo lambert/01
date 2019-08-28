@@ -22,7 +22,7 @@ Description: Main PCB for Extender rev. 00
 
 Processing information
 
-Processing 01-003-00.zip as generic ZIP file.
+Processing [01-003-00.zip](01-003-00.zip) as generic ZIP file.
 
 2 layer board of 6.31x3.95 inches.
 
@@ -40,7 +40,7 @@ Total price: $124.45 (3 pieces)
 
 Previous orders:
 
-- ...
+-
 
 # UNTESTED
 

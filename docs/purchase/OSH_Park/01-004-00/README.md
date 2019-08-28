@@ -22,7 +22,7 @@ Description: Shielding for Extender rev. 00
 
 Processing information
 
-Processing 01-004-00.zip as generic ZIP file.
+Processing [01-004-00.zip](01-004-00.zip) as generic ZIP file.
 
 2 layer board of 6.31x3.55 inches.
 

@@ -22,7 +22,7 @@ Description: Front PCB for Extender rev. 00
 
 Processing information
 
-Processing 01-002-00.zip as generic ZIP file.
+Processing [01-002-00.zip](01-002-00.zip) as generic ZIP file.
 
 2 layer board of 1.66x3.75 inches.
 

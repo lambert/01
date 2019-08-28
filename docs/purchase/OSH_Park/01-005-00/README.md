@@ -22,7 +22,7 @@ Description: Strut for Extender rev. 00
 
 Processing information
 
-Processing 01-005-00.zip as generic ZIP file.
+Processing [01-005-00.zip](01-005-00.zip) as generic ZIP file.
 
 2 layer board of 1.66x1.66 inches.
 
@@ -31,6 +31,20 @@ Correcting drill zero suppression. Please verify drills align correctly. See hel
 Warning (non-critical)
 
 Your project doesn't contain a bottom silk screen.
+
+Uploaded: August 12th, 2019 10:49
+
+Total price: $13.80 (3 pieces)
+
+Previous orders: 
+
+- August 14th, 2019 (SHIPPED).
+
+# UNTESTED
+
+## Bill Of Materials
+
+No parts required.
 
 ## Verify your design
 
