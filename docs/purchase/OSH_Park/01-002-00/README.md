@@ -34,7 +34,7 @@ Warning (non-critical)
 
 Your project doesn't contain a bottom silk screen.
 
-Uploaded: 
+Uploaded: August 12th, 2019 19:39
 
 Total price: $31.15 (3 pieces)
 
