@@ -14,7 +14,7 @@ C 500 500 0 0 0 A1-sheet.sym
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20190814
+revision=20190831
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -38,13 +38,19 @@ refdes=TP201
 T 18700 8710 5 10 0 0 90 0 1
 footprint=CON-TP_Keystone_5000_compact_red.fp
 T 19300 8400 5 10 0 1 0 0 1
-mfg=Keystone
+mfg=Conrad
 T 19300 8400 5 10 0 1 0 0 1
-mfg_PN=5000
+mfg_PN=TEST-1-BK
 T 19600 8900 5 10 0 0 0 0 1
 symversion=20090501
 T 19300 8400 5 10 0 1 0 0 1
-value=red
+value=black
+T 19300 8400 5 10 0 1 0 0 1
+price=0.23
+T 19300 8400 5 10 0 1 0 0 1
+vendor=Conrad
+T 19300 8400 5 10 0 1 0 0 1
+vendor_PN=407822
 }
 C 19600 9400 1 0 0 CON-DIN41617-31p-female.sym
 {
@@ -63,7 +69,7 @@ vendor=Conrad
 T 19600 9400 5 10 0 1 0 0 1
 vendor_PN=740608
 T 19600 9400 5 10 0 1 0 0 1
-price=2.26
+price=2.54
 T 19600 9400 5 10 0 0 0 0 1
 documentation=doc/740608.pdf
 }
@@ -131,13 +137,13 @@ vendor=Conrad
 T 9700 6300 5 10 0 1 0 0 1
 footprint=RES1016-635X229____0.6W.fp
 T 9700 6300 5 10 0 1 0 0 1
-vendor_PN=418234
+vendor_PN=1417659
 T 9700 6300 5 10 0 1 0 0 1
-price=0.19
+price=0.13
 T 9700 6300 5 10 0 1 0 0 1
-mfg=Beyschlag
+mfg=Yageo
 T 9700 6300 5 10 0 1 0 0 1
-mfg_PN=MBB 0207-50 680
+mfg_PN=MF0207F680RH
 }
 C 10800 6300 1 90 0 resistor-2.sym
 {
@@ -152,13 +158,13 @@ vendor=Conrad
 T 10800 6300 5 10 0 1 0 0 1
 footprint=RES1016-635X229____0.6W.fp
 T 10800 6300 5 10 0 1 0 0 1
-vendor_PN=418234
+vendor_PN=1417659
 T 10800 6300 5 10 0 1 0 0 1
-price=0.19
+price=0.13
 T 10800 6300 5 10 0 1 0 0 1
-mfg=Beyschlag
+mfg=Yageo
 T 10800 6300 5 10 0 1 0 0 1
-mfg_PN=MBB 0207-50 680
+mfg_PN=MF0207F680RH
 }
 N 9600 6300 9600 6000 4
 N 9600 6000 15900 6000 4
@@ -226,13 +232,13 @@ vendor=Conrad
 T 11900 6300 5 10 0 1 0 0 1
 footprint=RES1016-635X229____0.6W.fp
 T 11900 6300 5 10 0 1 0 0 1
-vendor_PN=418269
+vendor_PN=1417606
 T 11900 6300 5 10 0 1 0 0 1
-price=0.19
+price=0.13
 T 11900 6300 5 10 0 1 0 0 1
-mfg=Beyschlag
+mfg=Yageo
 T 11900 6300 5 10 0 1 0 0 1
-mfg_PN=MBB 0207-50 1k2
+mfg_PN=MF0207F1K0H
 }
 C 13000 6300 1 90 0 resistor-2.sym
 {
@@ -247,13 +253,13 @@ vendor=Conrad
 T 13000 6300 5 10 0 1 0 0 1
 footprint=RES1016-635X229____0.6W.fp
 T 13000 6300 5 10 0 1 0 0 1
-vendor_PN=418269
+vendor_PN=1417606
 T 13000 6300 5 10 0 1 0 0 1
-price=0.19
+price=0.13
 T 13000 6300 5 10 0 1 0 0 1
-mfg=Beyschlag
+mfg=Yageo
 T 13000 6300 5 10 0 1 0 0 1
-mfg_PN=MBB 0207-50 1k2
+mfg_PN=MF0207F1K0H
 }
 N 11800 6300 11800 6000 4
 N 12900 6000 12900 6300 4
@@ -283,19 +289,19 @@ device=RESISTOR
 T 17400 6500 5 10 1 1 90 0 1
 refdes=R207
 T 17900 6500 5 10 1 1 90 0 1
-value=270k
+value=100k
 T 17700 6300 5 10 0 1 0 0 1
 vendor=Conrad
 T 17700 6300 5 10 0 1 0 0 1
 footprint=RES1016-635X229____0.6W.fp
 T 17700 6300 5 10 0 1 0 0 1
-vendor_PN=418544
+vendor_PN=1417570
 T 17700 6300 5 10 0 1 0 0 1
-price=0.19
+price=0.17
 T 17700 6300 5 10 0 1 0 0 1
-mfg=Beyschlag
+mfg=Yageo
 T 17700 6300 5 10 0 1 0 0 1
-mfg_PN=MBB 0207-50 270k
+mfg_PN=MF0207F100KH
 }
 N 16900 6000 16900 10800 4
 N 16900 6000 17600 6000 4
@@ -644,13 +650,13 @@ vendor=Conrad
 T 14100 6300 5 10 0 1 0 0 1
 footprint=RES1016-635X229____0.6W.fp
 T 14100 6300 5 10 0 1 0 0 1
-vendor_PN=418269
+vendor_PN=1417587
 T 14100 6300 5 10 0 1 0 0 1
-price=0.19
+price=0.13
 T 14100 6300 5 10 0 1 0 0 1
-mfg=Beyschlag
+mfg=Yageo
 T 14100 6300 5 10 0 1 0 0 1
-mfg_PN=MBB 0207-50 1k2
+mfg_PN=MF0207F1K5H
 }
 C 15200 6300 1 90 0 resistor-2.sym
 {
@@ -665,13 +671,13 @@ vendor=Conrad
 T 15200 6300 5 10 0 1 0 0 1
 footprint=RES1016-635X229____0.6W.fp
 T 15200 6300 5 10 0 1 0 0 1
-vendor_PN=418269
+vendor_PN=1417587
 T 15200 6300 5 10 0 1 0 0 1
-price=0.19
+price=0.13
 T 15200 6300 5 10 0 1 0 0 1
-mfg=Beyschlag
+mfg=Yageo
 T 15200 6300 5 10 0 1 0 0 1
-mfg_PN=MBB 0207-50 1k2
+mfg_PN=MF0207F1K5H
 }
 N 14000 6300 14000 6000 4
 N 15100 6000 15100 6300 4

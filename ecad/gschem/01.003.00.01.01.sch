@@ -143,7 +143,7 @@ C 500 500 0 0 0 A1-sheet.sym
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20190826
+revision=20190831
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -359,7 +359,7 @@ vendor_PN=407822
 T 17100 5600 5 10 0 1 0 0 1
 price=0.23
 T 17100 5600 5 10 0 1 0 0 1
-comment=black
+value=black
 }
 C 13500 17100 1 90 0 CON-jumper.sym
 {
@@ -1225,23 +1225,23 @@ N 27700 4900 27700 2500 4
 N 29300 2500 29500 2500 4
 C 24800 1600 1 0 0 EMBEDDEDCC-BY-SA.sym
 [
-B 24900 1700 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
-T 25300 1800 9 8 1 0 0 4 1
-CC BY-SA
-T 24900 3800 5 10 0 0 0 0 1
-author=Bert Timmerman
-T 24900 3600 5 10 0 0 0 0 1
-description=Input label
-T 24900 3400 5 10 0 0 0 0 1
-dist-license=CC BY-SA
-T 24900 3200 5 10 0 0 0 0 1
-use-license=unlimited
-T 24900 2600 5 10 0 0 0 0 1
-symversion=20180915
-T 24900 3000 5 10 0 0 0 0 1
-graphical=1
 T 24900 2800 5 10 0 0 0 0 1
 footprint=CC-BY-SA.fp
+T 24900 3000 5 10 0 0 0 0 1
+graphical=1
+T 24900 2600 5 10 0 0 0 0 1
+symversion=20180915
+T 24900 3200 5 10 0 0 0 0 1
+use-license=unlimited
+T 24900 3400 5 10 0 0 0 0 1
+dist-license=CC BY-SA
+T 24900 3600 5 10 0 0 0 0 1
+description=Input label
+T 24900 3800 5 10 0 0 0 0 1
+author=Bert Timmerman
+T 25300 1800 9 8 1 0 0 4 1
+CC BY-SA
+B 24900 1700 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
 ]
 {
 T 24900 2600 5 10 0 0 0 0 1
@@ -1251,23 +1251,23 @@ footprint=CC-BY-SA.fp
 }
 C 24800 1300 1 0 0 EMBEDDEDMade_in_NL.sym
 [
-B 24900 1400 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
-T 25300 1500 9 8 1 0 0 4 1
-Made in NL
-T 24900 3500 5 10 0 0 0 0 1
-author=Bert Timmerman
-T 24900 3300 5 10 0 0 0 0 1
-description=Made in NL
-T 24900 3100 5 10 0 0 0 0 1
-dist-license=GPL
-T 24900 2900 5 10 0 0 0 0 1
-use-license=unlimited
-T 24900 2300 5 10 0 0 0 0 1
-symversion=20180915
-T 24900 2700 5 10 0 0 0 0 1
-graphical=1
 T 24900 2500 5 10 0 0 0 0 1
 footprint=NL_contour_filled_150x188.fp
+T 24900 2700 5 10 0 0 0 0 1
+graphical=1
+T 24900 2300 5 10 0 0 0 0 1
+symversion=20180915
+T 24900 2900 5 10 0 0 0 0 1
+use-license=unlimited
+T 24900 3100 5 10 0 0 0 0 1
+dist-license=GPL
+T 24900 3300 5 10 0 0 0 0 1
+description=Made in NL
+T 24900 3500 5 10 0 0 0 0 1
+author=Bert Timmerman
+T 25300 1500 9 8 1 0 0 4 1
+Made in NL
+B 24900 1400 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
 ]
 {
 T 24900 2300 5 10 0 0 0 0 1

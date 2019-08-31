@@ -5,7 +5,7 @@ D206	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	
 D205	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	unknown	unknown	unknown	
 F328	unknown	200 mA	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 F327	unknown	200 mA	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
-R207	unknown	270k/0.6W	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+R207	unknown	100k	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 LB201	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 R204	unknown	1k	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 R203	unknown	1k	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	

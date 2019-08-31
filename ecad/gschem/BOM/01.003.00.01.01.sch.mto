@@ -7,5 +7,5 @@ JUMPER	unknown	CON-HDR-254P-2C-1R-2N____.fp	29	J301 J302 J303 J304 J305 J306 J30
 MTG	unknown	MTG370-700____.fp	1	D
 MTG	unknown	MTG370____.fp	3	A B C
 PIN	unknown	PIN165X102____.fp	4	p1 p2 p3 p4
-TEST_POINT	unknown	CON-TP_Keystone_5000_compact_red	1	TP301
+TEST_POINT	black	CON-TP_Keystone_5000_compact_red	1	TP301
 .END
