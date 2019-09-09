@@ -1273,7 +1273,7 @@ Element["lock" "CON-HDR-254P-2C-1R-2N____.fp" "J302" "unknown" 3950.00mil 775.00
 
 	)
 
-Element["lock" "CON-TP_Keystone_5000_compact_red" "TP301" "unknown" 72.0001mm 97.4999mm -90.00mil -175.00mil 0 100 ""]
+Element["lock" "CON-TP_Keystone_5000_compact_red" "TP301" "unknown" 72.0001mm 97.4999mm -7.2860mm -0.4450mm 0 100 ""]
 (
 	Attribute("device" "TEST_POINT")
 	Attribute("manufacturer" "unknown")
@@ -1954,7 +1954,7 @@ Element["lock" "PIN165X102____.fp" "p1" "unknown" 56.6000mm 10.0000mm -40.00mil 
 
 	)
 
-Element["lock" "CC-BY-SA.fp" "" "" 49.0000mm 32.0000mm 0.0000 250.00mil 0 100 ""]
+Element["lock" "CC-BY-SA.fp" "cc" "" 49.0000mm 32.0000mm -48.0000mm -0.6500mm 0 100 ""]
 (
 	ElementLine [2.46mil 7.38mil 2.46mil 7.38mil 4.91mil]
 	ElementLine [2.46mil 155.01mil 2.46mil 155.01mil 4.91mil]
@@ -3382,7 +3382,7 @@ Element["lock" "CC-BY-SA.fp" "" "" 49.0000mm 32.0000mm 0.0000 250.00mil 0 100 ""
 
 	)
 
-Element["lock" "NL_contour_filled_150x188.fp" "" "" 26.5000mm 32.0000mm 0.0000 250.00mil 0 100 ""]
+Element["lock" "NL_contour_filled_150x188.fp" "nl" "" 26.5000mm 32.0000mm -25.5000mm 7.8500mm 0 100 ""]
 (
 	ElementLine [17.22mil 706.20mil 17.22mil 706.20mil 4.91mil]
 	ElementLine [22.14mil 691.43mil 22.14mil 691.43mil 4.91mil]
@@ -14044,9 +14044,10 @@ Layer(7 "top silk" "silk")
 	Text[103.9998mm 3051.50mil 0 100 "+U" "clearline"]
 	Text[103.9998mm 2951.50mil 0 100 "-UVAR" "clearline"]
 	Text[103.9998mm 2851.50mil 0 100 "+UVAR" "clearline"]
-	Text[69.5000mm 100.0000mm 0 202 "GND" "clearline"]
 	Text[49.0000mm 37.5000mm 0 100 "CC BY-SA 4.0" "clearline"]
 	Text[49.0000mm 40.5000mm 0 100 "Designed in the Netherlands" "clearline"]
+	Text[65.5000mm 92.0000mm 0 202 "FLOATING" "clearline"]
+	Text[69.5000mm 100.0000mm 0 202 "GND" "clearline"]
 	Polygon("pin,via")
 	(
 		[38.6151mm 21.8750mm] [38.5940mm 861.54mil] [38.5821mm 862.30mil] [38.5696mm 864.69mil] [38.5602mm 866.91mil] 
