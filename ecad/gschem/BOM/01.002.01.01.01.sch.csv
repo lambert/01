@@ -1,0 +1,22 @@
+refdes	footprint	value	mfg	mfg_PN	vendor	vendor_PN	price	documentation	source	comment	
+R206	RES1016-635X229____0.6W.fp	1500	Yageo	MF0207F1K5H	Conrad	1417587	0.13	unknown	unknown	unknown	
+R205	RES1016-635X229____0.6W.fp	1500	Yageo	MF0207F1K5H	Conrad	1417587	0.13	unknown	unknown	unknown	
+D206	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	unknown	unknown	unknown	
+D205	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	unknown	unknown	unknown	
+p3	PIN165X102____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+p4	PIN165X102____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+p1	PIN165X102____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+p2	PIN165X102____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+J202	CON-SIL-254P-31N____.fp	unknown	Fisher	PFH 173638000	Conrad	735000	4.13	unknown	unknown	unknown	
+R207	RES1016-635X229____0.6W.fp	100k	Yageo	MF0207F100KH	Conrad	1417570	0.17	unknown	unknown	unknown	
+LB201	CON-HDR-254P-2C-1R-2N____.fp	neon	unknown	unknown	Conrad	725200	1.09	unknown	unknown	unknown	
+R204	RES1016-635X229____0.6W.fp	1k	Yageo	MF0207F1K0H	Conrad	1417606	0.13	unknown	unknown	unknown	
+R203	RES1016-635X229____0.6W.fp	1k	Yageo	MF0207F1K0H	Conrad	1417606	0.13	unknown	unknown	unknown	
+D204	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	unknown	unknown	unknown	
+D203	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	unknown	unknown	unknown	
+R202	RES1016-635X229____0.6W.fp	680	Yageo	MF0207F680RH	Conrad	1417659	0.13	unknown	unknown	unknown	
+R201	RES1016-635X229____0.6W.fp	680	Yageo	MF0207F680RH	Conrad	1417659	0.13	unknown	unknown	unknown	
+D202	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	unknown	unknown	unknown	
+D201	LED254-500_Temic_TLLG5400__green.fp	green	Temic	unknown	Conrad	186929	0.34	unknown	unknown	unknown	
+J201	CON-DIN41617-31N_Assmann_A-31-L2_DIN41617_female.fp	unknown	Assmann	A-31-L2	Conrad	740608	2.54	doc/740608.pdf	unknown	unknown	
+TP201	CON-TP_Keystone_5000_compact_red.fp	black	Conrad	TEST-1-BK	Conrad	407822	0.23	unknown	unknown	unknown	
