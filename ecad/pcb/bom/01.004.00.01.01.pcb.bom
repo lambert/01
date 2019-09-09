@@ -1,9 +1,7 @@
 # PcbBOM Version 1.0
-# Date: Tue 20 Aug 2019 09:09:09 PM GMT UTC
+# Date: Mon 09 Sep 2019 07:57:47 PM GMT UTC
 # Author: Bert Timmerman
 # Title: 01.004.00.01.01.pcb - PCB BOM
 # Quantity, Description, Value, RefDes
 # --------------------------------------------
-1,"____MIN-XY","MIN-XY",(unknown) 
-1,"____MAX-XY","MAX-XY",(unknown) 
 6,"MTG370-700____.fp","unknown",D C F E B A 
