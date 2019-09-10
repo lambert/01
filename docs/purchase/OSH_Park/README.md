@@ -2,7 +2,9 @@
 
 ----
 
-[01.002.00 Front PCB for Extender rev. 00](01-002-00/README.md)
+[01.002.00 Front PCB for Extender rev. 00](01-002-00/README.md) DO NOT USE
+
+[01.002.01 Front PCB for Extender rev. 00](01-002-01/README.md)
 
 [01.003.00 Main PCB for Extender rev. 00](01-003-00/README.md)
 
