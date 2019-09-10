@@ -1,4 +1,4 @@
-# 01.002.00.01.01
+# 01.002.00.01.01 DO NOT USE !! (mirrored footprint)
 
 ![Top Large](01-002-00_top_large.png)
 
