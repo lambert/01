@@ -91,13 +91,15 @@ Detailed Specs:
 
 #### 2 Layer Stackup.
 
-Thickness | Layer           | Tolerance  |
-----------|-----------------|------------|
-1 mil     | solder resist   | +/-0.2 mil |
-1.4 mil   | 1 oz copper     |            |
-60 mil    | core            | +/-6 mil   |
-1.4 mil   | 1 oz copper     |            |
-1 mil     | solder resist   | +/-0.2 mil |
+Thickness          | Layer           | Tolerance              |
+-------------------|-----------------|------------------------|
+1 mil (0.0254mm)   | silkscreen      | +/-0.2 mil (0.00508mm) |
+1 mil (0.0254mm)   | solder resist   | +/-0.2 mil (0.00508mm) |
+1.4 mil (0.0356mm) | 1 oz copper     |                        |
+60 mil (1.5240mm)  | core            | +/-6 mil (0.1524mm)    |
+1.4 mil (0.0356mm) | 1 oz copper     |                        |
+1 mil (0.0254mm)   | solder resist   | +/-0.2 mil (0.00508mm) |
+1 mil (0.0254mm)   | silkscreen      | +/-0.2 mil (0.00508mm) |
 
 [IS 410 Compatible FR4 (S1141 170) Datasheet](IS-410-compatible-FR4-(S1141-170)-Datasheet.pdf)
 
