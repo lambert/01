@@ -60,6 +60,20 @@ Need more than 100 square inches of boards?
 Our 2 Layer Medium Run Service is a less expensive option for larger
 orders.
 
+#### Common Specs
+
+These specs apply to all our PCB services.
+
+| Spec | Value |
+|------|-------|
+| Manufactured in the United States | Yes |
+| Lead Free compatible | Yes |
+| RoHS Complaint | Yes |
+| High Temp | Yes, 175 Tg or higher (see Material Specs) |
+| PCB Finish | ENIG (Gold), compliant with IPC-4552 |
+| Soldermask Type | SMOBC (Soldermask Over Bare Copper), both sides |
+| Silkscreen Type | High Res DLP, both sides |
+
 #### Fabrication Specs.
 
 Quick Specs:
