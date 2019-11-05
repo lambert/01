@@ -13,7 +13,7 @@ notarget:
 	@echo "${MAKE} bom            Creates bom files"
 	@echo "${MAKE} gerber         Creates Gerber files"
 	@echo "${MAKE} eyecandy       Creates eyecandy files"
-	@echo "${MAKE} ps             Creates ps plotfiles"
+	@echo "${MAKE} pdf            Creates pdf plotfiles"
 	@echo "${MAKE} test           Creates IPC-D-356 testfiles"
 	@echo "${MAKE} all            Creates all of the above"
 
