@@ -1,4 +1,4 @@
-# release: pcb 4.2.0
+# release: pcb 4.2.1
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
@@ -1273,12 +1273,12 @@ Element["lock" "CON-HDR-254P-2C-1R-2N____.fp" "J302" "unknown" 3950.00mil 775.00
 
 	)
 
-Element["lock" "CON-TP_Keystone_5000_compact_red" "TP301" "unknown" 72.0001mm 97.4999mm -7.2860mm -0.4450mm 0 100 ""]
+Element["lock" "CON-TP_Keystone_5000_compact_red" "TP301" "black" 72.0001mm 97.4999mm -7.2860mm -0.4450mm 0 100 ""]
 (
 	Attribute("device" "TEST_POINT")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
+	Attribute("vendor" "Conrad")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 75.00mil 20.00mil 75.00mil 46.00mil "terminal" "1" "thermal(0X,1X)"]
 	ElementArc [0.0000 0.0000 70.00mil 70.00mil 270.000000 360.000000 0.01mil]
@@ -13992,7 +13992,7 @@ Layer(5 "invisible" "notes")
 	Line[163.5000mm 2.0000mm 165.0000mm 1.5000mm 10.00mil 20.00mil "clearline"]
 	Text[23.5000mm 106.5000mm 0 100 "8" "clearline"]
 	Text[42.5000mm 106.5000mm 0 100 "29" "clearline"]
-	Text[12.4000mm 106.5000mm 0 100 "10.5" "clearline"]
+	Text[12.4000mm 106.5000mm 0 100 "8.5" "clearline"]
 	Text[6.5000mm 106.5000mm 0 100 "4.5" "clearline"]
 	Text[59.1000mm 106.5000mm 0 100 "5" "clearline"]
 	Text[2.0000mm 102.5000mm 1 100 "7.5" "clearline"]
@@ -14032,7 +14032,7 @@ Layer(7 "top silk" "silk")
 	Text[104.0003mm 89.4999mm 0 100 "GND" "clearline"]
 	Text[104.0000mm 92.0001mm 0 100 "+15 V DC" "clearline"]
 	Text[104.0000mm 86.9998mm 0 100 "-15 V DC" "clearline"]
-	Text[48.9869mm 28.6870mm 0 100 "Copyright (C) 2017 Bert Timmerman" "clearline"]
+	Text[48.9869mm 28.6870mm 0 100 "Copyright (C) 2020 Bert Timmerman" "clearline"]
 	Text[48.9869mm 26.2819mm 0 100 "01.003.00.01.01" "clearline"]
 	Text[48.9869mm 23.7500mm 0 100 "Extender Main PCB" "clearline"]
 	Text[34.4300mm 27.0601mm 0 100 "open source" "clearline"]
