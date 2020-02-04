@@ -7,7 +7,7 @@ page=01
 T 51500 40100 5 10 1 1 0 0 1
 pages=01
 T 54000 40400 5 10 1 1 0 0 1
-revision=20180901
+revision=20200204
 T 54000 40100 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 50000 40700 5 10 1 1 0 0 1
@@ -17,59 +17,305 @@ comment=schematic
 T 50000 41100 5 10 1 1 0 0 1
 description=Extender - Shielding pcb (DFM)
 B 44800 44000 7300 3200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
-C 48000 46600 1 0 0 MTG_hole.sym
-{
-T 48800 46700 5 10 1 1 0 0 1
-refdes=C
-T 48310 47250 5 10 0 0 0 0 1
-device=MTG
-T 48300 47700 5 10 0 0 0 0 1
-footprint=MTG370-700____.fp
-}
-C 44800 46600 1 0 0 MTG_hole.sym
-{
-T 45110 47250 5 10 0 0 0 0 1
-device=MTG
-T 45600 46700 5 10 1 1 0 0 1
-refdes=A
-T 45100 47700 5 10 0 0 0 0 1
-footprint=MTG370-700____.fp
-}
-C 44800 44200 1 0 0 MTG_hole.sym
-{
-T 45110 44850 5 10 0 0 0 0 1
-device=MTG
-T 45600 44300 5 10 1 1 0 0 1
-refdes=B
-T 45100 45300 5 10 0 0 0 0 1
-footprint=MTG370-700____.fp
-}
 T 44800 47300 9 10 1 0 0 0 1
 Mounting holes:
-C 51100 46600 1 0 0 MTG_hole.sym
+C 48300 41100 1 0 0 EMBEDDEDCC-BY-SA.sym
+[
+T 48400 42300 5 10 0 0 0 0 1
+footprint=CC-BY-SA.fp
+T 48400 42500 5 10 0 0 0 0 1
+graphical=1
+T 48400 42100 5 10 0 0 0 0 1
+symversion=20180915
+T 48400 42700 5 10 0 0 0 0 1
+use-license=unlimited
+T 48400 42900 5 10 0 0 0 0 1
+dist-license=CC BY-SA
+T 48400 43100 5 10 0 0 0 0 1
+description=Input label
+T 48400 43300 5 10 0 0 0 0 1
+author=Bert Timmerman
+T 48800 41300 9 8 1 0 0 4 1
+CC BY-SA
+B 48400 41200 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
-T 51410 47250 5 10 0 0 0 0 1
-device=MTG
-T 51900 46700 5 10 1 1 0 0 1
+T 48400 42100 5 10 0 0 0 0 1
+symversion=20180915
+T 48400 42300 5 10 0 0 0 0 1
+footprint=CC-BY-SA.fp
+T 48300 41100 5 10 0 0 0 0 1
+refdes=cc
+}
+C 48300 40800 1 0 0 EMBEDDEDMade_in_NL.sym
+[
+T 48400 42000 5 10 0 0 0 0 1
+footprint=NL_contour_filled_150x188.fp
+T 48400 42200 5 10 0 0 0 0 1
+graphical=1
+T 48400 41800 5 10 0 0 0 0 1
+symversion=20180915
+T 48400 42400 5 10 0 0 0 0 1
+use-license=unlimited
+T 48400 42600 5 10 0 0 0 0 1
+dist-license=GPL
+T 48400 42800 5 10 0 0 0 0 1
+description=Made in NL
+T 48400 43000 5 10 0 0 0 0 1
+author=Bert Timmerman
+T 48800 41000 9 8 1 0 0 4 1
+Made in NL
+B 48400 40900 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+]
+{
+T 48400 41800 5 10 0 0 0 0 1
+symversion=20180915
+T 48400 42000 5 10 0 0 0 0 1
+footprint=NL_contour_filled_150x188.fp
+T 48300 40800 5 10 0 0 0 0 1
+refdes=nl
+}
+C 45200 46500 1 90 0 EMBEDDEDPIN.sym
+[
+L 44920 47000 45080 47000 3 0 0 0 -1 -1
+L 45000 46920 45000 47080 3 0 0 0 -1 -1
+V 45000 47000 40 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 45000 46900 45000 47000 1 0 0
+{
+T 45000 47500 5 10 0 0 90 0 1
+pintype=pas
+T 45155 47495 5 10 0 0 90 0 1
+pinnumber=1
+}
+T 44500 46800 5 10 0 0 90 0 1
+symversion=20090220
+{
+T 44800 47500 5 10 0 0 90 0 1
+pinseq=1
+}
+T 44300 46810 5 10 0 0 90 0 1
+device=PIN
+T 44100 46800 5 10 0 0 90 0 1
+footprint=PIN____.fp
+T 43900 46800 5 10 0 0 90 0 1
+use-license=unlimited
+T 43700 46800 5 10 0 0 90 0 1
+dist-license=GPL
+T 43500 46800 5 10 0 0 90 0 1
+description=Plated pin hole
+T 43300 46800 5 10 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+]
+{
+T 44300 46810 5 10 0 0 90 0 1
+device=PIN
+T 44500 46800 5 10 0 0 90 0 1
+symversion=20090220
+T 45200 47000 5 10 1 1 0 0 1
+refdes=A
+T 45200 46500 5 10 0 0 90 0 1
+footprint=MTG370-700____.fp
+}
+C 44800 44700 1 270 0 EMBEDDEDPIN.sym
+[
+L 45080 44200 44920 44200 3 0 0 0 -1 -1
+L 45000 44280 45000 44120 3 0 0 0 -1 -1
+V 45000 44200 40 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 45000 44300 45000 44200 1 0 0
+{
+T 45000 43700 5 10 0 0 270 0 1
+pintype=pas
+T 44845 43705 5 10 0 0 270 0 1
+pinnumber=1
+}
+T 45500 44400 5 10 0 0 270 0 1
+symversion=20090220
+{
+T 45200 43700 5 10 0 0 270 0 1
+pinseq=1
+}
+T 45700 44390 5 10 0 0 270 0 1
+device=PIN
+T 46100 44400 5 10 0 0 270 0 1
+use-license=unlimited
+T 46300 44400 5 10 0 0 270 0 1
+dist-license=GPL
+T 46500 44400 5 10 0 0 270 0 1
+description=Plated pin hole
+T 46700 44400 5 10 0 0 270 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+]
+{
+T 45700 44390 5 10 0 0 270 0 1
+device=PIN
+T 45500 44400 5 10 0 0 270 0 1
+symversion=20090220
+T 45200 44100 5 10 1 1 0 0 1
+refdes=B
+T 44800 44700 5 10 0 0 270 0 1
+footprint=MTG370-700____.fp
+}
+N 45000 46900 45000 44300 4
+C 48700 46500 1 90 0 EMBEDDEDPIN.sym
+[
+L 48420 47000 48580 47000 3 0 0 0 -1 -1
+L 48500 46920 48500 47080 3 0 0 0 -1 -1
+V 48500 47000 40 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 48500 46900 48500 47000 1 0 0
+{
+T 48500 47500 5 10 0 0 90 0 1
+pintype=pas
+T 48655 47495 5 10 0 0 90 0 1
+pinnumber=1
+}
+T 48000 46800 5 10 0 0 90 0 1
+symversion=20090220
+{
+T 48300 47500 5 10 0 0 90 0 1
+pinseq=1
+}
+T 47800 46810 5 10 0 0 90 0 1
+device=PIN
+T 47600 46800 5 10 0 0 90 0 1
+footprint=PIN____.fp
+T 47400 46800 5 10 0 0 90 0 1
+use-license=unlimited
+T 47200 46800 5 10 0 0 90 0 1
+dist-license=GPL
+T 47000 46800 5 10 0 0 90 0 1
+description=Plated pin hole
+T 46800 46800 5 10 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+]
+{
+T 47800 46810 5 10 0 0 90 0 1
+device=PIN
+T 48000 46800 5 10 0 0 90 0 1
+symversion=20090220
+T 48700 47000 5 10 1 1 0 0 1
+refdes=C
+T 48700 46500 5 10 0 0 90 0 1
+footprint=MTG370-700____.fp
+}
+C 52100 46500 1 90 0 EMBEDDEDPIN.sym
+[
+L 51820 47000 51980 47000 3 0 0 0 -1 -1
+L 51900 46920 51900 47080 3 0 0 0 -1 -1
+V 51900 47000 40 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 51900 46900 51900 47000 1 0 0
+{
+T 51900 47500 5 10 0 0 90 0 1
+pintype=pas
+T 52055 47495 5 10 0 0 90 0 1
+pinnumber=1
+}
+T 51400 46800 5 10 0 0 90 0 1
+symversion=20090220
+{
+T 51700 47500 5 10 0 0 90 0 1
+pinseq=1
+}
+T 51200 46810 5 10 0 0 90 0 1
+device=PIN
+T 50800 46800 5 10 0 0 90 0 1
+use-license=unlimited
+T 50600 46800 5 10 0 0 90 0 1
+dist-license=GPL
+T 50400 46800 5 10 0 0 90 0 1
+description=Plated pin hole
+T 50200 46800 5 10 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+]
+{
+T 51200 46810 5 10 0 0 90 0 1
+device=PIN
+T 51400 46800 5 10 0 0 90 0 1
+symversion=20090220
+T 51700 47000 5 10 1 1 0 0 1
 refdes=E
-T 51400 47700 5 10 0 0 0 0 1
+T 52100 46500 5 10 0 0 90 0 1
 footprint=MTG370-700____.fp
 }
-C 51100 44200 1 0 0 MTG_hole.sym
+C 48300 44700 1 270 0 EMBEDDEDPIN.sym
+[
+L 48580 44200 48420 44200 3 0 0 0 -1 -1
+L 48500 44280 48500 44120 3 0 0 0 -1 -1
+V 48500 44200 40 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 48500 44300 48500 44200 1 0 0
 {
-T 51410 44850 5 10 0 0 0 0 1
-device=MTG
-T 51900 44300 5 10 1 1 0 0 1
-refdes=F
-T 51400 45300 5 10 0 0 0 0 1
-footprint=MTG370-700____.fp
+T 48500 43700 5 10 0 0 270 0 1
+pintype=pas
+T 48345 43705 5 10 0 0 270 0 1
+pinnumber=1
 }
-C 48000 44200 1 0 0 MTG_hole.sym
+T 49000 44400 5 10 0 0 270 0 1
+symversion=20090220
 {
-T 48310 44850 5 10 0 0 0 0 1
-device=MTG
-T 48800 44300 5 10 1 1 0 0 1
+T 48700 43700 5 10 0 0 270 0 1
+pinseq=1
+}
+T 49200 44390 5 10 0 0 270 0 1
+device=PIN
+T 49600 44400 5 10 0 0 270 0 1
+use-license=unlimited
+T 49800 44400 5 10 0 0 270 0 1
+dist-license=GPL
+T 50000 44400 5 10 0 0 270 0 1
+description=Plated pin hole
+T 50200 44400 5 10 0 0 270 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+]
+{
+T 49200 44390 5 10 0 0 270 0 1
+device=PIN
+T 49000 44400 5 10 0 0 270 0 1
+symversion=20090220
+T 48700 44100 5 10 1 1 0 0 1
 refdes=D
-T 48300 45300 5 10 0 0 0 0 1
+T 48300 44700 5 10 0 0 270 0 1
 footprint=MTG370-700____.fp
 }
+C 51700 44700 1 270 0 EMBEDDEDPIN.sym
+[
+L 51980 44200 51820 44200 3 0 0 0 -1 -1
+L 51900 44280 51900 44120 3 0 0 0 -1 -1
+V 51900 44200 40 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 51900 44300 51900 44200 1 0 0
+{
+T 51900 43700 5 10 0 0 270 0 1
+pintype=pas
+T 51745 43705 5 10 0 0 270 0 1
+pinnumber=1
+}
+T 52400 44400 5 10 0 0 270 0 1
+symversion=20090220
+{
+T 52100 43700 5 10 0 0 270 0 1
+pinseq=1
+}
+T 52600 44390 5 10 0 0 270 0 1
+device=PIN
+T 53000 44400 5 10 0 0 270 0 1
+use-license=unlimited
+T 53200 44400 5 10 0 0 270 0 1
+dist-license=GPL
+T 53400 44400 5 10 0 0 270 0 1
+description=Plated pin hole
+T 53600 44400 5 10 0 0 270 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+]
+{
+T 52600 44390 5 10 0 0 270 0 1
+device=PIN
+T 52400 44400 5 10 0 0 270 0 1
+symversion=20090220
+T 51600 44100 5 10 1 1 0 0 1
+refdes=F
+T 51700 44700 5 10 0 0 270 0 1
+footprint=MTG370-700____.fp
+}
+N 48500 46900 48500 44300 4
+N 51900 46900 51900 44300 4
+N 45000 45600 48500 45600 4
+C 46700 45300 1 0 0 gnd-1.sym
+N 48500 45400 51900 45400 4

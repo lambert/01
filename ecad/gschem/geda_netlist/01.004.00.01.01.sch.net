@@ -7,12 +7,12 @@ END header
 
 START components
 
-D device=MTG
-F device=MTG
-E device=MTG
-B device=MTG
-A device=MTG
-C device=MTG
+F device=PIN
+D device=PIN
+E device=PIN
+C device=PIN
+B device=PIN
+A device=PIN
 
 END components
 
@@ -23,6 +23,7 @@ END renamed-nets
 
 START nets
 
+GND : E 1, F 1, C 1, D 1, B 1, A 1 
 
 END nets
 
