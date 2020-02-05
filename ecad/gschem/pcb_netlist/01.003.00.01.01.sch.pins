@@ -22,194 +22,194 @@ ChangePinName(D, 1, 1)
 # Start of element A
 
 # Start of element F328
-ChangePinName(F328, 1, 1)
 ChangePinName(F328, 2, 2)
+ChangePinName(F328, 1, 1)
 
 # Start of element F327
-ChangePinName(F327, 1, 1)
 ChangePinName(F327, 2, 2)
+ChangePinName(F327, 1, 1)
 
 # Start of element J300
-ChangePinName(J300, 1, 1)
-ChangePinName(J300, 2, 2)
-ChangePinName(J300, 3, 3)
-ChangePinName(J300, 4, 4)
-ChangePinName(J300, 5, 5)
-ChangePinName(J300, 6, 6)
-ChangePinName(J300, 7, 7)
-ChangePinName(J300, 8, 8)
-ChangePinName(J300, 9, 9)
-ChangePinName(J300, 10, 10)
-ChangePinName(J300, 11, 11)
-ChangePinName(J300, 12, 12)
-ChangePinName(J300, 13, 13)
-ChangePinName(J300, 14, 14)
-ChangePinName(J300, 15, 15)
-ChangePinName(J300, 16, 16)
-ChangePinName(J300, 17, 17)
-ChangePinName(J300, 18, 18)
-ChangePinName(J300, 19, 19)
-ChangePinName(J300, 20, 20)
-ChangePinName(J300, 21, 21)
-ChangePinName(J300, 22, 22)
-ChangePinName(J300, 23, 23)
-ChangePinName(J300, 24, 24)
-ChangePinName(J300, 25, 25)
-ChangePinName(J300, 26, 26)
-ChangePinName(J300, 27, 27)
-ChangePinName(J300, 28, 28)
-ChangePinName(J300, 29, 29)
-ChangePinName(J300, 30, 30)
 ChangePinName(J300, 31, 31)
+ChangePinName(J300, 30, 30)
+ChangePinName(J300, 29, 29)
+ChangePinName(J300, 28, 28)
+ChangePinName(J300, 27, 27)
+ChangePinName(J300, 26, 26)
+ChangePinName(J300, 25, 25)
+ChangePinName(J300, 24, 24)
+ChangePinName(J300, 23, 23)
+ChangePinName(J300, 22, 22)
+ChangePinName(J300, 21, 21)
+ChangePinName(J300, 20, 20)
+ChangePinName(J300, 19, 19)
+ChangePinName(J300, 18, 18)
+ChangePinName(J300, 17, 17)
+ChangePinName(J300, 16, 16)
+ChangePinName(J300, 15, 15)
+ChangePinName(J300, 14, 14)
+ChangePinName(J300, 13, 13)
+ChangePinName(J300, 12, 12)
+ChangePinName(J300, 11, 11)
+ChangePinName(J300, 10, 10)
+ChangePinName(J300, 9, 9)
+ChangePinName(J300, 8, 8)
+ChangePinName(J300, 7, 7)
+ChangePinName(J300, 6, 6)
+ChangePinName(J300, 5, 5)
+ChangePinName(J300, 4, 4)
+ChangePinName(J300, 3, 3)
+ChangePinName(J300, 2, 2)
+ChangePinName(J300, 1, 1)
 
 # Start of element P300
-ChangePinName(P300, 25, 25)
-ChangePinName(P300, 24, 24)
-ChangePinName(P300, 23, 23)
-ChangePinName(P300, 22, 22)
-ChangePinName(P300, 21, 21)
-ChangePinName(P300, 20, 20)
-ChangePinName(P300, 19, 19)
-ChangePinName(P300, 18, 18)
-ChangePinName(P300, 17, 17)
-ChangePinName(P300, 16, 16)
-ChangePinName(P300, 15, 15)
-ChangePinName(P300, 13, 13)
-ChangePinName(P300, 11, 11)
-ChangePinName(P300, 10, 10)
-ChangePinName(P300, 9, 9)
-ChangePinName(P300, 7, 7)
-ChangePinName(P300, 6, 6)
-ChangePinName(P300, 5, 5)
-ChangePinName(P300, 4, 4)
-ChangePinName(P300, 3, 3)
-ChangePinName(P300, 1, 1)
-ChangePinName(P300, 26, 26)
-ChangePinName(P300, 27, 27)
-ChangePinName(P300, 28, 28)
-ChangePinName(P300, 29, 29)
-ChangePinName(P300, 31, 31)
-ChangePinName(P300, 2, 2)
-ChangePinName(P300, 8, 8)
-ChangePinName(P300, 12, 12)
-ChangePinName(P300, 14, 14)
 ChangePinName(P300, 30, 30)
+ChangePinName(P300, 14, 14)
+ChangePinName(P300, 12, 12)
+ChangePinName(P300, 8, 8)
+ChangePinName(P300, 2, 2)
+ChangePinName(P300, 31, 31)
+ChangePinName(P300, 29, 29)
+ChangePinName(P300, 28, 28)
+ChangePinName(P300, 27, 27)
+ChangePinName(P300, 26, 26)
+ChangePinName(P300, 1, 1)
+ChangePinName(P300, 3, 3)
+ChangePinName(P300, 4, 4)
+ChangePinName(P300, 5, 5)
+ChangePinName(P300, 6, 6)
+ChangePinName(P300, 7, 7)
+ChangePinName(P300, 9, 9)
+ChangePinName(P300, 10, 10)
+ChangePinName(P300, 11, 11)
+ChangePinName(P300, 13, 13)
+ChangePinName(P300, 15, 15)
+ChangePinName(P300, 16, 16)
+ChangePinName(P300, 17, 17)
+ChangePinName(P300, 18, 18)
+ChangePinName(P300, 19, 19)
+ChangePinName(P300, 20, 20)
+ChangePinName(P300, 21, 21)
+ChangePinName(P300, 22, 22)
+ChangePinName(P300, 23, 23)
+ChangePinName(P300, 24, 24)
+ChangePinName(P300, 25, 25)
 
 # Start of element J331
-ChangePinName(J331, 1, 1)
 ChangePinName(J331, 2, 2)
+ChangePinName(J331, 1, 1)
 
 # Start of element J330
-ChangePinName(J330, 1, 1)
 ChangePinName(J330, 2, 2)
+ChangePinName(J330, 1, 1)
 
 # Start of element J329
-ChangePinName(J329, 1, 1)
 ChangePinName(J329, 2, 2)
+ChangePinName(J329, 1, 1)
 
 # Start of element J326
-ChangePinName(J326, 1, 1)
 ChangePinName(J326, 2, 2)
+ChangePinName(J326, 1, 1)
 
 # Start of element J325
-ChangePinName(J325, 1, 1)
 ChangePinName(J325, 2, 2)
+ChangePinName(J325, 1, 1)
 
 # Start of element J324
-ChangePinName(J324, 1, 1)
 ChangePinName(J324, 2, 2)
+ChangePinName(J324, 1, 1)
 
 # Start of element J323
-ChangePinName(J323, 1, 1)
 ChangePinName(J323, 2, 2)
+ChangePinName(J323, 1, 1)
 
 # Start of element J322
-ChangePinName(J322, 1, 1)
 ChangePinName(J322, 2, 2)
+ChangePinName(J322, 1, 1)
 
 # Start of element J321
-ChangePinName(J321, 1, 1)
 ChangePinName(J321, 2, 2)
+ChangePinName(J321, 1, 1)
 
 # Start of element J320
-ChangePinName(J320, 1, 1)
 ChangePinName(J320, 2, 2)
+ChangePinName(J320, 1, 1)
 
 # Start of element J319
-ChangePinName(J319, 1, 1)
 ChangePinName(J319, 2, 2)
+ChangePinName(J319, 1, 1)
 
 # Start of element J318
-ChangePinName(J318, 1, 1)
 ChangePinName(J318, 2, 2)
+ChangePinName(J318, 1, 1)
 
 # Start of element J317
-ChangePinName(J317, 1, 1)
 ChangePinName(J317, 2, 2)
+ChangePinName(J317, 1, 1)
 
 # Start of element J316
-ChangePinName(J316, 1, 1)
 ChangePinName(J316, 2, 2)
+ChangePinName(J316, 1, 1)
 
 # Start of element J315
-ChangePinName(J315, 1, 1)
 ChangePinName(J315, 2, 2)
+ChangePinName(J315, 1, 1)
 
 # Start of element J314
-ChangePinName(J314, 1, 1)
 ChangePinName(J314, 2, 2)
+ChangePinName(J314, 1, 1)
 
 # Start of element J313
-ChangePinName(J313, 1, 1)
 ChangePinName(J313, 2, 2)
+ChangePinName(J313, 1, 1)
 
 # Start of element J312
-ChangePinName(J312, 1, 1)
 ChangePinName(J312, 2, 2)
+ChangePinName(J312, 1, 1)
 
 # Start of element J311
-ChangePinName(J311, 1, 1)
 ChangePinName(J311, 2, 2)
+ChangePinName(J311, 1, 1)
 
 # Start of element J310
-ChangePinName(J310, 1, 1)
 ChangePinName(J310, 2, 2)
+ChangePinName(J310, 1, 1)
 
 # Start of element J309
-ChangePinName(J309, 1, 1)
 ChangePinName(J309, 2, 2)
+ChangePinName(J309, 1, 1)
 
 # Start of element J308
-ChangePinName(J308, 1, 1)
 ChangePinName(J308, 2, 2)
+ChangePinName(J308, 1, 1)
 
 # Start of element J307
-ChangePinName(J307, 1, 1)
 ChangePinName(J307, 2, 2)
+ChangePinName(J307, 1, 1)
 
 # Start of element J306
-ChangePinName(J306, 1, 1)
 ChangePinName(J306, 2, 2)
+ChangePinName(J306, 1, 1)
 
 # Start of element J305
-ChangePinName(J305, 1, 1)
 ChangePinName(J305, 2, 2)
+ChangePinName(J305, 1, 1)
 
 # Start of element J304
-ChangePinName(J304, 2, 2)
 ChangePinName(J304, 1, 1)
+ChangePinName(J304, 2, 2)
 
 # Start of element J303
-ChangePinName(J303, 2, 2)
 ChangePinName(J303, 1, 1)
+ChangePinName(J303, 2, 2)
 
 # Start of element J302
-ChangePinName(J302, 2, 2)
 ChangePinName(J302, 1, 1)
+ChangePinName(J302, 2, 2)
 
 # Start of element TP301
 ChangePinName(TP301, 1, terminal)
 
 # Start of element J301
-ChangePinName(J301, 2, 2)
 ChangePinName(J301, 1, 1)
+ChangePinName(J301, 2, 2)
