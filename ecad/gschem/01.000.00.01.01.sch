@@ -158,12 +158,37 @@ N 19600 17100 7200 17100 4
 T 20900 17100 5 10 1 1 0 0 1
 netname=AM_OUTPUT
 }
-C 500 500 0 0 0 A1-sheet.sym
+C 500 500 0 0 0 EMBEDDEDA1-sheet.sym
+[
+B 500 500 33100 23300 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 32500 2100 5 10 0 0 0 0 1
+graphical=1
+L 29500 1100 29500 500 15 0 0 0 -1 -1
+T 26100 900 15 8 1 0 0 0 1
+FILE:
+T 29600 900 15 8 1 0 0 0 1
+REVISION:
+T 29600 600 15 8 1 0 0 0 1
+DRAWN BY: 
+T 26100 600 15 8 1 0 0 0 1
+PAGE
+T 27800 600 15 8 1 0 0 0 1
+OF
+T 26100 1200 15 8 1 0 0 0 1
+TITLE
+B 26000 500 7600 1400 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 26000 1100 33600 1100 15 0 0 0 -1 -1
+B 33000 500 600 600 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 33300 800 15 16 1 0 0 4 1
+A1
+T 32500 2300 5 10 0 0 0 0 1
+device=none
+]
 {
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20190831
+revision=20200205
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -341,7 +366,48 @@ B 10200 5600 15200 13700 3 0 0 4 100 100 0 -1 -1 -1 -1 -1
 T 10200 19400 9 10 1 0 0 0 1
 ON FRONT PCB
 N 9600 9900 9600 9300 4
-C 8200 18500 1 90 0 CON-jumper.sym
+C 8200 18500 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6100 18600 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6300 18600 5 8 0 0 90 0 1
+description=Generic jumper
+T 6500 18600 5 8 0 0 90 0 1
+dist-license=GPL
+T 6700 18600 5 8 0 0 90 0 1
+use-license=unlimited
+T 6900 18600 5 8 0 0 90 0 1
+device=JUMPER
+T 7100 18600 5 8 0 0 90 0 1
+symversion=20090227
+T 7700 18800 5 10 0 1 90 0 1
+refdes=J?
+P 7200 18600 7400 18600 1 0 0
+{
+T 7350 18650 5 8 1 1 90 0 1
+pinnumber=2
+T 7350 18650 5 8 0 0 90 0 1
+pinseq=2
+T 7350 18650 5 8 0 1 90 0 1
+pinlabel=2
+T 7350 18650 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8200 18600 8000 18600 1 0 0
+{
+T 8150 18650 5 8 1 1 90 0 1
+pinnumber=1
+T 8150 18650 5 8 0 0 90 0 1
+pinseq=1
+T 8150 18650 5 8 0 1 90 0 1
+pinlabel=1
+T 8150 18650 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7500 18600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7900 18600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7400 18500 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7700 18800 5 8 0 0 90 0 1
 device=JUMPER
@@ -350,7 +416,37 @@ refdes=J301
 T 8300 19600 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 9700 8400 1 90 0 CON-TP.sym
+C 9700 8400 1 90 0 EMBEDDEDCON-TP.sym
+[
+T 8000 8700 5 10 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 8200 8700 5 10 0 0 90 0 1
+dist-license=GPL
+T 8400 8700 5 10 0 0 90 0 1
+use-license=unlimited
+T 8600 8700 5 10 0 0 90 0 1
+device=TEST_POINT
+T 8800 8700 5 10 0 0 90 0 1
+numslots=0
+T 9000 8710 5 10 0 0 90 0 1
+footprint=CON-TP_Keystone_5000_compact_red.fp
+T 9200 8700 5 10 0 0 90 0 1
+symversion=20090501
+T 9650 8650 8 10 0 1 90 6 1
+refdes=TP?
+P 9600 8960 9600 9300 1 0 1
+{
+T 9550 9060 5 10 0 0 90 0 1
+pinseq=1
+T 9600 8910 5 10 0 1 90 0 1
+pinnumber=1
+T 9400 8910 5 10 0 1 90 0 1
+pintype=pas
+T 9600 9200 5 10 0 1 90 0 1
+pinlabel=terminal
+}
+V 9600 8860 100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 8950 8710 5 10 0 0 90 0 1
 device=TEST_POINT
@@ -359,7 +455,37 @@ refdes=TP301
 T 10000 8900 5 10 0 0 0 0 1
 symversion=20090501
 }
-C 19200 8400 1 90 0 CON-TP.sym
+C 19200 8400 1 90 0 EMBEDDEDCON-TP.sym
+[
+T 17500 8700 5 10 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 17700 8700 5 10 0 0 90 0 1
+dist-license=GPL
+T 17900 8700 5 10 0 0 90 0 1
+use-license=unlimited
+T 18100 8700 5 10 0 0 90 0 1
+device=TEST_POINT
+T 18300 8700 5 10 0 0 90 0 1
+numslots=0
+T 18500 8710 5 10 0 0 90 0 1
+footprint=CON-TP_Keystone_5000_compact_red.fp
+T 18700 8700 5 10 0 0 90 0 1
+symversion=20090501
+T 19150 8650 8 10 0 1 90 6 1
+refdes=TP?
+P 19100 8960 19100 9300 1 0 1
+{
+T 19050 9060 5 10 0 0 90 0 1
+pinseq=1
+T 19100 8910 5 10 0 1 90 0 1
+pinnumber=1
+T 18900 8910 5 10 0 1 90 0 1
+pintype=pas
+T 19100 9200 5 10 0 1 90 0 1
+pinlabel=terminal
+}
+V 19100 8860 100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 18450 8710 5 10 0 0 90 0 1
 device=TEST_POINT
@@ -368,7 +494,48 @@ refdes=TP201
 T 19500 8900 5 10 0 0 0 0 1
 symversion=20090501
 }
-C 7200 18200 1 90 0 CON-jumper.sym
+C 7200 18200 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5100 18300 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5300 18300 5 8 0 0 90 0 1
+description=Generic jumper
+T 5500 18300 5 8 0 0 90 0 1
+dist-license=GPL
+T 5700 18300 5 8 0 0 90 0 1
+use-license=unlimited
+T 5900 18300 5 8 0 0 90 0 1
+device=JUMPER
+T 6100 18300 5 8 0 0 90 0 1
+symversion=20090227
+T 6700 18500 5 10 0 1 90 0 1
+refdes=J?
+P 6200 18300 6400 18300 1 0 0
+{
+T 6350 18350 5 8 1 1 90 0 1
+pinnumber=2
+T 6350 18350 5 8 0 0 90 0 1
+pinseq=2
+T 6350 18350 5 8 0 1 90 0 1
+pinlabel=2
+T 6350 18350 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7200 18300 7000 18300 1 0 0
+{
+T 7150 18350 5 8 1 1 90 0 1
+pinnumber=1
+T 7150 18350 5 8 0 0 90 0 1
+pinseq=1
+T 7150 18350 5 8 0 1 90 0 1
+pinlabel=1
+T 7150 18350 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6500 18300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 6900 18300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6400 18200 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6700 18500 5 8 0 0 90 0 1
 device=JUMPER
@@ -377,7 +544,48 @@ refdes=J302
 T 7300 19300 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8200 17900 1 90 0 CON-jumper.sym
+C 8200 17900 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6100 18000 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6300 18000 5 8 0 0 90 0 1
+description=Generic jumper
+T 6500 18000 5 8 0 0 90 0 1
+dist-license=GPL
+T 6700 18000 5 8 0 0 90 0 1
+use-license=unlimited
+T 6900 18000 5 8 0 0 90 0 1
+device=JUMPER
+T 7100 18000 5 8 0 0 90 0 1
+symversion=20090227
+T 7700 18200 5 10 0 1 90 0 1
+refdes=J?
+P 7200 18000 7400 18000 1 0 0
+{
+T 7350 18050 5 8 1 1 90 0 1
+pinnumber=2
+T 7350 18050 5 8 0 0 90 0 1
+pinseq=2
+T 7350 18050 5 8 0 1 90 0 1
+pinlabel=2
+T 7350 18050 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8200 18000 8000 18000 1 0 0
+{
+T 8150 18050 5 8 1 1 90 0 1
+pinnumber=1
+T 8150 18050 5 8 0 0 90 0 1
+pinseq=1
+T 8150 18050 5 8 0 1 90 0 1
+pinlabel=1
+T 8150 18050 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7500 18000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7900 18000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7400 17900 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7700 18200 5 8 0 0 90 0 1
 device=JUMPER
@@ -386,7 +594,48 @@ refdes=J303
 T 8300 19000 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7200 17600 1 90 0 CON-jumper.sym
+C 7200 17600 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5100 17700 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5300 17700 5 8 0 0 90 0 1
+description=Generic jumper
+T 5500 17700 5 8 0 0 90 0 1
+dist-license=GPL
+T 5700 17700 5 8 0 0 90 0 1
+use-license=unlimited
+T 5900 17700 5 8 0 0 90 0 1
+device=JUMPER
+T 6100 17700 5 8 0 0 90 0 1
+symversion=20090227
+T 6700 17900 5 10 0 1 90 0 1
+refdes=J?
+P 6200 17700 6400 17700 1 0 0
+{
+T 6350 17750 5 8 1 1 90 0 1
+pinnumber=2
+T 6350 17750 5 8 0 0 90 0 1
+pinseq=2
+T 6350 17750 5 8 0 1 90 0 1
+pinlabel=2
+T 6350 17750 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7200 17700 7000 17700 1 0 0
+{
+T 7150 17750 5 8 1 1 90 0 1
+pinnumber=1
+T 7150 17750 5 8 0 0 90 0 1
+pinseq=1
+T 7150 17750 5 8 0 1 90 0 1
+pinlabel=1
+T 7150 17750 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6500 17700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 6900 17700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6400 17600 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6700 17900 5 8 0 0 90 0 1
 device=JUMPER
@@ -395,7 +644,48 @@ refdes=J304
 T 7300 18700 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8200 17300 1 90 0 CON-jumper.sym
+C 8200 17300 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6100 17400 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6300 17400 5 8 0 0 90 0 1
+description=Generic jumper
+T 6500 17400 5 8 0 0 90 0 1
+dist-license=GPL
+T 6700 17400 5 8 0 0 90 0 1
+use-license=unlimited
+T 6900 17400 5 8 0 0 90 0 1
+device=JUMPER
+T 7100 17400 5 8 0 0 90 0 1
+symversion=20090227
+T 7700 17600 5 10 0 1 90 0 1
+refdes=J?
+P 7200 17400 7400 17400 1 0 0
+{
+T 7350 17450 5 8 1 1 90 0 1
+pinnumber=2
+T 7350 17450 5 8 0 0 90 0 1
+pinseq=2
+T 7350 17450 5 8 0 1 90 0 1
+pinlabel=2
+T 7350 17450 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8200 17400 8000 17400 1 0 0
+{
+T 8150 17450 5 8 1 1 90 0 1
+pinnumber=1
+T 8150 17450 5 8 0 0 90 0 1
+pinseq=1
+T 8150 17450 5 8 0 1 90 0 1
+pinlabel=1
+T 8150 17450 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7500 17400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7900 17400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7400 17300 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7700 17600 5 8 0 0 90 0 1
 device=JUMPER
@@ -404,7 +694,48 @@ refdes=J305
 T 8300 18400 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7200 17000 1 90 0 CON-jumper.sym
+C 7200 17000 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5100 17100 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5300 17100 5 8 0 0 90 0 1
+description=Generic jumper
+T 5500 17100 5 8 0 0 90 0 1
+dist-license=GPL
+T 5700 17100 5 8 0 0 90 0 1
+use-license=unlimited
+T 5900 17100 5 8 0 0 90 0 1
+device=JUMPER
+T 6100 17100 5 8 0 0 90 0 1
+symversion=20090227
+T 6700 17300 5 10 0 1 90 0 1
+refdes=J?
+P 6200 17100 6400 17100 1 0 0
+{
+T 6350 17150 5 8 1 1 90 0 1
+pinnumber=2
+T 6350 17150 5 8 0 0 90 0 1
+pinseq=2
+T 6350 17150 5 8 0 1 90 0 1
+pinlabel=2
+T 6350 17150 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7200 17100 7000 17100 1 0 0
+{
+T 7150 17150 5 8 1 1 90 0 1
+pinnumber=1
+T 7150 17150 5 8 0 0 90 0 1
+pinseq=1
+T 7150 17150 5 8 0 1 90 0 1
+pinlabel=1
+T 7150 17150 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6500 17100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 6900 17100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6400 17000 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6700 17300 5 8 0 0 90 0 1
 device=JUMPER
@@ -413,7 +744,48 @@ refdes=J306
 T 7300 18100 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8200 16700 1 90 0 CON-jumper.sym
+C 8200 16700 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6100 16800 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6300 16800 5 8 0 0 90 0 1
+description=Generic jumper
+T 6500 16800 5 8 0 0 90 0 1
+dist-license=GPL
+T 6700 16800 5 8 0 0 90 0 1
+use-license=unlimited
+T 6900 16800 5 8 0 0 90 0 1
+device=JUMPER
+T 7100 16800 5 8 0 0 90 0 1
+symversion=20090227
+T 7700 17000 5 10 0 1 90 0 1
+refdes=J?
+P 7200 16800 7400 16800 1 0 0
+{
+T 7350 16850 5 8 1 1 90 0 1
+pinnumber=2
+T 7350 16850 5 8 0 0 90 0 1
+pinseq=2
+T 7350 16850 5 8 0 1 90 0 1
+pinlabel=2
+T 7350 16850 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8200 16800 8000 16800 1 0 0
+{
+T 8150 16850 5 8 1 1 90 0 1
+pinnumber=1
+T 8150 16850 5 8 0 0 90 0 1
+pinseq=1
+T 8150 16850 5 8 0 1 90 0 1
+pinlabel=1
+T 8150 16850 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7500 16800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7900 16800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7400 16700 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7700 17000 5 8 0 0 90 0 1
 device=JUMPER
@@ -422,7 +794,48 @@ refdes=J307
 T 8300 17800 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7200 16400 1 90 0 CON-jumper.sym
+C 7200 16400 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5100 16500 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5300 16500 5 8 0 0 90 0 1
+description=Generic jumper
+T 5500 16500 5 8 0 0 90 0 1
+dist-license=GPL
+T 5700 16500 5 8 0 0 90 0 1
+use-license=unlimited
+T 5900 16500 5 8 0 0 90 0 1
+device=JUMPER
+T 6100 16500 5 8 0 0 90 0 1
+symversion=20090227
+T 6700 16700 5 10 0 1 90 0 1
+refdes=J?
+P 6200 16500 6400 16500 1 0 0
+{
+T 6350 16550 5 8 1 1 90 0 1
+pinnumber=2
+T 6350 16550 5 8 0 0 90 0 1
+pinseq=2
+T 6350 16550 5 8 0 1 90 0 1
+pinlabel=2
+T 6350 16550 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7200 16500 7000 16500 1 0 0
+{
+T 7150 16550 5 8 1 1 90 0 1
+pinnumber=1
+T 7150 16550 5 8 0 0 90 0 1
+pinseq=1
+T 7150 16550 5 8 0 1 90 0 1
+pinlabel=1
+T 7150 16550 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6500 16500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 6900 16500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6400 16400 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6700 16700 5 8 0 0 90 0 1
 device=JUMPER
@@ -431,7 +844,48 @@ refdes=J308
 T 7300 17500 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 16100 1 90 0 CON-jumper.sym
+C 8300 16100 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 16200 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 16200 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 16200 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 16200 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 16200 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 16200 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 16400 5 10 0 1 90 0 1
+refdes=J?
+P 7300 16200 7500 16200 1 0 0
+{
+T 7450 16250 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 16250 5 8 0 0 90 0 1
+pinseq=2
+T 7450 16250 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 16250 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 16200 8100 16200 1 0 0
+{
+T 8250 16250 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 16250 5 8 0 0 90 0 1
+pinseq=1
+T 8250 16250 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 16250 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 16200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 16200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 16100 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 16400 5 8 0 0 90 0 1
 device=JUMPER
@@ -440,7 +894,48 @@ refdes=J309
 T 8400 17200 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 15800 1 90 0 CON-jumper.sym
+C 7300 15800 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 15900 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 15900 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 15900 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 15900 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 15900 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 15900 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 16100 5 10 0 1 90 0 1
+refdes=J?
+P 6300 15900 6500 15900 1 0 0
+{
+T 6450 15950 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 15950 5 8 0 0 90 0 1
+pinseq=2
+T 6450 15950 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 15950 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 15900 7100 15900 1 0 0
+{
+T 7250 15950 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 15950 5 8 0 0 90 0 1
+pinseq=1
+T 7250 15950 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 15950 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 15900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 15900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 15800 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 16100 5 8 0 0 90 0 1
 device=JUMPER
@@ -449,7 +944,48 @@ refdes=J310
 T 7400 16900 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 15500 1 90 0 CON-jumper.sym
+C 8300 15500 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 15600 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 15600 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 15600 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 15600 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 15600 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 15600 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 15800 5 10 0 1 90 0 1
+refdes=J?
+P 7300 15600 7500 15600 1 0 0
+{
+T 7450 15650 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 15650 5 8 0 0 90 0 1
+pinseq=2
+T 7450 15650 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 15650 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 15600 8100 15600 1 0 0
+{
+T 8250 15650 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 15650 5 8 0 0 90 0 1
+pinseq=1
+T 8250 15650 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 15650 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 15600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 15600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 15500 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 15800 5 8 0 0 90 0 1
 device=JUMPER
@@ -458,7 +994,48 @@ refdes=J311
 T 8400 16600 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 15200 1 90 0 CON-jumper.sym
+C 7300 15200 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 15300 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 15300 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 15300 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 15300 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 15300 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 15300 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 15500 5 10 0 1 90 0 1
+refdes=J?
+P 6300 15300 6500 15300 1 0 0
+{
+T 6450 15350 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 15350 5 8 0 0 90 0 1
+pinseq=2
+T 6450 15350 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 15350 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 15300 7100 15300 1 0 0
+{
+T 7250 15350 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 15350 5 8 0 0 90 0 1
+pinseq=1
+T 7250 15350 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 15350 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 15300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 15300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 15200 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 15500 5 8 0 0 90 0 1
 device=JUMPER
@@ -467,7 +1044,48 @@ refdes=J312
 T 7400 16300 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 14900 1 90 0 CON-jumper.sym
+C 8300 14900 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 15000 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 15000 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 15000 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 15000 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 15000 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 15000 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 15200 5 10 0 1 90 0 1
+refdes=J?
+P 7300 15000 7500 15000 1 0 0
+{
+T 7450 15050 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 15050 5 8 0 0 90 0 1
+pinseq=2
+T 7450 15050 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 15050 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 15000 8100 15000 1 0 0
+{
+T 8250 15050 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 15050 5 8 0 0 90 0 1
+pinseq=1
+T 8250 15050 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 15050 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 15000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 15000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 14900 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 15200 5 8 0 0 90 0 1
 device=JUMPER
@@ -476,7 +1094,48 @@ refdes=J313
 T 8400 16000 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 14600 1 90 0 CON-jumper.sym
+C 7300 14600 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 14700 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 14700 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 14700 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 14700 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 14700 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 14700 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 14900 5 10 0 1 90 0 1
+refdes=J?
+P 6300 14700 6500 14700 1 0 0
+{
+T 6450 14750 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 14750 5 8 0 0 90 0 1
+pinseq=2
+T 6450 14750 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 14750 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 14700 7100 14700 1 0 0
+{
+T 7250 14750 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 14750 5 8 0 0 90 0 1
+pinseq=1
+T 7250 14750 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 14750 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 14700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 14700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 14600 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 14900 5 8 0 0 90 0 1
 device=JUMPER
@@ -485,7 +1144,48 @@ refdes=J314
 T 7400 15700 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 14300 1 90 0 CON-jumper.sym
+C 8300 14300 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 14400 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 14400 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 14400 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 14400 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 14400 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 14400 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 14600 5 10 0 1 90 0 1
+refdes=J?
+P 7300 14400 7500 14400 1 0 0
+{
+T 7450 14450 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 14450 5 8 0 0 90 0 1
+pinseq=2
+T 7450 14450 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 14450 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 14400 8100 14400 1 0 0
+{
+T 8250 14450 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 14450 5 8 0 0 90 0 1
+pinseq=1
+T 8250 14450 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 14450 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 14400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 14400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 14300 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 14600 5 8 0 0 90 0 1
 device=JUMPER
@@ -494,7 +1194,48 @@ refdes=J315
 T 8400 15400 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 14000 1 90 0 CON-jumper.sym
+C 7300 14000 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 14100 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 14100 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 14100 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 14100 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 14100 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 14100 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 14300 5 10 0 1 90 0 1
+refdes=J?
+P 6300 14100 6500 14100 1 0 0
+{
+T 6450 14150 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 14150 5 8 0 0 90 0 1
+pinseq=2
+T 6450 14150 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 14150 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 14100 7100 14100 1 0 0
+{
+T 7250 14150 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 14150 5 8 0 0 90 0 1
+pinseq=1
+T 7250 14150 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 14150 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 14100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 14100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 14000 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 14300 5 8 0 0 90 0 1
 device=JUMPER
@@ -503,7 +1244,48 @@ refdes=J316
 T 7400 15100 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 13700 1 90 0 CON-jumper.sym
+C 8300 13700 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 13800 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 13800 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 13800 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 13800 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 13800 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 13800 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 14000 5 10 0 1 90 0 1
+refdes=J?
+P 7300 13800 7500 13800 1 0 0
+{
+T 7450 13850 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 13850 5 8 0 0 90 0 1
+pinseq=2
+T 7450 13850 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 13850 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 13800 8100 13800 1 0 0
+{
+T 8250 13850 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 13850 5 8 0 0 90 0 1
+pinseq=1
+T 8250 13850 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 13850 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 13800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 13800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 13700 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 14000 5 8 0 0 90 0 1
 device=JUMPER
@@ -512,7 +1294,48 @@ refdes=J317
 T 8400 14800 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 13400 1 90 0 CON-jumper.sym
+C 7300 13400 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 13500 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 13500 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 13500 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 13500 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 13500 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 13500 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 13700 5 10 0 1 90 0 1
+refdes=J?
+P 6300 13500 6500 13500 1 0 0
+{
+T 6450 13550 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 13550 5 8 0 0 90 0 1
+pinseq=2
+T 6450 13550 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 13550 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 13500 7100 13500 1 0 0
+{
+T 7250 13550 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 13550 5 8 0 0 90 0 1
+pinseq=1
+T 7250 13550 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 13550 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 13500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 13500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 13400 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 13700 5 8 0 0 90 0 1
 device=JUMPER
@@ -521,7 +1344,48 @@ refdes=J318
 T 7400 14500 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 13100 1 90 0 CON-jumper.sym
+C 8300 13100 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 13200 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 13200 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 13200 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 13200 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 13200 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 13200 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 13400 5 10 0 1 90 0 1
+refdes=J?
+P 7300 13200 7500 13200 1 0 0
+{
+T 7450 13250 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 13250 5 8 0 0 90 0 1
+pinseq=2
+T 7450 13250 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 13250 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 13200 8100 13200 1 0 0
+{
+T 8250 13250 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 13250 5 8 0 0 90 0 1
+pinseq=1
+T 8250 13250 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 13250 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 13200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 13200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 13100 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 13400 5 8 0 0 90 0 1
 device=JUMPER
@@ -530,7 +1394,48 @@ refdes=J319
 T 8400 14200 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 12800 1 90 0 CON-jumper.sym
+C 7300 12800 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 12900 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 12900 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 12900 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 12900 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 12900 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 12900 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 13100 5 10 0 1 90 0 1
+refdes=J?
+P 6300 12900 6500 12900 1 0 0
+{
+T 6450 12950 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 12950 5 8 0 0 90 0 1
+pinseq=2
+T 6450 12950 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 12950 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 12900 7100 12900 1 0 0
+{
+T 7250 12950 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 12950 5 8 0 0 90 0 1
+pinseq=1
+T 7250 12950 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 12950 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 12900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 12900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 12800 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 13100 5 8 0 0 90 0 1
 device=JUMPER
@@ -539,7 +1444,48 @@ refdes=J320
 T 7400 13900 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 12500 1 90 0 CON-jumper.sym
+C 8300 12500 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 12600 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 12600 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 12600 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 12600 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 12600 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 12600 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 12800 5 10 0 1 90 0 1
+refdes=J?
+P 7300 12600 7500 12600 1 0 0
+{
+T 7450 12650 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 12650 5 8 0 0 90 0 1
+pinseq=2
+T 7450 12650 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 12650 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 12600 8100 12600 1 0 0
+{
+T 8250 12650 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 12650 5 8 0 0 90 0 1
+pinseq=1
+T 8250 12650 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 12650 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 12600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 12600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 12500 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 12800 5 8 0 0 90 0 1
 device=JUMPER
@@ -548,7 +1494,48 @@ refdes=J321
 T 8400 13600 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 12200 1 90 0 CON-jumper.sym
+C 7300 12200 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 12300 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 12300 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 12300 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 12300 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 12300 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 12300 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 12500 5 10 0 1 90 0 1
+refdes=J?
+P 6300 12300 6500 12300 1 0 0
+{
+T 6450 12350 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 12350 5 8 0 0 90 0 1
+pinseq=2
+T 6450 12350 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 12350 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 12300 7100 12300 1 0 0
+{
+T 7250 12350 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 12350 5 8 0 0 90 0 1
+pinseq=1
+T 7250 12350 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 12350 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 12300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 12300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 12200 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 12500 5 8 0 0 90 0 1
 device=JUMPER
@@ -557,7 +1544,48 @@ refdes=J322
 T 7400 13300 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 11900 1 90 0 CON-jumper.sym
+C 8300 11900 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 12000 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 12000 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 12000 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 12000 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 12000 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 12000 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 12200 5 10 0 1 90 0 1
+refdes=J?
+P 7300 12000 7500 12000 1 0 0
+{
+T 7450 12050 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 12050 5 8 0 0 90 0 1
+pinseq=2
+T 7450 12050 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 12050 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 12000 8100 12000 1 0 0
+{
+T 8250 12050 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 12050 5 8 0 0 90 0 1
+pinseq=1
+T 8250 12050 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 12050 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 12000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 12000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 11900 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 12200 5 8 0 0 90 0 1
 device=JUMPER
@@ -566,7 +1594,48 @@ refdes=J323
 T 8400 13000 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 11600 1 90 0 CON-jumper.sym
+C 7300 11600 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 11700 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 11700 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 11700 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 11700 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 11700 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 11700 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 11900 5 10 0 1 90 0 1
+refdes=J?
+P 6300 11700 6500 11700 1 0 0
+{
+T 6450 11750 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 11750 5 8 0 0 90 0 1
+pinseq=2
+T 6450 11750 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 11750 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 11700 7100 11700 1 0 0
+{
+T 7250 11750 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 11750 5 8 0 0 90 0 1
+pinseq=1
+T 7250 11750 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 11750 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 11700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 11700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 11600 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 11900 5 8 0 0 90 0 1
 device=JUMPER
@@ -575,7 +1644,48 @@ refdes=J324
 T 7400 12700 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 11300 1 90 0 CON-jumper.sym
+C 8300 11300 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 11400 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 11400 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 11400 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 11400 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 11400 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 11400 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 11600 5 10 0 1 90 0 1
+refdes=J?
+P 7300 11400 7500 11400 1 0 0
+{
+T 7450 11450 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 11450 5 8 0 0 90 0 1
+pinseq=2
+T 7450 11450 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 11450 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 11400 8100 11400 1 0 0
+{
+T 8250 11450 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 11450 5 8 0 0 90 0 1
+pinseq=1
+T 8250 11450 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 11450 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 11400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 11400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 11300 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 11600 5 8 0 0 90 0 1
 device=JUMPER
@@ -584,7 +1694,48 @@ refdes=J325
 T 8400 12400 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 11000 1 90 0 CON-jumper.sym
+C 7300 11000 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 11100 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 11100 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 11100 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 11100 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 11100 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 11100 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 11300 5 10 0 1 90 0 1
+refdes=J?
+P 6300 11100 6500 11100 1 0 0
+{
+T 6450 11150 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 11150 5 8 0 0 90 0 1
+pinseq=2
+T 6450 11150 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 11150 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 11100 7100 11100 1 0 0
+{
+T 7250 11150 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 11150 5 8 0 0 90 0 1
+pinseq=1
+T 7250 11150 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 11150 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 11100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 11100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 11000 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 11300 5 8 0 0 90 0 1
 device=JUMPER
@@ -593,7 +1744,48 @@ refdes=J326
 T 7400 12100 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 10100 1 90 0 CON-jumper.sym
+C 8300 10100 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 10200 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 10200 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 10200 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 10200 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 10200 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 10200 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 10400 5 10 0 1 90 0 1
+refdes=J?
+P 7300 10200 7500 10200 1 0 0
+{
+T 7450 10250 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 10250 5 8 0 0 90 0 1
+pinseq=2
+T 7450 10250 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 10250 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 10200 8100 10200 1 0 0
+{
+T 8250 10250 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 10250 5 8 0 0 90 0 1
+pinseq=1
+T 8250 10250 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 10250 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 10200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 10200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 10100 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 10400 5 8 0 0 90 0 1
 device=JUMPER
@@ -602,7 +1794,48 @@ refdes=J329
 T 8400 11200 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 7300 9800 1 90 0 CON-jumper.sym
+C 7300 9800 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 5200 9900 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 5400 9900 5 8 0 0 90 0 1
+description=Generic jumper
+T 5600 9900 5 8 0 0 90 0 1
+dist-license=GPL
+T 5800 9900 5 8 0 0 90 0 1
+use-license=unlimited
+T 6000 9900 5 8 0 0 90 0 1
+device=JUMPER
+T 6200 9900 5 8 0 0 90 0 1
+symversion=20090227
+T 6800 10100 5 10 0 1 90 0 1
+refdes=J?
+P 6300 9900 6500 9900 1 0 0
+{
+T 6450 9950 5 8 1 1 90 0 1
+pinnumber=2
+T 6450 9950 5 8 0 0 90 0 1
+pinseq=2
+T 6450 9950 5 8 0 1 90 0 1
+pinlabel=2
+T 6450 9950 5 8 0 1 90 0 1
+pintype=pas
+}
+P 7300 9900 7100 9900 1 0 0
+{
+T 7250 9950 5 8 1 1 90 0 1
+pinnumber=1
+T 7250 9950 5 8 0 0 90 0 1
+pinseq=1
+T 7250 9950 5 8 0 1 90 0 1
+pinlabel=1
+T 7250 9950 5 8 0 1 90 0 1
+pintype=pas
+}
+V 6600 9900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 7000 9900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 6500 9800 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 6800 10100 5 8 0 0 90 0 1
 device=JUMPER
@@ -611,7 +1844,48 @@ refdes=J330
 T 7400 10900 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 8300 9500 1 90 0 CON-jumper.sym
+C 8300 9500 1 90 0 EMBEDDEDCON-jumper.sym
+[
+T 6200 9600 5 8 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 6400 9600 5 8 0 0 90 0 1
+description=Generic jumper
+T 6600 9600 5 8 0 0 90 0 1
+dist-license=GPL
+T 6800 9600 5 8 0 0 90 0 1
+use-license=unlimited
+T 7000 9600 5 8 0 0 90 0 1
+device=JUMPER
+T 7200 9600 5 8 0 0 90 0 1
+symversion=20090227
+T 7800 9800 5 10 0 1 90 0 1
+refdes=J?
+P 7300 9600 7500 9600 1 0 0
+{
+T 7450 9650 5 8 1 1 90 0 1
+pinnumber=2
+T 7450 9650 5 8 0 0 90 0 1
+pinseq=2
+T 7450 9650 5 8 0 1 90 0 1
+pinlabel=2
+T 7450 9650 5 8 0 1 90 0 1
+pintype=pas
+}
+P 8300 9600 8100 9600 1 0 0
+{
+T 8250 9650 5 8 1 1 90 0 1
+pinnumber=1
+T 8250 9650 5 8 0 0 90 0 1
+pinseq=1
+T 8250 9650 5 8 0 1 90 0 1
+pinlabel=1
+T 8250 9650 5 8 0 1 90 0 1
+pintype=pas
+}
+V 7600 9600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 8000 9600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 7500 9500 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 7800 9800 5 8 0 0 90 0 1
 device=JUMPER
@@ -620,19 +1894,869 @@ refdes=J331
 T 8400 10600 5 8 0 0 0 0 1
 symversion=20090227
 }
-C 19600 9400 1 0 0 CON-DIN41617-31p-female.sym
+C 19600 9400 1 0 0 EMBEDDEDCON-DIN41617-31p-female.sym
+[
+T 19900 20200 5 10 0 0 0 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 19900 20000 5 10 0 0 0 0 1
+description=DIN41617 31 pin connector, female
+T 19900 19800 5 10 0 0 0 0 1
+dist-license=GPL
+T 19900 19600 5 10 0 0 0 0 1
+use-license=unlimited
+T 19900 19400 5 10 0 0 0 0 1
+device=CONNECTOR
+T 19900 19200 5 10 0 0 0 0 1
+footprint=CON-DIN41617-31N_Assmann_A-31-L2_DIN41617_female.fp
+V 20500 9600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 9600 19600 9600 1 0 1
+{
+T 19650 9650 5 8 1 1 0 0 1
+pinnumber=31
+T 20900 9650 5 8 0 0 0 0 1
+pinseq=31
+T 20900 9650 5 8 0 1 0 0 1
+pinlabel=31
+T 20900 9650 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20200 9900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20500 10200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 10200 19600 10200 1 0 1
+{
+T 19650 10250 5 8 1 1 0 0 1
+pinnumber=29
+T 20900 10250 5 8 0 0 0 0 1
+pinseq=29
+T 20900 10250 5 8 0 1 0 0 1
+pinlabel=29
+T 20900 10250 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20200 10500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20500 10800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 10800 19600 10800 1 0 1
+{
+T 19650 10850 5 8 1 1 0 0 1
+pinnumber=27
+T 20900 10850 5 8 0 0 0 0 1
+pinseq=27
+T 20900 10850 5 8 0 1 0 0 1
+pinlabel=27
+T 20900 10850 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20200 11100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20500 11400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 11400 19600 11400 1 0 1
+{
+T 19650 11450 5 8 1 1 0 0 1
+pinnumber=25
+T 20900 11450 5 8 0 0 0 0 1
+pinseq=25
+T 20900 11450 5 8 0 1 0 0 1
+pinlabel=25
+T 20900 11450 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20200 11700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20500 12000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 12000 19600 12000 1 0 1
+{
+T 19650 12050 5 8 1 1 0 0 1
+pinnumber=23
+T 20900 12050 5 8 0 0 0 0 1
+pinseq=23
+T 20900 12050 5 8 0 1 0 0 1
+pinlabel=23
+T 20900 12050 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20200 12300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20500 12600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 12600 19600 12600 1 0 1
+{
+T 19650 12650 5 8 1 1 0 0 1
+pinnumber=21
+T 20900 12650 5 8 0 0 0 0 1
+pinseq=21
+T 20900 12650 5 8 0 1 0 0 1
+pinlabel=21
+T 20900 12650 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20200 12900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20500 13200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 13200 19600 13200 1 0 1
+{
+T 19650 13250 5 8 1 1 0 0 1
+pinnumber=19
+T 20900 13250 5 8 0 0 0 0 1
+pinseq=19
+T 20900 13250 5 8 0 1 0 0 1
+pinlabel=19
+T 20900 13250 5 8 0 1 0 0 1
+pintype=pas
+}
+L 20800 18800 19900 18800 3 0 0 0 -1 -1
+P 20150 9900 19600 9900 1 0 1
+{
+T 19650 9950 5 8 1 1 0 0 1
+pinnumber=30
+T 19650 9950 5 8 0 0 0 0 1
+pinseq=30
+T 19650 9950 5 8 0 1 0 0 1
+pinlabel=30
+T 19650 9950 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 10500 19600 10500 1 0 1
+{
+T 19650 10550 5 8 1 1 0 0 1
+pinnumber=28
+T 19650 10550 5 8 0 0 0 0 1
+pinseq=28
+T 19650 10550 5 8 0 1 0 0 1
+pinlabel=28
+T 19650 10550 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 11100 19600 11100 1 0 1
+{
+T 19650 11150 5 8 1 1 0 0 1
+pinnumber=26
+T 19650 11150 5 8 0 0 0 0 1
+pinseq=26
+T 19650 11150 5 8 0 1 0 0 1
+pinlabel=26
+T 19650 11150 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 11700 19600 11700 1 0 1
+{
+T 19650 11750 5 8 1 1 0 0 1
+pinnumber=24
+T 19650 11750 5 8 0 0 0 0 1
+pinseq=24
+T 19650 11750 5 8 0 1 0 0 1
+pinlabel=24
+T 19650 11750 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 12300 19600 12300 1 0 1
+{
+T 19650 12350 5 8 1 1 0 0 1
+pinnumber=22
+T 19650 12350 5 8 0 0 0 0 1
+pinseq=22
+T 19650 12350 5 8 0 1 0 0 1
+pinlabel=22
+T 19650 12350 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 12900 19600 12900 1 0 1
+{
+T 19650 12950 5 8 1 1 0 0 1
+pinnumber=20
+T 19650 12950 5 8 0 0 0 0 1
+pinseq=20
+T 19650 12950 5 8 0 1 0 0 1
+pinlabel=20
+T 19650 12950 5 8 0 1 0 0 1
+pintype=pas
+}
+L 19900 9400 20800 9400 3 0 0 0 -1 -1
+L 20800 9400 20800 18800 3 0 0 0 -1 -1
+L 19900 18800 19900 9400 3 0 0 0 -1 -1
+T 19900 18900 8 10 0 1 0 0 1
+refdes=K?
+V 20200 13500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20200 14100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20200 14700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20150 13500 19600 13500 1 0 1
+{
+T 19650 13550 5 8 1 1 0 0 1
+pinnumber=18
+T 19650 13550 5 8 0 0 0 0 1
+pinseq=18
+T 19650 13550 5 8 0 1 0 0 1
+pinlabel=18
+T 19650 13550 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 14100 19600 14100 1 0 1
+{
+T 19650 14150 5 8 1 1 0 0 1
+pinnumber=16
+T 19650 14150 5 8 0 0 0 0 1
+pinseq=16
+T 19650 14150 5 8 0 1 0 0 1
+pinlabel=16
+T 19650 14150 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 14700 19600 14700 1 0 1
+{
+T 19650 14750 5 8 1 1 0 0 1
+pinnumber=14
+T 19650 14750 5 8 0 0 0 0 1
+pinseq=14
+T 19650 14750 5 8 0 1 0 0 1
+pinlabel=14
+T 19650 14750 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20200 15300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20200 15900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20200 16500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20200 17100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20200 17700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 20200 18300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20150 15300 19600 15300 1 0 1
+{
+T 19650 15350 5 8 1 1 0 0 1
+pinnumber=12
+T 19650 15350 5 8 0 0 0 0 1
+pinseq=12
+T 19650 15350 5 8 0 1 0 0 1
+pinlabel=12
+T 19650 15350 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 15900 19600 15900 1 0 1
+{
+T 19650 15950 5 8 1 1 0 0 1
+pinnumber=10
+T 19650 15950 5 8 0 0 0 0 1
+pinseq=10
+T 19650 15950 5 8 0 1 0 0 1
+pinlabel=10
+T 19650 15950 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 16500 19600 16500 1 0 1
+{
+T 19650 16550 5 8 1 1 0 0 1
+pinnumber=8
+T 19650 16550 5 8 0 0 0 0 1
+pinseq=8
+T 19650 16550 5 8 0 1 0 0 1
+pinlabel=8
+T 19650 16550 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 17100 19600 17100 1 0 1
+{
+T 19650 17150 5 8 1 1 0 0 1
+pinnumber=6
+T 19650 17150 5 8 0 0 0 0 1
+pinseq=6
+T 19650 17150 5 8 0 1 0 0 1
+pinlabel=6
+T 19650 17150 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 17700 19600 17700 1 0 1
+{
+T 19650 17750 5 8 1 1 0 0 1
+pinnumber=4
+T 19650 17750 5 8 0 0 0 0 1
+pinseq=4
+T 19650 17750 5 8 0 1 0 0 1
+pinlabel=4
+T 19650 17750 5 8 0 1 0 0 1
+pintype=pas
+}
+P 20150 18300 19600 18300 1 0 1
+{
+T 19650 18350 5 8 1 1 0 0 1
+pinnumber=2
+T 19650 18350 5 8 0 0 0 0 1
+pinseq=2
+T 19650 18350 5 8 0 1 0 0 1
+pinlabel=2
+T 19650 18350 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20500 15000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 15000 19600 15000 1 0 1
+{
+T 19650 15050 5 8 1 1 0 0 1
+pinnumber=13
+T 20900 15050 5 8 0 0 0 0 1
+pinseq=13
+T 20900 15050 5 8 0 1 0 0 1
+pinlabel=13
+T 20900 15050 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20500 15600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 15600 19600 15600 1 0 1
+{
+T 19650 15650 5 8 1 1 0 0 1
+pinnumber=11
+T 20900 15650 5 8 0 0 0 0 1
+pinseq=11
+T 20900 15650 5 8 0 1 0 0 1
+pinlabel=11
+T 20900 15650 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20500 16200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 16200 19600 16200 1 0 1
+{
+T 19650 16250 5 8 1 1 0 0 1
+pinnumber=9
+T 20900 16250 5 8 0 0 0 0 1
+pinseq=9
+T 20900 16250 5 8 0 1 0 0 1
+pinlabel=9
+T 20900 16250 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20500 16800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 16800 19600 16800 1 0 1
+{
+T 19650 16850 5 8 1 1 0 0 1
+pinnumber=7
+T 20900 16850 5 8 0 0 0 0 1
+pinseq=7
+T 20900 16850 5 8 0 1 0 0 1
+pinlabel=7
+T 20900 16850 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20500 17400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 17400 19600 17400 1 0 1
+{
+T 19650 17450 5 8 1 1 0 0 1
+pinnumber=5
+T 20900 17450 5 8 0 0 0 0 1
+pinseq=5
+T 20900 17450 5 8 0 1 0 0 1
+pinlabel=5
+T 20900 17450 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20500 18000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 18000 19600 18000 1 0 1
+{
+T 19650 18050 5 8 1 1 0 0 1
+pinnumber=3
+T 20900 18050 5 8 0 0 0 0 1
+pinseq=3
+T 20900 18050 5 8 0 1 0 0 1
+pinlabel=3
+T 20900 18050 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20500 18600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 18600 19600 18600 1 0 1
+{
+T 19650 18650 5 8 1 1 0 0 1
+pinnumber=1
+T 20900 18650 5 8 0 0 0 0 1
+pinseq=1
+T 20900 18650 5 8 0 1 0 0 1
+pinlabel=1
+T 20900 18650 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20500 13800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 13800 19600 13800 1 0 1
+{
+T 19650 13850 5 8 1 1 0 0 1
+pinnumber=17
+T 20900 13850 5 8 0 0 0 0 1
+pinseq=17
+T 20900 13850 5 8 0 1 0 0 1
+pinlabel=17
+T 20900 13850 5 8 0 1 0 0 1
+pintype=pas
+}
+V 20500 14400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 20450 14400 19600 14400 1 0 1
+{
+T 19650 14450 5 8 1 1 0 0 1
+pinnumber=15
+T 20900 14450 5 8 0 0 0 0 1
+pinseq=15
+T 20900 14450 5 8 0 1 0 0 1
+pinlabel=15
+T 20900 14450 5 8 0 1 0 0 1
+pintype=pas
+}
+]
 {
 T 21200 15650 5 10 0 0 0 0 1
 device=CONNECTOR
 T 19900 18900 5 10 1 1 0 0 1
 refdes=J201
 }
-C 4900 9100 1 0 1 CON-DIN41617-31p-male.sym
+C 4900 9100 1 0 1 EMBEDDEDCON-DIN41617-31p-male.sym
+[
+T 4700 20300 5 10 0 0 0 6 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 4700 20100 5 10 0 0 0 6 1
+description=DIN41617 31p commector, male
+T 4700 19900 5 10 0 0 0 6 1
+dist-license=GPL
+T 4700 19700 5 10 0 0 0 6 1
+use-license=unlimited
+T 4700 19500 5 10 0 0 0 6 1
+device=CONNECTOR
+T 4700 19300 5 10 0 0 0 6 1
+footprint=CON-DIN41617-31N_Assmann_A-31-S1_DIN41617_male.fp
+T 4700 19100 8 10 0 1 0 6 1
+refdes=K?
+P 4250 11400 4800 11400 1 0 1
+{
+T 4800 11450 5 8 1 1 0 6 1
+pinnumber=25
+T 4800 11450 5 8 0 0 0 6 1
+pinseq=25
+T 4800 11450 5 8 0 1 0 6 1
+pinlabel=25
+T 4800 11450 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 11700 4800 11700 1 0 1
+{
+T 4800 11750 5 8 1 1 0 6 1
+pinnumber=24
+T 4800 11750 5 8 0 0 0 6 1
+pinseq=24
+T 4800 11750 5 8 0 1 0 6 1
+pinlabel=24
+T 4800 11750 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 12000 4800 12000 1 0 1
+{
+T 4800 12050 5 8 1 1 0 6 1
+pinnumber=23
+T 4800 12050 5 8 0 0 0 6 1
+pinseq=23
+T 4800 12050 5 8 0 1 0 6 1
+pinlabel=23
+T 4800 12050 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 12300 4800 12300 1 0 1
+{
+T 4800 12350 5 8 1 1 0 6 1
+pinnumber=22
+T 4800 12350 5 8 0 0 0 6 1
+pinseq=22
+T 4800 12350 5 8 0 1 0 6 1
+pinlabel=22
+T 4800 12350 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 12600 4800 12600 1 0 1
+{
+T 4800 12650 5 8 1 1 0 6 1
+pinnumber=21
+T 4800 12650 5 8 0 0 0 6 1
+pinseq=21
+T 4800 12650 5 8 0 1 0 6 1
+pinlabel=21
+T 4800 12650 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 12900 4800 12900 1 0 1
+{
+T 4800 12950 5 8 1 1 0 6 1
+pinnumber=20
+T 4800 12950 5 8 0 0 0 6 1
+pinseq=20
+T 4800 12950 5 8 0 1 0 6 1
+pinlabel=20
+T 4800 12950 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 13200 4800 13200 1 0 1
+{
+T 4800 13250 5 8 1 1 0 6 1
+pinnumber=19
+T 4800 13250 5 8 0 0 0 6 1
+pinseq=19
+T 4800 13250 5 8 0 1 0 6 1
+pinlabel=19
+T 4800 13250 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 13500 4800 13500 1 0 1
+{
+T 4800 13550 5 8 1 1 0 6 1
+pinnumber=18
+T 4800 13550 5 8 0 0 0 6 1
+pinseq=18
+T 4800 13550 5 8 0 1 0 6 1
+pinlabel=18
+T 4800 13550 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 13800 4800 13800 1 0 1
+{
+T 4800 13850 5 8 1 1 0 6 1
+pinnumber=17
+T 4800 13850 5 8 0 0 0 6 1
+pinseq=17
+T 4800 13850 5 8 0 1 0 6 1
+pinlabel=17
+T 4800 13850 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 14100 4800 14100 1 0 1
+{
+T 4800 14150 5 8 1 1 0 6 1
+pinnumber=16
+T 4800 14150 5 8 0 0 0 6 1
+pinseq=16
+T 4800 14150 5 8 0 1 0 6 1
+pinlabel=16
+T 4800 14150 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 14400 4800 14400 1 0 1
+{
+T 4800 14450 5 8 1 1 0 6 1
+pinnumber=15
+T 4800 14450 5 8 0 0 0 6 1
+pinseq=15
+T 4800 14450 5 8 0 1 0 6 1
+pinlabel=15
+T 4800 14450 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 15000 4800 15000 1 0 1
+{
+T 4800 15050 5 8 1 1 0 6 1
+pinnumber=13
+T 4800 15050 5 8 0 0 0 6 1
+pinseq=13
+T 4800 15050 5 8 0 1 0 6 1
+pinlabel=13
+T 4800 15050 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 15600 4800 15600 1 0 1
+{
+T 4800 15650 5 8 1 1 0 6 1
+pinnumber=11
+T 4800 15650 5 8 0 0 0 6 1
+pinseq=11
+T 4800 15650 5 8 0 1 0 6 1
+pinlabel=11
+T 4800 15650 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 15900 4800 15900 1 0 1
+{
+T 4800 15950 5 8 1 1 0 6 1
+pinnumber=10
+T 4800 15950 5 8 0 0 0 6 1
+pinseq=10
+T 4800 15950 5 8 0 1 0 6 1
+pinlabel=10
+T 4800 15950 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 16200 4800 16200 1 0 1
+{
+T 4800 16250 5 8 1 1 0 6 1
+pinnumber=9
+T 4800 16250 5 8 0 0 0 6 1
+pinseq=9
+T 4800 16250 5 8 0 1 0 6 1
+pinlabel=9
+T 4800 16250 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 16800 4800 16800 1 0 1
+{
+T 4800 16850 5 8 1 1 0 6 1
+pinnumber=7
+T 4800 16850 5 8 0 0 0 6 1
+pinseq=7
+T 4800 16850 5 8 0 1 0 6 1
+pinlabel=7
+T 4800 16850 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 17100 4800 17100 1 0 1
+{
+T 4800 17150 5 8 1 1 0 6 1
+pinnumber=6
+T 4800 17150 5 8 0 0 0 6 1
+pinseq=6
+T 4800 17150 5 8 0 1 0 6 1
+pinlabel=6
+T 4800 17150 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 17400 4800 17400 1 0 1
+{
+T 4800 17450 5 8 1 1 0 6 1
+pinnumber=5
+T 4800 17450 5 8 0 0 0 6 1
+pinseq=5
+T 4800 17450 5 8 0 1 0 6 1
+pinlabel=5
+T 4800 17450 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 17700 4800 17700 1 0 1
+{
+T 4800 17750 5 8 1 1 0 6 1
+pinnumber=4
+T 4800 17750 5 8 0 0 0 6 1
+pinseq=4
+T 4800 17750 5 8 0 1 0 6 1
+pinlabel=4
+T 4800 17750 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 18000 4800 18000 1 0 1
+{
+T 4800 18050 5 8 1 1 0 6 1
+pinnumber=3
+T 4800 18050 5 8 0 0 0 6 1
+pinseq=3
+T 4800 18050 5 8 0 1 0 6 1
+pinlabel=3
+T 4800 18050 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 18600 4800 18600 1 0 1
+{
+T 4800 18650 5 8 1 1 0 6 1
+pinnumber=1
+T 4800 18650 5 8 0 0 0 6 1
+pinseq=1
+T 4800 18650 5 8 0 1 0 6 1
+pinlabel=1
+T 4800 18650 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 11100 4800 11100 1 0 1
+{
+T 4800 11150 5 8 1 1 0 6 1
+pinnumber=26
+T 4800 11150 5 8 0 0 0 6 1
+pinseq=26
+T 4800 11150 5 8 0 1 0 6 1
+pinlabel=26
+T 4800 11150 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 10800 4800 10800 1 0 1
+{
+T 4800 10850 5 8 1 1 0 6 1
+pinnumber=27
+T 4800 10850 5 8 0 0 0 6 1
+pinseq=27
+T 4800 10850 5 8 0 1 0 6 1
+pinlabel=27
+T 4800 10850 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 10500 4800 10500 1 0 1
+{
+T 4800 10550 5 8 1 1 0 6 1
+pinnumber=28
+T 4800 10550 5 8 0 0 0 6 1
+pinseq=28
+T 4800 10550 5 8 0 1 0 6 1
+pinlabel=28
+T 4800 10550 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 10200 4800 10200 1 0 1
+{
+T 4800 10250 5 8 1 1 0 6 1
+pinnumber=29
+T 4800 10250 5 8 0 0 0 6 1
+pinseq=29
+T 4800 10250 5 8 0 1 0 6 1
+pinlabel=29
+T 4800 10250 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4250 9600 4800 9600 1 0 1
+{
+T 4800 9650 5 8 1 1 0 6 1
+pinnumber=31
+T 4800 9650 5 8 0 0 0 6 1
+pinseq=31
+T 4800 9650 5 8 0 1 0 6 1
+pinlabel=31
+T 4800 9650 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 18300 4800 18300 1 0 1
+{
+T 4800 18350 5 8 1 1 0 6 1
+pinnumber=2
+T 4800 18350 5 8 0 0 0 6 1
+pinseq=2
+T 4800 18350 5 8 0 1 0 6 1
+pinlabel=2
+T 4800 18350 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 16500 4800 16500 1 0 1
+{
+T 4800 16550 5 8 1 1 0 6 1
+pinnumber=8
+T 4800 16550 5 8 0 0 0 6 1
+pinseq=8
+T 4800 16550 5 8 0 1 0 6 1
+pinlabel=8
+T 4800 16550 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 15300 4800 15300 1 0 1
+{
+T 4800 15350 5 8 1 1 0 6 1
+pinnumber=12
+T 4800 15350 5 8 0 0 0 6 1
+pinseq=12
+T 4800 15350 5 8 0 1 0 6 1
+pinlabel=12
+T 4800 15350 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 14700 4800 14700 1 0 1
+{
+T 4800 14750 5 8 1 1 0 6 1
+pinnumber=14
+T 4800 14750 5 8 0 0 0 6 1
+pinseq=14
+T 4800 14750 5 8 0 1 0 6 1
+pinlabel=14
+T 4800 14750 5 8 0 1 0 6 1
+pintype=pas
+}
+P 4550 9900 4800 9900 1 0 1
+{
+T 4800 9950 5 8 1 1 0 6 1
+pinnumber=30
+T 4800 9950 5 8 0 0 0 6 1
+pinseq=30
+T 4800 9950 5 8 0 1 0 6 1
+pinlabel=30
+T 4800 9950 5 8 0 1 0 6 1
+pintype=pas
+}
+L 3600 9400 3600 18800 3 0 0 0 -1 -1
+L 3900 18800 3300 18800 3 0 0 0 -1 -1
+L 3900 19000 3300 19000 3 0 0 0 -1 -1
+L 3300 19000 3300 18800 3 0 0 0 -1 -1
+L 3900 9200 3300 9200 3 0 0 0 -1 -1
+L 3300 9400 3300 9200 3 0 0 0 -1 -1
+L 3300 9400 3900 9400 3 0 0 0 -1 -1
+L 4200 18600 3900 18600 3 0 0 0 -1 -1
+L 4500 18300 3900 18300 3 0 0 0 -1 -1
+L 4200 18000 3900 18000 3 0 0 0 -1 -1
+L 4500 17700 3900 17700 3 0 0 0 -1 -1
+L 4200 17400 3900 17400 3 0 0 0 -1 -1
+L 3600 18600 3300 18600 3 0 0 0 -1 -1
+L 3600 18300 3300 18300 3 0 0 0 -1 -1
+L 3600 18000 3300 18000 3 0 0 0 -1 -1
+L 3600 17700 3300 17700 3 0 0 0 -1 -1
+L 3600 17400 3300 17400 3 0 0 0 -1 -1
+L 4500 17100 3900 17100 3 0 0 0 -1 -1
+L 4200 16800 3900 16800 3 0 0 0 -1 -1
+L 4500 16500 3900 16500 3 0 0 0 -1 -1
+L 4200 16200 3900 16200 3 0 0 0 -1 -1
+L 4500 15900 3900 15900 3 0 0 0 -1 -1
+L 4200 15600 3900 15600 3 0 0 0 -1 -1
+L 4500 15300 3900 15300 3 0 0 0 -1 -1
+L 3600 17100 3300 17100 3 0 0 0 -1 -1
+L 3600 16800 3300 16800 3 0 0 0 -1 -1
+L 3600 16500 3300 16500 3 0 0 0 -1 -1
+L 3600 16200 3300 16200 3 0 0 0 -1 -1
+L 3600 15900 3300 15900 3 0 0 0 -1 -1
+L 3600 15600 3300 15600 3 0 0 0 -1 -1
+L 3600 15300 3300 15300 3 0 0 0 -1 -1
+L 4200 15000 3900 15000 3 0 0 0 -1 -1
+L 4500 14700 3900 14700 3 0 0 0 -1 -1
+L 4200 14400 3900 14400 3 0 0 0 -1 -1
+L 4500 14100 3900 14100 3 0 0 0 -1 -1
+L 4200 13800 3900 13800 3 0 0 0 -1 -1
+L 4500 13500 3900 13500 3 0 0 0 -1 -1
+L 4200 13200 3900 13200 3 0 0 0 -1 -1
+L 3600 15000 3300 15000 3 0 0 0 -1 -1
+L 3600 14700 3300 14700 3 0 0 0 -1 -1
+L 3600 14400 3300 14400 3 0 0 0 -1 -1
+L 3600 14100 3300 14100 3 0 0 0 -1 -1
+L 3600 13800 3300 13800 3 0 0 0 -1 -1
+L 3600 13200 3300 13200 3 0 0 0 -1 -1
+L 4500 12900 3900 12900 3 0 0 0 -1 -1
+L 3600 13500 3300 13500 3 0 0 0 -1 -1
+L 4200 12600 3900 12600 3 0 0 0 -1 -1
+L 3600 12600 3300 12600 3 0 0 0 -1 -1
+L 3600 12900 3300 12900 3 0 0 0 -1 -1
+L 4500 12300 3900 12300 3 0 0 0 -1 -1
+L 3600 12300 3300 12300 3 0 0 0 -1 -1
+L 4200 12000 3900 12000 3 0 0 0 -1 -1
+L 4500 11700 3900 11700 3 0 0 0 -1 -1
+L 4200 11400 3900 11400 3 0 0 0 -1 -1
+L 3600 12000 3300 12000 3 0 0 0 -1 -1
+L 3600 11700 3300 11700 3 0 0 0 -1 -1
+L 3600 11400 3300 11400 3 0 0 0 -1 -1
+V 4500 11100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 4500 11100 3900 11100 3 0 0 0 -1 -1
+L 3600 11100 3300 11100 3 0 0 0 -1 -1
+V 4500 9900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 4500 9900 3900 9900 3 0 0 0 -1 -1
+V 4200 9600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 4200 9600 3900 9600 3 0 0 0 -1 -1
+L 3600 9600 3300 9600 3 0 0 0 -1 -1
+L 3600 9900 3300 9900 3 0 0 0 -1 -1
+L 3900 9200 3900 19000 3 0 0 0 -1 -1
+V 4200 11400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 11700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 12000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 12300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 12600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 12900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 13200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 13500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 10500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 4500 10500 3900 10500 3 0 0 0 -1 -1
+V 4200 10200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 4200 10200 3900 10200 3 0 0 0 -1 -1
+L 3600 10500 3300 10500 3 0 0 0 -1 -1
+L 3600 10200 3300 10200 3 0 0 0 -1 -1
+V 4200 10800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 4200 10800 3900 10800 3 0 0 0 -1 -1
+L 3600 10800 3300 10800 3 0 0 0 -1 -1
+V 4200 13800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 14100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 14400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 14700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 15000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 15300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 15600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 15900 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 16200 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 16500 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 16800 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 17100 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 17400 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 17700 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 18000 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4500 18300 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 4200 18600 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+]
 {
 T 3600 19350 5 10 0 0 0 6 1
 device=CONNECTOR
 T 3300 19100 5 10 1 1 0 0 1
-refdes=P301
+refdes=P300
 }
 V 10200 18601 100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 V 10200 18301 100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
@@ -667,7 +2791,59 @@ V 10200 9900 100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 V 10200 9600 100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 N 11300 10200 11300 8500 4
 N 12400 9600 12400 8500 4
-C 11100 8500 1 270 0 LED.sym
+C 11100 8500 1 270 0 EMBEDDEDLED.sym
+[
+T 13900 8400 5 10 0 0 270 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 13700 8400 5 10 0 0 270 0 1
+dist-license=GPL
+T 13500 8400 5 10 0 0 270 0 1
+use-license=unlimited
+T 13300 8400 5 10 0 0 270 0 1
+symversion=20180121
+T 13100 8400 5 10 0 0 270 0 1
+device=LED
+T 12900 8400 5 10 0 0 270 0 1
+description=Generic LED
+T 12700 8400 5 10 0 0 270 0 1
+numslots=0
+T 11650 8050 5 10 0 1 270 0 1
+refdes=D?
+P 11300 8500 11300 8300 1 0 0
+{
+T 11250 8300 5 8 0 1 90 0 1
+pinnumber=1
+T 11750 7700 9 8 0 1 90 0 1
+pinlabel=CATHODE
+T 11800 8450 5 8 0 0 270 0 1
+pintype=pas
+T 11950 8450 5 8 0 0 270 0 1
+pinseq=1
+}
+P 11300 7600 11300 7800 1 0 0
+{
+T 11250 7700 5 8 0 1 90 0 1
+pinnumber=2
+T 11200 7550 9 8 0 1 270 0 1
+pinlabel=ANODE
+T 11350 7550 5 8 0 0 90 8 1
+pintype=pas
+T 11500 7550 5 8 0 0 90 8 1
+pinseq=2
+}
+L 11300 8300 11300 8200 3 0 0 0 -1 -1
+L 11300 7900 11300 7800 3 0 0 0 -1 -1
+L 11500 8000 11600 8100 3 0 0 0 -1 -1
+L 11500 8100 11600 8200 3 0 0 0 -1 -1
+L 11600 8200 11550 8175 3 0 0 0 -1 -1
+L 11600 8200 11575 8150 3 0 0 0 -1 -1
+L 11600 8100 11550 8075 3 0 0 0 -1 -1
+L 11600 8100 11575 8050 3 0 0 0 -1 -1
+L 11100 7900 11500 7900 3 0 0 0 -1 -1
+L 11100 7900 11300 8200 3 0 0 0 -1 -1
+L 11300 8200 11500 7900 3 0 0 0 -1 -1
+L 11100 8200 11500 8200 3 0 0 0 -1 -1
+]
 {
 T 13300 8400 5 10 0 0 270 0 1
 symversion=20090304
@@ -676,7 +2852,59 @@ device=LED
 T 11050 7850 5 10 1 1 90 0 1
 refdes=D201
 }
-C 12600 7600 1 90 0 LED.sym
+C 12600 7600 1 90 0 EMBEDDEDLED.sym
+[
+T 9800 7700 5 10 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 10000 7700 5 10 0 0 90 0 1
+dist-license=GPL
+T 10200 7700 5 10 0 0 90 0 1
+use-license=unlimited
+T 10400 7700 5 10 0 0 90 0 1
+symversion=20180121
+T 10600 7700 5 10 0 0 90 0 1
+device=LED
+T 10800 7700 5 10 0 0 90 0 1
+description=Generic LED
+T 11000 7700 5 10 0 0 90 0 1
+numslots=0
+T 12050 8050 5 10 0 1 90 0 1
+refdes=D?
+P 12400 7600 12400 7800 1 0 0
+{
+T 12450 7800 5 8 0 1 270 0 1
+pinnumber=1
+T 11950 8400 9 8 0 1 270 0 1
+pinlabel=CATHODE
+T 11900 7650 5 8 0 0 90 0 1
+pintype=pas
+T 11750 7650 5 8 0 0 90 0 1
+pinseq=1
+}
+P 12400 8500 12400 8300 1 0 0
+{
+T 12450 8400 5 8 0 1 270 0 1
+pinnumber=2
+T 12500 8550 9 8 0 1 90 0 1
+pinlabel=ANODE
+T 12350 8550 5 8 0 0 270 8 1
+pintype=pas
+T 12200 8550 5 8 0 0 270 8 1
+pinseq=2
+}
+L 12400 7800 12400 7900 3 0 0 0 -1 -1
+L 12400 8200 12400 8300 3 0 0 0 -1 -1
+L 12200 8100 12100 8000 3 0 0 0 -1 -1
+L 12200 8000 12100 7900 3 0 0 0 -1 -1
+L 12100 7900 12150 7925 3 0 0 0 -1 -1
+L 12100 7900 12125 7950 3 0 0 0 -1 -1
+L 12100 8000 12150 8025 3 0 0 0 -1 -1
+L 12100 8000 12125 8050 3 0 0 0 -1 -1
+L 12600 8200 12200 8200 3 0 0 0 -1 -1
+L 12600 8200 12400 7900 3 0 0 0 -1 -1
+L 12400 7900 12200 8200 3 0 0 0 -1 -1
+L 12600 7900 12200 7900 3 0 0 0 -1 -1
+]
 {
 T 10600 7700 5 10 0 0 90 0 1
 device=LED
@@ -688,7 +2916,36 @@ refdes=D202
 N 11300 7600 11300 7200 4
 N 12400 7600 12400 7200 4
 N 17100 6000 17100 9900 4
-C 11400 6300 1 90 0 resistor-2.sym
+C 11400 6300 1 90 0 EMBEDDEDresistor-2.sym
+[
+P 11300 7200 11300 7050 1 0 0
+{
+T 11250 7100 5 8 0 1 90 0 1
+pinnumber=2
+T 11250 7100 5 8 0 0 90 0 1
+pinseq=2
+T 11250 7100 5 8 0 1 90 0 1
+pinlabel=2
+T 11250 7100 5 8 0 1 90 0 1
+pintype=pas
+}
+P 11300 6300 11300 6450 1 0 0
+{
+T 11250 6400 5 8 0 1 90 0 1
+pinnumber=1
+T 11250 6400 5 8 0 0 90 0 1
+pinseq=1
+T 11250 6400 5 8 0 1 90 0 1
+pinlabel=1
+T 11250 6400 5 8 0 1 90 0 1
+pintype=pas
+}
+B 11200 6450 200 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 11050 6700 5 10 0 0 90 0 1
+device=RESISTOR
+T 11100 6500 8 10 0 1 90 0 1
+refdes=R?
+]
 {
 T 11050 6700 5 10 0 0 90 0 1
 device=RESISTOR
@@ -697,7 +2954,36 @@ refdes=R201
 T 11600 6500 5 10 1 1 90 0 1
 value=680
 }
-C 12500 6300 1 90 0 resistor-2.sym
+C 12500 6300 1 90 0 EMBEDDEDresistor-2.sym
+[
+P 12400 7200 12400 7050 1 0 0
+{
+T 12350 7100 5 8 0 1 90 0 1
+pinnumber=2
+T 12350 7100 5 8 0 0 90 0 1
+pinseq=2
+T 12350 7100 5 8 0 1 90 0 1
+pinlabel=2
+T 12350 7100 5 8 0 1 90 0 1
+pintype=pas
+}
+P 12400 6300 12400 6450 1 0 0
+{
+T 12350 6400 5 8 0 1 90 0 1
+pinnumber=1
+T 12350 6400 5 8 0 0 90 0 1
+pinseq=1
+T 12350 6400 5 8 0 1 90 0 1
+pinlabel=1
+T 12350 6400 5 8 0 1 90 0 1
+pintype=pas
+}
+B 12300 6450 200 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 12150 6700 5 10 0 0 90 0 1
+device=RESISTOR
+T 12200 6500 8 10 0 1 90 0 1
+refdes=R?
+]
 {
 T 12150 6700 5 10 0 0 90 0 1
 device=RESISTOR
@@ -711,7 +2997,59 @@ N 11300 6000 17100 6000 4
 N 12400 6000 12400 6300 4
 N 13500 11100 13500 8500 4
 N 14600 11400 14600 8500 4
-C 13300 8500 1 270 0 LED.sym
+C 13300 8500 1 270 0 EMBEDDEDLED.sym
+[
+T 16100 8400 5 10 0 0 270 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 15900 8400 5 10 0 0 270 0 1
+dist-license=GPL
+T 15700 8400 5 10 0 0 270 0 1
+use-license=unlimited
+T 15500 8400 5 10 0 0 270 0 1
+symversion=20180121
+T 15300 8400 5 10 0 0 270 0 1
+device=LED
+T 15100 8400 5 10 0 0 270 0 1
+description=Generic LED
+T 14900 8400 5 10 0 0 270 0 1
+numslots=0
+T 13850 8050 5 10 0 1 270 0 1
+refdes=D?
+P 13500 8500 13500 8300 1 0 0
+{
+T 13450 8300 5 8 0 1 90 0 1
+pinnumber=1
+T 13950 7700 9 8 0 1 90 0 1
+pinlabel=CATHODE
+T 14000 8450 5 8 0 0 270 0 1
+pintype=pas
+T 14150 8450 5 8 0 0 270 0 1
+pinseq=1
+}
+P 13500 7600 13500 7800 1 0 0
+{
+T 13450 7700 5 8 0 1 90 0 1
+pinnumber=2
+T 13400 7550 9 8 0 1 270 0 1
+pinlabel=ANODE
+T 13550 7550 5 8 0 0 90 8 1
+pintype=pas
+T 13700 7550 5 8 0 0 90 8 1
+pinseq=2
+}
+L 13500 8300 13500 8200 3 0 0 0 -1 -1
+L 13500 7900 13500 7800 3 0 0 0 -1 -1
+L 13700 8000 13800 8100 3 0 0 0 -1 -1
+L 13700 8100 13800 8200 3 0 0 0 -1 -1
+L 13800 8200 13750 8175 3 0 0 0 -1 -1
+L 13800 8200 13775 8150 3 0 0 0 -1 -1
+L 13800 8100 13750 8075 3 0 0 0 -1 -1
+L 13800 8100 13775 8050 3 0 0 0 -1 -1
+L 13300 7900 13700 7900 3 0 0 0 -1 -1
+L 13300 7900 13500 8200 3 0 0 0 -1 -1
+L 13500 8200 13700 7900 3 0 0 0 -1 -1
+L 13300 8200 13700 8200 3 0 0 0 -1 -1
+]
 {
 T 13250 7850 5 10 1 1 90 0 1
 refdes=D203
@@ -722,7 +3060,59 @@ device=LED
 T 14900 8400 5 10 0 0 270 0 1
 symversion=20090304
 }
-C 14800 7600 1 90 0 LED.sym
+C 14800 7600 1 90 0 EMBEDDEDLED.sym
+[
+T 12000 7700 5 10 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 12200 7700 5 10 0 0 90 0 1
+dist-license=GPL
+T 12400 7700 5 10 0 0 90 0 1
+use-license=unlimited
+T 12600 7700 5 10 0 0 90 0 1
+symversion=20180121
+T 12800 7700 5 10 0 0 90 0 1
+device=LED
+T 13000 7700 5 10 0 0 90 0 1
+description=Generic LED
+T 13200 7700 5 10 0 0 90 0 1
+numslots=0
+T 14250 8050 5 10 0 1 90 0 1
+refdes=D?
+P 14600 7600 14600 7800 1 0 0
+{
+T 14650 7800 5 8 0 1 270 0 1
+pinnumber=1
+T 14150 8400 9 8 0 1 270 0 1
+pinlabel=CATHODE
+T 14100 7650 5 8 0 0 90 0 1
+pintype=pas
+T 13950 7650 5 8 0 0 90 0 1
+pinseq=1
+}
+P 14600 8500 14600 8300 1 0 0
+{
+T 14650 8400 5 8 0 1 270 0 1
+pinnumber=2
+T 14700 8550 9 8 0 1 90 0 1
+pinlabel=ANODE
+T 14550 8550 5 8 0 0 270 8 1
+pintype=pas
+T 14400 8550 5 8 0 0 270 8 1
+pinseq=2
+}
+L 14600 7800 14600 7900 3 0 0 0 -1 -1
+L 14600 8200 14600 8300 3 0 0 0 -1 -1
+L 14400 8100 14300 8000 3 0 0 0 -1 -1
+L 14400 8000 14300 7900 3 0 0 0 -1 -1
+L 14300 7900 14350 7925 3 0 0 0 -1 -1
+L 14300 7900 14325 7950 3 0 0 0 -1 -1
+L 14300 8000 14350 8025 3 0 0 0 -1 -1
+L 14300 8000 14325 8050 3 0 0 0 -1 -1
+L 14800 8200 14400 8200 3 0 0 0 -1 -1
+L 14800 8200 14600 7900 3 0 0 0 -1 -1
+L 14600 7900 14400 8200 3 0 0 0 -1 -1
+L 14800 7900 14400 7900 3 0 0 0 -1 -1
+]
 {
 T 14250 7850 5 10 1 1 90 0 1
 refdes=D204
@@ -733,7 +3123,36 @@ device=LED
 }
 N 13500 7600 13500 7200 4
 N 14600 7600 14600 7200 4
-C 13600 6300 1 90 0 resistor-2.sym
+C 13600 6300 1 90 0 EMBEDDEDresistor-2.sym
+[
+P 13500 7200 13500 7050 1 0 0
+{
+T 13450 7100 5 8 0 1 90 0 1
+pinnumber=2
+T 13450 7100 5 8 0 0 90 0 1
+pinseq=2
+T 13450 7100 5 8 0 1 90 0 1
+pinlabel=2
+T 13450 7100 5 8 0 1 90 0 1
+pintype=pas
+}
+P 13500 6300 13500 6450 1 0 0
+{
+T 13450 6400 5 8 0 1 90 0 1
+pinnumber=1
+T 13450 6400 5 8 0 0 90 0 1
+pinseq=1
+T 13450 6400 5 8 0 1 90 0 1
+pinlabel=1
+T 13450 6400 5 8 0 1 90 0 1
+pintype=pas
+}
+B 13400 6450 200 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 13250 6700 5 10 0 0 90 0 1
+device=RESISTOR
+T 13300 6500 8 10 0 1 90 0 1
+refdes=R?
+]
 {
 T 13300 6500 5 10 1 1 90 0 1
 refdes=R203
@@ -742,7 +3161,36 @@ device=RESISTOR
 T 13800 6500 5 10 1 1 90 0 1
 value=1k
 }
-C 14700 6300 1 90 0 resistor-2.sym
+C 14700 6300 1 90 0 EMBEDDEDresistor-2.sym
+[
+P 14600 7200 14600 7050 1 0 0
+{
+T 14550 7100 5 8 0 1 90 0 1
+pinnumber=2
+T 14550 7100 5 8 0 0 90 0 1
+pinseq=2
+T 14550 7100 5 8 0 1 90 0 1
+pinlabel=2
+T 14550 7100 5 8 0 1 90 0 1
+pintype=pas
+}
+P 14600 6300 14600 6450 1 0 0
+{
+T 14550 6400 5 8 0 1 90 0 1
+pinnumber=1
+T 14550 6400 5 8 0 0 90 0 1
+pinseq=1
+T 14550 6400 5 8 0 1 90 0 1
+pinlabel=1
+T 14550 6400 5 8 0 1 90 0 1
+pintype=pas
+}
+B 14500 6450 200 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 14350 6700 5 10 0 0 90 0 1
+device=RESISTOR
+T 14400 6500 8 10 0 1 90 0 1
+refdes=R?
+]
 {
 T 14350 6700 5 10 0 0 90 0 1
 device=RESISTOR
@@ -753,7 +3201,47 @@ value=1k
 }
 N 13500 6300 13500 6000 4
 N 14600 6000 14600 6300 4
-C 18700 7600 1 90 0 glow-lamp-1.sym
+C 18700 7600 1 90 0 EMBEDDEDglow-lamp-1.sym
+[
+P 18500 7600 18500 7800 1 0 0
+{
+T 18450 7750 5 8 0 1 90 6 1
+pinnumber=1
+T 18550 7750 5 8 0 1 90 8 1
+pinseq=1
+T 18500 7850 9 8 0 1 90 0 1
+pinlabel=1
+T 18500 7850 5 8 0 1 90 2 1
+pintype=pas
+}
+P 18500 8500 18500 8300 1 0 0
+{
+T 18450 8350 5 8 0 1 90 0 1
+pinnumber=2
+T 18550 8350 5 8 0 1 90 2 1
+pinseq=2
+T 18500 8250 9 8 0 1 90 6 1
+pinlabel=2
+T 18500 8250 5 8 0 1 90 8 1
+pintype=pas
+}
+L 18400 8100 18600 8100 3 0 0 0 -1 -1
+L 18500 8100 18500 8300 3 0 0 0 -1 -1
+L 18500 8000 18500 7800 3 0 0 0 -1 -1
+V 18500 8050 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 18100 7800 5 10 0 0 90 0 1
+device=GLOW_LAMP
+T 18300 8400 8 10 0 1 90 0 1
+refdes=GL?
+L 18400 8000 18600 8000 3 0 0 0 -1 -1
+V 18360 8050 30 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 17500 7800 5 10 0 0 90 0 1
+description=glow lamp
+T 17700 7800 5 10 0 0 90 0 1
+numslots=0
+T 17900 7800 5 10 0 0 90 0 1
+symversion=0.1
+]
 {
 T 18100 7800 5 10 0 0 90 0 1
 device=GLOW_LAMP
@@ -762,7 +3250,36 @@ refdes=LB201
 T 17900 7800 5 10 0 0 90 0 1
 symversion=0.1
 }
-C 18600 6300 1 90 0 resistor-2.sym
+C 18600 6300 1 90 0 EMBEDDEDresistor-2.sym
+[
+P 18500 7200 18500 7050 1 0 0
+{
+T 18450 7100 5 8 0 1 90 0 1
+pinnumber=2
+T 18450 7100 5 8 0 0 90 0 1
+pinseq=2
+T 18450 7100 5 8 0 1 90 0 1
+pinlabel=2
+T 18450 7100 5 8 0 1 90 0 1
+pintype=pas
+}
+P 18500 6300 18500 6450 1 0 0
+{
+T 18450 6400 5 8 0 1 90 0 1
+pinnumber=1
+T 18450 6400 5 8 0 0 90 0 1
+pinseq=1
+T 18450 6400 5 8 0 1 90 0 1
+pinlabel=1
+T 18450 6400 5 8 0 1 90 0 1
+pintype=pas
+}
+B 18400 6450 200 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 18250 6700 5 10 0 0 90 0 1
+device=RESISTOR
+T 18300 6500 8 10 0 1 90 0 1
+refdes=R?
+]
 {
 T 18250 6700 5 10 0 0 90 0 1
 device=RESISTOR
@@ -779,7 +3296,43 @@ N 18500 8500 18500 10500 4
 B 1300 5600 8900 13700 3 0 0 4 100 100 0 -1 -1 -1 -1 -1
 T 1300 19400 9 10 1 0 0 0 1
 ON MAIN PCB
-C 7300 10700 1 0 0 fuse-2.sym
+C 7300 10700 1 0 0 EMBEDDEDfuse-2.sym
+[
+P 8200 10800 8050 10800 1 0 0
+{
+T 8100 10850 5 8 0 1 0 0 1
+pinnumber=2
+T 8100 10750 5 8 0 1 0 2 1
+pinseq=2
+T 8000 10800 9 8 0 1 0 6 1
+pinlabel=2
+T 8000 10800 5 8 0 1 0 8 1
+pintype=pas
+}
+P 7300 10800 7450 10800 1 0 0
+{
+T 7400 10850 5 8 0 1 0 6 1
+pinnumber=1
+T 7400 10750 5 8 0 1 0 8 1
+pinseq=1
+T 7500 10800 9 8 0 1 0 0 1
+pinlabel=1
+T 7500 10800 5 8 0 1 0 2 1
+pintype=pas
+}
+B 7450 10700 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 7500 11250 5 10 0 0 0 0 1
+device=FUSE
+T 7500 11000 8 10 0 1 0 0 1
+refdes=F?
+L 8050 10800 7450 10800 3 0 0 0 -1 -1
+T 7500 11850 5 10 0 0 0 0 1
+description=fuse
+T 7500 11650 5 10 0 0 0 0 1
+numslots=0
+T 7500 11450 5 10 0 0 0 0 1
+symversion=0.1
+]
 {
 T 7500 11250 5 10 0 0 0 0 1
 device=FUSE
@@ -790,7 +3343,43 @@ symversion=0.1
 T 8100 10600 5 10 1 1 0 0 1
 value=200 mA
 }
-C 6300 10400 1 0 0 fuse-2.sym
+C 6300 10400 1 0 0 EMBEDDEDfuse-2.sym
+[
+P 7200 10500 7050 10500 1 0 0
+{
+T 7100 10550 5 8 0 1 0 0 1
+pinnumber=2
+T 7100 10450 5 8 0 1 0 2 1
+pinseq=2
+T 7000 10500 9 8 0 1 0 6 1
+pinlabel=2
+T 7000 10500 5 8 0 1 0 8 1
+pintype=pas
+}
+P 6300 10500 6450 10500 1 0 0
+{
+T 6400 10550 5 8 0 1 0 6 1
+pinnumber=1
+T 6400 10450 5 8 0 1 0 8 1
+pinseq=1
+T 6500 10500 9 8 0 1 0 0 1
+pinlabel=1
+T 6500 10500 5 8 0 1 0 2 1
+pintype=pas
+}
+B 6450 10400 600 200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 6500 10950 5 10 0 0 0 0 1
+device=FUSE
+T 6500 10700 8 10 0 1 0 0 1
+refdes=F?
+L 7050 10500 6450 10500 3 0 0 0 -1 -1
+T 6500 11550 5 10 0 0 0 0 1
+description=fuse
+T 6500 11350 5 10 0 0 0 0 1
+numslots=0
+T 6500 11150 5 10 0 0 0 0 1
+symversion=0.1
+]
 {
 T 6500 10950 5 10 0 0 0 0 1
 device=FUSE
@@ -803,7 +3392,59 @@ value=200 mA
 }
 N 15500 11700 15500 8500 4
 N 16600 12000 16600 8500 4
-C 15300 8500 1 270 0 LED.sym
+C 15300 8500 1 270 0 EMBEDDEDLED.sym
+[
+T 18100 8400 5 10 0 0 270 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 17900 8400 5 10 0 0 270 0 1
+dist-license=GPL
+T 17700 8400 5 10 0 0 270 0 1
+use-license=unlimited
+T 17500 8400 5 10 0 0 270 0 1
+symversion=20180121
+T 17300 8400 5 10 0 0 270 0 1
+device=LED
+T 17100 8400 5 10 0 0 270 0 1
+description=Generic LED
+T 16900 8400 5 10 0 0 270 0 1
+numslots=0
+T 15850 8050 5 10 0 1 270 0 1
+refdes=D?
+P 15500 8500 15500 8300 1 0 0
+{
+T 15450 8300 5 8 0 1 90 0 1
+pinnumber=1
+T 15950 7700 9 8 0 1 90 0 1
+pinlabel=CATHODE
+T 16000 8450 5 8 0 0 270 0 1
+pintype=pas
+T 16150 8450 5 8 0 0 270 0 1
+pinseq=1
+}
+P 15500 7600 15500 7800 1 0 0
+{
+T 15450 7700 5 8 0 1 90 0 1
+pinnumber=2
+T 15400 7550 9 8 0 1 270 0 1
+pinlabel=ANODE
+T 15550 7550 5 8 0 0 90 8 1
+pintype=pas
+T 15700 7550 5 8 0 0 90 8 1
+pinseq=2
+}
+L 15500 8300 15500 8200 3 0 0 0 -1 -1
+L 15500 7900 15500 7800 3 0 0 0 -1 -1
+L 15700 8000 15800 8100 3 0 0 0 -1 -1
+L 15700 8100 15800 8200 3 0 0 0 -1 -1
+L 15800 8200 15750 8175 3 0 0 0 -1 -1
+L 15800 8200 15775 8150 3 0 0 0 -1 -1
+L 15800 8100 15750 8075 3 0 0 0 -1 -1
+L 15800 8100 15775 8050 3 0 0 0 -1 -1
+L 15300 7900 15700 7900 3 0 0 0 -1 -1
+L 15300 7900 15500 8200 3 0 0 0 -1 -1
+L 15500 8200 15700 7900 3 0 0 0 -1 -1
+L 15300 8200 15700 8200 3 0 0 0 -1 -1
+]
 {
 T 15250 7850 5 10 1 1 90 0 1
 refdes=D205
@@ -826,7 +3467,59 @@ price=0.34
 T 15300 8500 5 10 0 1 0 0 1
 vendor_PN=186929
 }
-C 16800 7600 1 90 0 LED.sym
+C 16800 7600 1 90 0 EMBEDDEDLED.sym
+[
+T 14000 7700 5 10 0 0 90 0 1
+author=Bert Timmerman <bert.timmerman@xs4all.nl>
+T 14200 7700 5 10 0 0 90 0 1
+dist-license=GPL
+T 14400 7700 5 10 0 0 90 0 1
+use-license=unlimited
+T 14600 7700 5 10 0 0 90 0 1
+symversion=20180121
+T 14800 7700 5 10 0 0 90 0 1
+device=LED
+T 15000 7700 5 10 0 0 90 0 1
+description=Generic LED
+T 15200 7700 5 10 0 0 90 0 1
+numslots=0
+T 16250 8050 5 10 0 1 90 0 1
+refdes=D?
+P 16600 7600 16600 7800 1 0 0
+{
+T 16650 7800 5 8 0 1 270 0 1
+pinnumber=1
+T 16150 8400 9 8 0 1 270 0 1
+pinlabel=CATHODE
+T 16100 7650 5 8 0 0 90 0 1
+pintype=pas
+T 15950 7650 5 8 0 0 90 0 1
+pinseq=1
+}
+P 16600 8500 16600 8300 1 0 0
+{
+T 16650 8400 5 8 0 1 270 0 1
+pinnumber=2
+T 16700 8550 9 8 0 1 90 0 1
+pinlabel=ANODE
+T 16550 8550 5 8 0 0 270 8 1
+pintype=pas
+T 16400 8550 5 8 0 0 270 8 1
+pinseq=2
+}
+L 16600 7800 16600 7900 3 0 0 0 -1 -1
+L 16600 8200 16600 8300 3 0 0 0 -1 -1
+L 16400 8100 16300 8000 3 0 0 0 -1 -1
+L 16400 8000 16300 7900 3 0 0 0 -1 -1
+L 16300 7900 16350 7925 3 0 0 0 -1 -1
+L 16300 7900 16325 7950 3 0 0 0 -1 -1
+L 16300 8000 16350 8025 3 0 0 0 -1 -1
+L 16300 8000 16325 8050 3 0 0 0 -1 -1
+L 16800 8200 16400 8200 3 0 0 0 -1 -1
+L 16800 8200 16600 7900 3 0 0 0 -1 -1
+L 16600 7900 16400 8200 3 0 0 0 -1 -1
+L 16800 7900 16400 7900 3 0 0 0 -1 -1
+]
 {
 T 16250 7850 5 10 1 1 90 0 1
 refdes=D206
@@ -851,7 +3544,36 @@ vendor_PN=186929
 }
 N 15500 7600 15500 7200 4
 N 16600 7600 16600 7200 4
-C 15600 6300 1 90 0 resistor-2.sym
+C 15600 6300 1 90 0 EMBEDDEDresistor-2.sym
+[
+P 15500 7200 15500 7050 1 0 0
+{
+T 15450 7100 5 8 0 1 90 0 1
+pinnumber=2
+T 15450 7100 5 8 0 0 90 0 1
+pinseq=2
+T 15450 7100 5 8 0 1 90 0 1
+pinlabel=2
+T 15450 7100 5 8 0 1 90 0 1
+pintype=pas
+}
+P 15500 6300 15500 6450 1 0 0
+{
+T 15450 6400 5 8 0 1 90 0 1
+pinnumber=1
+T 15450 6400 5 8 0 0 90 0 1
+pinseq=1
+T 15450 6400 5 8 0 1 90 0 1
+pinlabel=1
+T 15450 6400 5 8 0 1 90 0 1
+pintype=pas
+}
+B 15400 6450 200 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 15250 6700 5 10 0 0 90 0 1
+device=RESISTOR
+T 15300 6500 8 10 0 1 90 0 1
+refdes=R?
+]
 {
 T 15300 6500 5 10 1 1 90 0 1
 refdes=R205
@@ -872,7 +3594,36 @@ mfg=Beyschlag
 T 15600 6300 5 10 0 1 0 0 1
 mfg_PN=MBB 0207-50 1k2
 }
-C 16700 6300 1 90 0 resistor-2.sym
+C 16700 6300 1 90 0 EMBEDDEDresistor-2.sym
+[
+P 16600 7200 16600 7050 1 0 0
+{
+T 16550 7100 5 8 0 1 90 0 1
+pinnumber=2
+T 16550 7100 5 8 0 0 90 0 1
+pinseq=2
+T 16550 7100 5 8 0 1 90 0 1
+pinlabel=2
+T 16550 7100 5 8 0 1 90 0 1
+pintype=pas
+}
+P 16600 6300 16600 6450 1 0 0
+{
+T 16550 6400 5 8 0 1 90 0 1
+pinnumber=1
+T 16550 6400 5 8 0 0 90 0 1
+pinseq=1
+T 16550 6400 5 8 0 1 90 0 1
+pinlabel=1
+T 16550 6400 5 8 0 1 90 0 1
+pintype=pas
+}
+B 16500 6450 200 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 16350 6700 5 10 0 0 90 0 1
+device=RESISTOR
+T 16400 6500 8 10 0 1 90 0 1
+refdes=R?
+]
 {
 T 16350 6700 5 10 0 0 90 0 1
 device=RESISTOR
