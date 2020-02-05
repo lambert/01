@@ -10,7 +10,7 @@ A	MTG370____.fp	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 F328	FUS_ESKA_508.000__.fp	200 mA	ESKA	508.000	Conrad	1367476	0.46	unknown	unknown	5x20 mm	
 F327	FUS_ESKA_508.000__.fp	200 mA	ESKA	508.000	Conrad	1367476	0.46	unknown	unknown	5x20 mm	
 J300	CON-SIL-254P-31N____.fp	unknown	W & P Products	946-13-034-00	Conrad	737827	0.76	unknown	unknown	cut 31 pins off, use metallic parts only	
-P301	CON-DIN41617-31N_Assmann_A-31-S1_DIN41617_male.fp	unknown	Assmann	A-31-S1	Conrad	740560	1.73	doc/740560.pdf	unknown	unknown	
+P300	CON-DIN41617-31N_Assmann_A-31-S1_DIN41617_male.fp	unknown	Assmann	A-31-S1	Conrad	740560	1.73	doc/740560.pdf	unknown	unknown	
 J331	CON-HDR-254P-2C-1R-2N____.fp	unknown	W & P Products	943-13-002-00	Conrad	735932	0.09	unknown	unknown	unknown	
 J330	CON-HDR-254P-2C-1R-2N____.fp	unknown	W & P Products	943-13-002-00	Conrad	735932	0.09	unknown	unknown	unknown	
 J329	CON-HDR-254P-2C-1R-2N____.fp	unknown	W & P Products	943-13-002-00	Conrad	735932	0.09	unknown	unknown	unknown	
