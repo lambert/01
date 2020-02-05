@@ -1833,7 +1833,7 @@ Element["lock" "CON-SIL-254P-31N____.fp" "J300" "unknown" 649.61mil 665.35mil -1
 
 	)
 
-Element["lock" "CON-DIN41617-31N_Assmann_A-31-S1_DIN41617_male.fp" "P301" "unknown" 156.9499mm 54.9999mm -2.8995mm -40.6000mm 1 100 ""]
+Element["lock" "CON-DIN41617-31N_Assmann_A-31-S1_DIN41617_male.fp" "P300" "unknown" 156.9499mm 54.9999mm -2.8995mm -40.6000mm 1 100 ""]
 (
 	Attribute("device" "CONNECTOR")
 	Attribute("manufacturer" "unknown")
