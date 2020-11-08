@@ -199,11 +199,25 @@ files were processed with gnuplot version 4.2 patchlevel 6.
 
 #### Schematic files.
 
-...
+Schematics are prepared with gschem version 1.6.2.20110115, a schematic
+entry application part of the GPL'd EDA suite of tools "gschem and
+friends" (geda-gaf).
+
+Attributes for symbols are managed either from within gschem, or with
+gattrib, the attribute editing application from the same suite of tools.
+
+Schematic files can be found here: [link to schematic files](../ecad/gschem)
 
 #### Design Rule Check.
 
-...
+After schematic entry a check is done by running gnetlist with the
+"geda" backend as to visually check for missing reference designators,
+missing device values, shorted nets and not connected pins on symbols.
+
+The gnetlist backend "geda" will list components, renamed nets, and
+resulting connectivity of nets in a structured list.
+
+DRC files can be found here: [link to DRC files](../ecad/gschem/DRC)
 
 #### Netlists.
 
@@ -215,7 +229,9 @@ the schematics.
 
 #### Bill Of Materials.
 
-...
+Final BOMs are generated from schematics by running gnetlist with the "bom" backend.
+
+BOM files can be found here: [link to BOM files](../ecad/gschem/BOM)
 
 ### Printed Circuit Board design.
 
@@ -223,36 +239,29 @@ the schematics.
 
 [link to layout files](../ecad/pcb/)
 
-
 #### Visual Testing files.
 
 [link to eyecandy](../ecad/pcb/eyecandy/)
-
 
 #### PDF plot files.
 
 [link to plot files](../ecad/pcb/plotfiles/)
 
-
 #### Gerber files.
 
 [link to Gerber files](../ecad/pcb/fab/)
-
 
 #### Bill Of Materials.
 
 [link to BOMs](../ecad/pcb/bom/)
 
-
 #### Pick-and-Place files.
 
 [link to pick-and-place](../ecad/pcb/pnp/)
 
-
 #### IPC-D-356 netlist files.
 
 [link to IPC-D-356 files](../ecad/pcb/test/)
-
 
 ## Manufacturing.
 
