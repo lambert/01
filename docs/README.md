@@ -14,45 +14,46 @@ The extender provides an elongated connection to the 19" rack back panel bus.
 
 ### Functions.
 
-ID  | Description                                                                              |
-----|------------------------------------------------------------------------------------------|
-001 | The extender is to provide connections to all 31 signals of the 19" rack back panel bus. |
+| ID  | Description                                                                              |
+|-----|------------------------------------------------------------------------------------------|
+| 001 | The extender is to provide connections to all 31 signals of the 19" rack back panel bus. |
 
 ### Modes of operation.
 
-ID  | Description                                                                     |
-----|---------------------------------------------------------------------------------|
-001 | Manual operation by switching jumpers ON/OFF.                                   |
-002 | Manual operation for current measurements by connecting to a jumper connection. |
+| ID  | Description                                                                     |
+|-----|---------------------------------------------------------------------------------|
+| 001 | Manual operation by switching jumpers ON/OFF.                                   |
+| 002 | Manual operation for current measurements by connecting to a jumper connection. |
 
 ### Inputs.
 
-ID   | Description                        | Location   |
------|------------------------------------|------------|
-P301 | DIN 41617 31-pin connector (male). | main pcb.  |
+| ID   | Description                        | Location   |
+|------|------------------------------------|------------|
+| P301 | DIN 41617 31-pin connector (male). | main pcb.  |
 
 ### Controls.
 
-ID   | Description                        | Location   |
------|------------------------------------|------------|
+| ID   | Description                        | Location   |
+|------|------------------------------------|------------|
+| .    |                                    |            |
 
 ### Outputs.
 
-ID   | Description                          | Location   |
------|--------------------------------------|------------|
-J201 | DIN 41617 31-pin connector (female). | front pcb. |
+| ID   | Description                          | Location   |
+|------|--------------------------------------|------------|
+| J201 | DIN 41617 31-pin connector (female). | front pcb. |
 
 ### Indicators.
 
-ID    | Description                                 | Location   |
-------|---------------------------------------------|------------|
-D201  | LED indicates the "-15 V DC" status.        | front pcb. |
-D202  | LED indicates the "+15 V DC" status.        | front pcb. |
-D203  | LED indicates the "-U" status.              | front pcb. |
-D204  | LED indicates the "+U" status.              | front pcb. |
-D205  | LED indicates the "-Uvar" status.           | front pcb. |
-D206  | LED indicates the "+Uvar" status.           | front pcb. |
-LB201 | Light bulb indicates the "230 V AC" status. | front pcb. |
+| ID    | Description                                 | Location   |
+|-------|---------------------------------------------|------------|
+| D201  | LED indicates the "-15 V DC" status.        | front pcb. |
+| D202  | LED indicates the "+15 V DC" status.        | front pcb. |
+| D203  | LED indicates the "-U" status.              | front pcb. |
+| D204  | LED indicates the "+U" status.              | front pcb. |
+| D205  | LED indicates the "-Uvar" status.           | front pcb. |
+| D206  | LED indicates the "+Uvar" status.           | front pcb. |
+| LB201 | Light bulb indicates the "230 V AC" status. | front pcb. |
 
 ### Power supply.
 
@@ -66,62 +67,62 @@ LB201 | Light bulb indicates the "230 V AC" status. | front pcb. |
 
 ### Protection and fail-safes.
 
-ID   | Description                          | Location  |
------|--------------------------------------|-----------|
-F327 | 200 mA fuse (5x20 mm).               | main pcb. |
-F328 | 200 mA fuse (5x20 mm).               | main pcb. |
+| ID   | Description                          | Location  |
+|------|--------------------------------------|-----------|
+| F327 | 200 mA fuse (5x20 mm).               | main pcb. |
+| F328 | 200 mA fuse (5x20 mm).               | main pcb. |
 
 ### Replaceable parts.
 
-ID   | Description                                                     | Location  |
------|-----------------------------------------------------------------|-----------|
-
+| ID   | Description                                                     | Location  |
+|------|-----------------------------------------------------------------|-----------|
+| .    |                                                                 |           |
 ### Connectors.
 
-ID    | Description                          | Location   |
-------|--------------------------------------|------------|
-J201  | DIN 41617 31-pin connector (female). | front pcb. |
-J202  | 34-pin connector (male).             | front pcb. |
-J300  | 34-pin connector (male).             | main pcb.  |
-J301  | 2-pin jumper connector (male).       | main pcb.  |
-J302  | 2-pin jumper connector (male).       | main pcb.  |
-J303  | 2-pin jumper connector (male).       | main pcb.  |
-J304  | 2-pin jumper connector (male).       | main pcb.  |
-J305  | 2-pin jumper connector (male).       | main pcb.  |
-J306  | 2-pin jumper connector (male).       | main pcb.  |
-J307  | 2-pin jumper connector (male).       | main pcb.  |
-J308  | 2-pin jumper connector (male).       | main pcb.  |
-J309  | 2-pin jumper connector (male).       | main pcb.  |
-J310  | 2-pin jumper connector (male).       | main pcb.  |
-J311  | 2-pin jumper connector (male).       | main pcb.  |
-J312  | 2-pin jumper connector (male).       | main pcb.  |
-J313  | 2-pin jumper connector (male).       | main pcb.  |
-J314  | 2-pin jumper connector (male).       | main pcb.  |
-J315  | 2-pin jumper connector (male).       | main pcb.  |
-J316  | 2-pin jumper connector (male).       | main pcb.  |
-J317  | 2-pin jumper connector (male).       | main pcb.  |
-J318  | 2-pin jumper connector (male).       | main pcb.  |
-J319  | 2-pin jumper connector (male).       | main pcb.  |
-J320  | 2-pin jumper connector (male).       | main pcb.  |
-J321  | 2-pin jumper connector (male).       | main pcb.  |
-J322  | 2-pin jumper connector (male).       | main pcb.  |
-J323  | 2-pin jumper connector (male).       | main pcb.  |
-J324  | 2-pin jumper connector (male).       | main pcb.  |
-J325  | 2-pin jumper connector (male).       | main pcb.  |
-J326  | 2-pin jumper connector (male).       | main pcb.  |
-J329  | 2-pin jumper connector (male).       | main pcb.  |
-J330  | 2-pin jumper connector (male).       | main pcb.  |
-J331  | 2-pin jumper connector (male).       | main pcb.  |
-P306  | DIN 41617 31-pin connector (male).   | main pcb.  |
-TP301 | Test point for GND.                  | main pcb.  |
-TP201 | Test point for GND.                  | front pcb. |
+| ID    | Description                          | Location   |
+|-------|--------------------------------------|------------|
+| J201  | DIN 41617 31-pin connector (female). | front pcb. |
+| J202  | 34-pin connector (male).             | front pcb. |
+| J300  | 34-pin connector (male).             | main pcb.  |
+| J301  | 2-pin jumper connector (male).       | main pcb.  |
+| J302  | 2-pin jumper connector (male).       | main pcb.  |
+| J303  | 2-pin jumper connector (male).       | main pcb.  |
+| J304  | 2-pin jumper connector (male).       | main pcb.  |
+| J305  | 2-pin jumper connector (male).       | main pcb.  |
+| J306  | 2-pin jumper connector (male).       | main pcb.  |
+| J307  | 2-pin jumper connector (male).       | main pcb.  |
+| J308  | 2-pin jumper connector (male).       | main pcb.  |
+| J309  | 2-pin jumper connector (male).       | main pcb.  |
+| J310  | 2-pin jumper connector (male).       | main pcb.  |
+| J311  | 2-pin jumper connector (male).       | main pcb.  |
+| J312  | 2-pin jumper connector (male).       | main pcb.  |
+| J313  | 2-pin jumper connector (male).       | main pcb.  |
+| J314  | 2-pin jumper connector (male).       | main pcb.  |
+| J315  | 2-pin jumper connector (male).       | main pcb.  |
+| J316  | 2-pin jumper connector (male).       | main pcb.  |
+| J317  | 2-pin jumper connector (male).       | main pcb.  |
+| J318  | 2-pin jumper connector (male).       | main pcb.  |
+| J319  | 2-pin jumper connector (male).       | main pcb.  |
+| J320  | 2-pin jumper connector (male).       | main pcb.  |
+| J321  | 2-pin jumper connector (male).       | main pcb.  |
+| J322  | 2-pin jumper connector (male).       | main pcb.  |
+| J323  | 2-pin jumper connector (male).       | main pcb.  |
+| J324  | 2-pin jumper connector (male).       | main pcb.  |
+| J325  | 2-pin jumper connector (male).       | main pcb.  |
+| J326  | 2-pin jumper connector (male).       | main pcb.  |
+| J329  | 2-pin jumper connector (male).       | main pcb.  |
+| J330  | 2-pin jumper connector (male).       | main pcb.  |
+| J331  | 2-pin jumper connector (male).       | main pcb.  |
+| P306  | DIN 41617 31-pin connector (male).   | main pcb.  |
+| TP301 | Test point for GND.                  | main pcb.  |
+| TP201 | Test point for GND.                  | front pcb. |
 
 ### Physical dimensions and form factors.
 
-Description           | Dimensions                      |
-----------------------|---------------------------------|
-Main pcb form factor  | Eurocard 3 HE: 160 mm x 100 mm. |
-Front pcb form factor | Eurocard 3 HE x 10 TE.          |
+| Description           | Dimensions                      |
+|-----------------------|---------------------------------|
+| Main pcb form factor  | Eurocard 3 HE: 160 mm x 100 mm. |
+| Front pcb form factor | Eurocard 3 HE x 10 TE.          |
 
 ## Basic Design.
 
