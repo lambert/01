@@ -57,8 +57,11 @@ LB201 | Light bulb indicates the "230 V AC" status. | front pcb. |
 ### Power supply.
 
 230 V AC is obtained from the back panel bus.
+
 +15 V DC/- 15 V DC is obtained from the back panel bus.
+
 +U DC / -U DC is obtained from the back panel bus.
+
 +Uvar DC / -Uvar DC is obtained from the back panel bus.
 
 ### Protection and fail-safes.
