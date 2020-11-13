@@ -77,6 +77,7 @@ The extender provides an elongated connection to the 19" rack back panel bus.
 | ID   | Description                                                     | Location  |
 |------|-----------------------------------------------------------------|-----------|
 | .    |                                                                 |           |
+
 ### Connectors.
 
 | ID    | Description                          | Location   |
