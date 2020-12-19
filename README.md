@@ -6,4 +6,4 @@
 
 [Mechanical CAD files](mcad/README.md)
 
-[CC BY-SA](cc-by-sa.png)
+![CC BY-SA](cc-by-sa.png)
