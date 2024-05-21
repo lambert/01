@@ -1,4 +1,4 @@
-v 20110115 2
+v 20130925 2
 C 500 500 0 0 0 EMBEDDEDA3-sheet_000.sym
 [
 B 500 500 16500 11600 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
@@ -30,7 +30,7 @@ L 9400 1900 9400 12100 15 0 0 0 -1 -1
 {
 T 15900 2200 15 10 0 0 0 0 1
 device=none
-T 10000 1200 5 10 1 1 0 0 1
+T 10000 1600 5 10 1 1 0 0 1
 device=EXTENDER
 T 10000 900 5 10 1 1 0 0 1
 file=01.000.00.00.01.sch
@@ -39,13 +39,11 @@ page=01
 T 11500 600 5 10 1 1 0 0 1
 pages=01
 T 13900 900 5 10 1 1 0 0 1
-revision=20200205
+revision=20240521
 T 13900 600 5 10 1 1 0 0 1
 author=Bert Timmerman
-T 10000 1400 5 10 1 1 0 0 1
+T 10000 1200 5 10 1 1 0 0 1
 comment=Front Page
-T 10000 1600 5 10 1 1 0 0 1
-description=19" rack DIN41617 31 pin Bus Extender
 }
 T 700 11800 9 10 1 0 0 2 37
 This hardware is released under Creative Commons Share-alike 4.0 International
@@ -85,3 +83,58 @@ limitation.
 No warranties are given. The license may not give you all of the permissions
 necessary for your intended use. For example, other rights such as publicity,
 privacy, or moral rights may limit how you use the material.
+C 9400 11800 1 0 0 list_header.sym
+C 9400 11500 1 0 0 list_entry.sym
+{
+T 9500 11600 5 10 1 1 0 0 1
+doc_nr=01.000.00.01.01
+T 11400 11600 5 10 1 1 0 0 1
+status=FINAL
+T 12300 11600 5 10 1 1 0 0 1
+description=EXTENDER - Schematic
+}
+C 9400 11200 1 0 0 list_entry.sym
+{
+T 12300 11300 5 10 1 1 0 0 1
+description=EXTENDER - Front pcb - Schematic (DFM)
+T 9500 11300 5 10 1 1 0 0 1
+doc_nr=01.002.00.01.01
+T 11400 11300 5 10 1 1 0 0 1
+status=VOID
+}
+C 9400 10900 1 0 0 list_entry.sym
+{
+T 9500 11000 5 10 1 1 0 0 1
+doc_nr=01.002.01.01.01
+T 11400 11000 5 10 1 1 0 0 1
+status=FINAL
+T 12300 11000 5 10 1 1 0 0 1
+description=EXTENDER - Front pcb - Schematic (DFM) rev.1
+}
+C 9400 10600 1 0 0 list_entry.sym
+{
+T 9500 10700 5 10 1 1 0 0 1
+doc_nr=01.003.00.01.01
+T 11400 10700 5 10 1 1 0 0 1
+status=FINAL
+T 12300 10700 5 10 1 1 0 0 1
+description=EXTENDER - Main pcb - Schematic (DFM)
+}
+C 9400 10300 1 0 0 list_entry.sym
+{
+T 9500 10400 5 10 1 1 0 0 1
+doc_nr=01.004.00.01.01
+T 11400 10400 5 10 1 1 0 0 1
+status=FINAL
+T 12300 10400 5 10 1 1 0 0 1
+description=EXTENDER - Shielding pcb - Schematic (DFM)
+}
+C 9400 10000 1 0 0 list_entry.sym
+{
+T 9500 10100 5 10 1 1 0 0 1
+doc_nr=01.005.00.01.01
+T 11400 10100 5 10 1 1 0 0 1
+status=FINAL
+T 12300 10100 5 10 1 1 0 0 1
+description=EXTENDER - Strut pcb - Schematic (DFM)
+}

@@ -1,4 +1,4 @@
-v 20110115 2
+v 20130925 2
 N 7300 14700 19600 14700 4
 {
 T 20900 14700 5 10 1 1 0 0 1
@@ -188,19 +188,19 @@ device=none
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20200205
+revision=20240521
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
 pages=1
 T 26700 900 5 10 1 1 0 0 1
 file=01.000.00.01.01.sch
-T 26700 1200 5 10 1 1 0 0 1
-device=EXTENDER
-T 26700 1400 5 10 1 1 0 0 1
-comment=Schematic
 T 26700 1600 5 10 1 1 0 0 1
-description=19" rack DIN41617 31 pin Bus Extender
+device=EXTENDER
+T 26700 1200 5 10 1 1 0 0 1
+comment=Schematic
+T 26700 1400 5 10 1 1 0 0 1
+description=Overall
 }
 N 7300 10800 4800 10800 4
 {

@@ -1,4 +1,4 @@
-v 20110115 2
+v 20130925 2
 T 9500 400 5 10 1 1 0 0 1
 file=01.004.00.01.01.sch
 T 9500 100 5 10 1 1 0 0 1
@@ -6,15 +6,15 @@ page=01
 T 11000 100 5 10 1 1 0 0 1
 pages=01
 T 13500 400 5 10 1 1 0 0 1
-revision=20200205
+revision=20240521
 T 13500 100 5 10 1 1 0 0 1
 author=Bert Timmerman
-T 9500 700 5 10 1 1 0 0 1
-device=EXTENDER
-T 9500 900 5 10 1 1 0 0 1
-comment=schematic
 T 9500 1100 5 10 1 1 0 0 1
-description=Extender - Shielding pcb (DFM)
+device=EXTENDER
+T 9500 700 5 10 1 1 0 0 1
+comment=Schematic (DFM)
+T 9500 900 5 10 1 1 0 0 1
+description=Shielding pcb
 B 7500 4200 7300 3200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 7500 7500 9 10 1 0 0 0 1
 Mounting holes:

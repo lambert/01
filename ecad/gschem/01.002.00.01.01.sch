@@ -1,4 +1,4 @@
-v 20110115 2
+v 20130925 2
 N 19600 14100 5900 14100 4
 {
 T 20900 14100 5 10 1 1 0 0 1
@@ -39,19 +39,19 @@ B 500 500 33100 23300 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20200205
+revision=20240521
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
 pages=1
 T 26700 900 5 10 1 1 0 0 1
 file=01.002.00.01.01.sch
-T 26700 1200 5 10 1 1 0 0 1
-device=EXTENDER
-T 26700 1400 5 10 1 1 0 0 1
-comment=Front pcb schematic (DFM)
 T 26700 1600 5 10 1 1 0 0 1
-description=19" rack DIN41617 31 pin Bus Extender
+device=EXTENDER
+T 26700 1200 5 10 1 1 0 0 1
+comment=Schematic (DFM)
+T 26700 1400 5 10 1 1 0 0 1
+description=Front pcb
 }
 N 19200 9900 19200 9300 4
 C 19300 8400 1 90 0 EMBEDDEDCON-TP.sym
