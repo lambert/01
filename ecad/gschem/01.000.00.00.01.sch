@@ -39,7 +39,7 @@ page=01
 T 11500 600 5 10 1 1 0 0 1
 pages=01
 T 13900 900 5 10 1 1 0 0 1
-revision=20240521
+revision=20240522
 T 13900 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 10000 1200 5 10 1 1 0 0 1
@@ -138,3 +138,5 @@ status=FINAL
 T 12300 10100 5 10 1 1 0 0 1
 description=EXTENDER - Strut pcb - Schematic (DFM)
 }
+G 7900 1360 1300 454 0 0 0
+/home/bert/workspace/git/projects/31_Power_Supply_Unit/cc-by-sa.png

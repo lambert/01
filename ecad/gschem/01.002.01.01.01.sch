@@ -39,7 +39,7 @@ device=none
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20240521
+revision=20240522
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -2172,55 +2172,57 @@ N 29500 5700 29500 2700 4
 T 29400 3600 5 10 1 1 90 0 1
 netname=FLOATING_GND
 }
-C 24900 1600 1 0 0 EMBEDDEDCC-BY-SA.sym
+C 24900 1000 1 0 0 EMBEDDEDCC-BY-SA.sym
 [
-B 25000 1700 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
-T 25000 2800 5 10 0 0 0 0 1
+B 25000 1100 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+T 25000 2200 5 10 0 0 0 0 1
 footprint=CC-BY-SA.fp
-T 25000 3000 5 10 0 0 0 0 1
+T 25000 2400 5 10 0 0 0 0 1
 graphical=1
-T 25000 2600 5 10 0 0 0 0 1
+T 25000 2000 5 10 0 0 0 0 1
 symversion=20180915
-T 25000 3200 5 10 0 0 0 0 1
+T 25000 2600 5 10 0 0 0 0 1
 use-license=unlimited
-T 25000 3400 5 10 0 0 0 0 1
+T 25000 2800 5 10 0 0 0 0 1
 dist-license=CC BY-SA
-T 25000 3600 5 10 0 0 0 0 1
+T 25000 3000 5 10 0 0 0 0 1
 description=Input label
-T 25000 3800 5 10 0 0 0 0 1
+T 25000 3200 5 10 0 0 0 0 1
 author=Bert Timmerman
-T 25400 1800 9 8 1 0 0 4 1
+T 25400 1200 9 8 1 0 0 4 1
 CC BY-SA
 ]
 {
-T 25000 2600 5 10 0 0 0 0 1
+T 25000 2000 5 10 0 0 0 0 1
 symversion=20180915
-T 25000 2800 5 10 0 0 0 0 1
+T 25000 2200 5 10 0 0 0 0 1
 footprint=CC-BY-SA.fp
 }
-C 24900 1300 1 0 0 EMBEDDEDMade_in_NL.sym
+C 24900 700 1 0 0 EMBEDDEDMade_in_NL.sym
 [
-B 25000 1400 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
-T 25000 2500 5 10 0 0 0 0 1
+B 25000 800 800 200 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+T 25000 1900 5 10 0 0 0 0 1
 footprint=NL_contour_filled_150x188.fp
-T 25000 2700 5 10 0 0 0 0 1
+T 25000 2100 5 10 0 0 0 0 1
 graphical=1
-T 25000 2300 5 10 0 0 0 0 1
+T 25000 1700 5 10 0 0 0 0 1
 symversion=20180915
-T 25000 2900 5 10 0 0 0 0 1
+T 25000 2300 5 10 0 0 0 0 1
 use-license=unlimited
-T 25000 3100 5 10 0 0 0 0 1
+T 25000 2500 5 10 0 0 0 0 1
 dist-license=GPL
-T 25000 3300 5 10 0 0 0 0 1
+T 25000 2700 5 10 0 0 0 0 1
 description=Made in NL
-T 25000 3500 5 10 0 0 0 0 1
+T 25000 2900 5 10 0 0 0 0 1
 author=Bert Timmerman
-T 25400 1500 9 8 1 0 0 4 1
+T 25400 900 9 8 1 0 0 4 1
 Made in NL
 ]
 {
-T 25000 2300 5 10 0 0 0 0 1
+T 25000 1700 5 10 0 0 0 0 1
 symversion=20180915
-T 25000 2500 5 10 0 0 0 0 1
+T 25000 1900 5 10 0 0 0 0 1
 footprint=NL_contour_filled_150x188.fp
 }
+G 24500 1360 1300 454 0 0 0
+/home/bert/workspace/git/projects/31_Power_Supply_Unit/cc-by-sa.png

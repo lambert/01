@@ -193,7 +193,7 @@ page=01
 T 11000 100 5 10 1 1 0 0 1
 pages=01
 T 13500 400 5 10 1 1 0 0 1
-revision=20240521
+revision=20240522
 T 13500 100 5 10 1 1 0 0 1
 author=Bert Timmerman
 L 13400 3300 11300 3300 3 0 0 0 -1 -1
@@ -230,3 +230,5 @@ C 0 0 0 0 0 A3-sheet.sym
 T 15400 1700 15 10 0 0 0 0 1
 device=none
 }
+G 7400 860 1300 454 0 0 0
+/home/bert/workspace/git/projects/31_Power_Supply_Unit/cc-by-sa.png

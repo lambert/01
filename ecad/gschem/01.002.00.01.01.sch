@@ -39,7 +39,7 @@ B 500 500 33100 23300 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 30700 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 30700 900 5 10 1 1 0 0 1
-revision=20240521
+revision=20240522
 T 26700 600 5 10 1 1 0 0 1
 page=1
 T 28200 600 5 10 1 1 0 0 1
@@ -2205,3 +2205,5 @@ L 18700 7600 20000 7600 3 0 0 0 -1 -1
 T 17900 7900 9 10 1 0 0 0 2
 NEON
 BULB
+G 24500 1360 1300 454 0 0 0
+/home/bert/workspace/git/projects/31_Power_Supply_Unit/cc-by-sa.png
