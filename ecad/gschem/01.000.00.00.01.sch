@@ -39,7 +39,7 @@ page=01
 T 11500 600 5 10 1 1 0 0 1
 pages=01
 T 13900 900 5 10 1 1 0 0 1
-revision=20240522
+revision=20240523
 T 13900 600 5 10 1 1 0 0 1
 author=Bert Timmerman
 T 10000 1200 5 10 1 1 0 0 1
@@ -91,12 +91,12 @@ doc_nr=01.000.00.01.01
 T 11400 11600 5 10 1 1 0 0 1
 status=FINAL
 T 12300 11600 5 10 1 1 0 0 1
-description=EXTENDER - Schematic
+description=Schematic
 }
 C 9400 11200 1 0 0 list_entry.sym
 {
 T 12300 11300 5 10 1 1 0 0 1
-description=EXTENDER - Front pcb - Schematic (DFM)
+description=Front pcb - Schematic (DFM)
 T 9500 11300 5 10 1 1 0 0 1
 doc_nr=01.002.00.01.01
 T 11400 11300 5 10 1 1 0 0 1
@@ -109,7 +109,7 @@ doc_nr=01.002.01.01.01
 T 11400 11000 5 10 1 1 0 0 1
 status=FINAL
 T 12300 11000 5 10 1 1 0 0 1
-description=EXTENDER - Front pcb - Schematic (DFM) rev.1
+description=Front pcb - Schematic (DFM)
 }
 C 9400 10600 1 0 0 list_entry.sym
 {
@@ -118,7 +118,7 @@ doc_nr=01.003.00.01.01
 T 11400 10700 5 10 1 1 0 0 1
 status=FINAL
 T 12300 10700 5 10 1 1 0 0 1
-description=EXTENDER - Main pcb - Schematic (DFM)
+description=Main pcb - Schematic (DFM)
 }
 C 9400 10300 1 0 0 list_entry.sym
 {
@@ -127,7 +127,7 @@ doc_nr=01.004.00.01.01
 T 11400 10400 5 10 1 1 0 0 1
 status=FINAL
 T 12300 10400 5 10 1 1 0 0 1
-description=EXTENDER - Shielding pcb - Schematic (DFM)
+description=Shielding pcb - Schematic (DFM)
 }
 C 9400 10000 1 0 0 list_entry.sym
 {
@@ -136,7 +136,7 @@ doc_nr=01.005.00.01.01
 T 11400 10100 5 10 1 1 0 0 1
 status=FINAL
 T 12300 10100 5 10 1 1 0 0 1
-description=EXTENDER - Strut pcb - Schematic (DFM)
+description=Strut pcb - Schematic (DFM)
 }
 G 7900 1360 1300 454 0 0 0
 /home/bert/workspace/git/projects/31_Power_Supply_Unit/cc-by-sa.png
